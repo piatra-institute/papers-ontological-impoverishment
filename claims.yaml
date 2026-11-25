@@ -1,0 +1,793 @@
+schema: 1
+coverage: pending
+reviewed_manuscript_sha256: null
+claims:
+- id: abs-items-dem-higher
+  kind: computation
+  passage: In November 2021, U.S. Democrats were more often excited than Republicans about all 6 enhancement possibilities, by 8 to 11 points; religiosity divided opinion about twice as much; Democrats more often wanted stronger regulation.
+  evidence:
+    file: simulation/output/results.json
+    run_id: pew-gaps
+    pointer: /excitement_2022/summary/n_dem_higher
+    reported: '6'
+    scale: 1
+    decimals: 0
+    units: items
+    conditions: Pew Research Center 2022 report, appendix p. 128; published percentages of U.S. adults very or somewhat excited, survey of Nov. 2021; Dem/lean Dem vs Rep/lean Rep
+- id: abs-party-gap-min
+  kind: computation
+  passage: In November 2021, U.S. Democrats were more often excited than Republicans about all 6 enhancement possibilities, by 8 to 11 points; religiosity divided opinion about twice as much; Democrats more often wanted stronger regulation.
+  evidence:
+    file: simulation/output/results.json
+    run_id: pew-gaps
+    pointer: /excitement_2022/summary/party_gap_min
+    reported: '8'
+    scale: 1
+    decimals: 0
+    units: percentage points
+    conditions: Pew Research Center 2022 report, appendix p. 128; published percentages of U.S. adults very or somewhat excited, survey of Nov. 2021; Dem/lean Dem vs Rep/lean Rep
+- id: abs-party-gap-max
+  kind: computation
+  passage: In November 2021, U.S. Democrats were more often excited than Republicans about all 6 enhancement possibilities, by 8 to 11 points; religiosity divided opinion about twice as much; Democrats more often wanted stronger regulation.
+  evidence:
+    file: simulation/output/results.json
+    run_id: pew-gaps
+    pointer: /excitement_2022/summary/party_gap_max
+    reported: '11'
+    scale: 1
+    decimals: 0
+    units: percentage points
+    conditions: Pew Research Center 2022 report, appendix p. 128; published percentages of U.S. adults very or somewhat excited, survey of Nov. 2021; Dem/lean Dem vs Rep/lean Rep
+- id: abs-definition
+  kind: definition
+  passage: This paper asks which ways of being embodied a person can reach, and defines ontological impoverishment as the institutionally avoidable foreclosure of such embodiments.
+  rationale: Working definition of the paper's central term; developed formally in the section on reachable embodiments.
+- id: kieliba-training
+  kind: source
+  passage: Able-bodied volunteers in a study published in 2021 were trained to use an extra robotic thumb over 5 days, in the laboratory and in unstructured daily use.
+  evidence:
+    citation_id: kieliba2021
+    locator: Abstract
+    verified: false
+    verification_note: 'Read the abstract (Europe PMC record PMID 34043536): able-bodied participants trained to use an extra robotic thumb over 5 days including lab-based and unstructured daily use. Full text not retrieved (Europe PMC returned an error for PMC7612043).'
+    depth: abstract
+    quote: Able-bodied participants were trained to use an extra robotic thumb (called the Third Thumb) over 5 days, including both lab-based and unstructured daily use.
+- id: kieliba-results
+  kind: source
+  passage: Their control of the device and their hand-robot coordination improved, they reported an increased sense of embodiment over the thumb, and the representation of their biological hand changed [@kieliba2021].
+  evidence:
+    citation_id: kieliba2021
+    locator: Abstract
+    verified: false
+    verification_note: Abstract reports improved Third Thumb motor control, dexterity and hand-robot coordination, increased sense of embodiment, and changes to the biological hand representation.
+    depth: abstract
+    quote: Training improved Third Thumb motor control, dexterity, and hand-robot coordination, even when cognitive load was increased or when vision was occluded. It also resulted in increased sense of embodiment over the Third Thumb.
+- id: money-partial
+  kind: interpretation
+  passage: 'Consider what stands between a particular person and living with such a thumb for years. Four different things can. The organization must be possible, given physics and the materials involved. A route must exist from where the person is now: someone must have built, fitted and calibrated the device, and a procedure must exist for doing so. The person must be able to learn to inhabit the new arrangement and keep it working, which takes training, maintenance and repair. And the person must be permitted and able to obtain it on terms that leave its purposes in their hands: law, clinical classification, price, a provider''s power to switch the device off and an employer''s power to require it all bear on this last condition. Money addresses part of the last obstacle and none of the others.'
+  rationale: 'Follows from the four-obstacle decomposition: income bears on the price component of access and on purchasable support only; formalised as Proposition 1.'
+- id: more-definition
+  kind: source
+  passage: The phrase "morphological freedom" first appears, as far as the published record shows, in Max More's 1993 essay on technological self-transformation, which defines it in a glossary as "the ability to alter bodily form at will through technologies such as surgery, genetic engineering, nanotechnology, uploading" [@more1993].
+  evidence:
+    citation_id: more1993
+    locator: Definitions glossary at the end of the essay
+    verified: false
+    verification_note: 'Read the author''s archived web copy (Wayback snapshot 2006-01-16 of maxmore.com/selftrns.htm), which states it was originally published in Extropy #10 (4:2), Winter/Spring 1993. Glossary entry quoted verbatim. ''First appears'' is a claim about the published record as far as this search found; not independently established.'
+    depth: fulltext
+    quote: 'Morphological freedom: The ability to alter bodily form at will through technologies such as surgery, genetic engineering, nanotechnology, uploading.'
+- id: sandberg-right
+  kind: source
+  passage: 'Anders Sandberg''s 2001 talk, later published as a book chapter, recast the concept as a right: "an extension of one''s right to one''s body, not just self-ownership but also the right to modify oneself according to one''s desires" [@sandberg2001; @sandberg2013].'
+  evidence:
+    citation_id: sandberg2001
+    locator: Section 'Morphological Freedom as a Right'
+    verified: false
+    verification_note: Read the talk text via Wayback snapshot 2013-03-09 of aleph.se/Nada/Texts/MorphologicalFreedom.htm. The 2013 chapter (DOI 10.1002/9781118555927.ch5) was identity-checked only; its wording was not compared.
+    depth: fulltext
+    quote: What is morphological freedom? I would view it as an extension of one's right to one's body, not just self-ownership but also the right to modify oneself according to one's desires.
+- id: sandberg-negative
+  kind: source
+  passage: Sandberg states that morphological freedom "is, like the others, a negative right" that "does not in itself imply others are morally obliged to support exercise of it" [@sandberg2001].
+  evidence:
+    citation_id: sandberg2001
+    locator: Section 'Morphological Freedom as a Right'
+    verified: false
+    verification_note: Read the archived talk text; quoted phrases appear verbatim.
+    depth: fulltext
+    quote: Morphological freedom is, like the others, a negative right. It is a right to be able to do certain things, but it does not in itself imply others are morally obliged to support exercise of it.
+- id: bradshaw
+  kind: source
+  passage: Bradshaw and ter Meulen contrast the positions of James Hughes and Sandberg on whether persons with disabilities have obligations to enhance, and they separate a society's responsibility for the presence of impairments from its responsibility not to abandon disadvantaged members [@bradshaw2010].
+  evidence:
+    citation_id: bradshaw2010
+    locator: Abstract
+    verified: false
+    verification_note: Read the abstract via OpenAlex; contrast of Hughes and Sandberg and the two responsibilities are stated there.
+    depth: abstract
+- id: dolezal
+  kind: source
+  passage: Dolezal criticises the consumer-biomedical idea of a body malleable at its owner's will, as expressed in cosmetic surgery and related practices [@dolezal2016].
+  evidence:
+    citation_id: dolezal2016
+    locator: Abstract
+    verified: false
+    verification_note: Read the chapter abstract via OpenAlex (Edinburgh University Press record). 'Criticises' is an interpretation of the abstract's framing; full chapter not read.
+    depth: abstract
+- id: earle
+  kind: source
+  passage: Earle examines morphological freedom from queer and crip perspectives and questions its picture of multiplicity [@earle2021; @earle2022].
+  evidence:
+    citation_id: earle2022
+    locator: Bibliographic record (titles of both chapters)
+    verified: false
+    verification_note: Only titles and bibliographic records checked via Crossref; the sentence restates what the titles announce. Chapters not read.
+    depth: identity
+- id: sen-capability
+  kind: source
+  passage: Capability theory evaluates freedom by the set of functionings a person can achieve [@sen1985].
+  evidence:
+    citation_id: sen1985
+    locator: Bibliographic record
+    verified: false
+    verification_note: Identity checked via Crossref (DOI 10.2307/2026184). Cited for the well-known capability-set framework; text not retrieved.
+    depth: identity
+- id: addition-state-variable
+  kind: interpretation
+  passage: In these accounts the body is a parameter. This paper treats the embodiment itself as a state variable whose reachable successors are the object of evaluation.
+  rationale: Characterises the closest prior framework (conversion factors, combined capabilities) and states the paper's difference; the Robeyns and Nussbaum attributions rest on identity-level citation of well-known content.
+- id: openalex-search
+  kind: interpretation
+  passage: A search of the OpenAlex index for the exact phrase "ontological impoverishment" found incidental uses and no definition of the term for embodiment; the novelty claimed here is the defined structure, not the phrase.
+  rationale: Search performed 2026-11-25 against api.openalex.org with the quoted phrase; 12 top results inspected by title and venue (theology, aesthetics, philosophy of science); none defines the term for embodiment. Not an exhaustive search.
+- id: def-embodiment
+  kind: definition
+  passage: 'Let $\mathcal{E}$ be a space of embodiments. An embodiment $e \in \mathcal{E}$ describes a bodily organization together with its stable technical couplings, at the grain that matters for what a person can perceive, do and undergo: sensory channels, effectors, physiological regulation, and the devices or tissues incorporated into them.'
+  rationale: Defines the state space; grain is chosen by relevance to perception, action and undergoing.
+- id: def-route
+  kind: definition
+  passage: 'A route is a transition $x \to y$ between embodiments that some procedure known at $t$ can realise: a surgery, a fitting, a pharmacological regimen, a training programme or a developmental intervention.'
+  rationale: Defines routes as transitions realisable by procedures known at t.
+- id: def-reachable
+  kind: definition
+  passage: 'The reachable set of person $i$ is the set of embodiments that can be reached by a chain of known routes whose every state, including the starting state, is possible, livable and accessible: $$\begin{aligned} R_i(t; S, I) = \{\, e \in \mathcal{E} :\ & \exists\, x_0 = e_i(t), x_1, \ldots, x_k = e \ \text{with}\ x_{j-1} \to x_j \in \mathcal{T}(t) \\ & \text{and}\ x_j \in P \cap L_i(S) \cap A_i(I)\ \text{for}\ 0 \le j \le k \,\}.'
+  rationale: Defines the reachable set as endpoints of route chains whose every state satisfies the three state constraints.
+- id: def-remain
+  kind: definition
+  passage: The chain may have length zero, so the person's current embodiment belongs to $R_i$ exactly when it is livable and accessible.
+  rationale: 'Consequence of allowing k = 0: the current embodiment is reachable iff livable and accessible, which encodes the freedom to remain.'
+- id: def-impoverishment
+  kind: definition
+  passage: An embodiment belongs to $O_i(t)$ when the person has reason to value it, or currently has it, and some feasible arrangement of support and institutions would make it reachable while the actual arrangement does not.
+  rationale: Verbal statement of the formal definition of ontological impoverishment as a set difference relative to feasible arrangements.
+- id: def-exclusions
+  kind: definition
+  passage: Three exclusions follow from the definition and keep the concept from absorbing every unmet wish. An embodiment outside $P$ is a natural limit, burdensome perhaps but nobody's foreclosure. An embodiment inside $P$ with no known route in any feasible arrangement over the horizon considered is a frontier limit. An embodiment the person has no reason to value does not count, which prevents the concept from ranking lives by the size of an inventory of imaginable bodies.
+  rationale: Natural limits, frontier limits and unvalued embodiments are excluded by construction.
+- id: def-inquiry
+  kind: definition
+  passage: Routes are produced by inquiry, so $\mathcal{T}(t + \Delta)$ depends on research institutions. Institutions that prevent or neglect inquiry into a direction restrict future reachable sets. Call this impoverishment of inquiry.
+  rationale: 'Dynamic counterpart: restriction of future route sets by research institutions.'
+- id: ontic-caution
+  kind: interpretation
+  passage: 'In Heidegger''s vocabulary, restrictions on particular bodily possibilities are ontic, not ontological: they concern entities and their properties, not the structures of existence.'
+  rationale: Reconstructive use of 'ontological'; the ontic/ontological distinction is standard in Being and Time (cited at identity level).
+- id: assumption-income
+  kind: assumption
+  passage: '**Proposition 1 (independence from income).** Suppose income enters the structure only through the price component of $A_i$ and through support in $S$ that must be purchased. (a) If $e \notin R_i$ because $e \notin P$, because no chain of known routes leads to $e$, or because a non-price component of $A_i$ fails along every chain, then $e \notin R_i$ at every level of income. (b) $R_i$ can enlarge at constant income when $\mathcal{T}$, unpurchased support or a non-price component of $I$ changes. Hence the ordering of persons by income and the ordering of their reachable sets by inclusion are logically independent.'
+  rationale: Income is modelled as acting only through price and purchased support; if income also changed routes or non-price access (for example through political influence), part (a) would weaken to the components income cannot affect.
+- id: prop1
+  kind: interpretation
+  passage: '*Proof.* (a) The failing condition does not depend on income, so no change in income can satisfy it. (b) Take two persons with equal income and equal $e_i(t)$, one living where an effector is permitted with independent repair and the other where its function can be revoked by the supplier at will; the second loses the embodiment from $R_i$ through a non-price component alone. Conversely, a person with lower income may have the larger reachable set. Neither ordering therefore implies the other.'
+  rationale: Proof by inspection of the definition and a two-person example; a logical consequence, not an empirical finding.
+- id: prop2
+  kind: interpretation
+  passage: '**Proposition 2 (complementarity).** Relaxing one constraint enlarges $R_i$ only at embodiments for which the remaining constraints already hold along some chain. The effect of research funding, training support, legal permission or subsidy on $R_i$ therefore depends on the others, and an indicator confined to a single layer can register progress while $R_i$ is unchanged.'
+  rationale: Follows because the reachable set is defined by a conjunction of conditions along chains.
+- id: prop3
+  kind: interpretation
+  passage: '**Proposition 3 (path dependence).** Conditions on the endpoint are not sufficient. An embodiment $e$ can satisfy $e \in P \cap L_i \cap A_i$, with a chain of known routes leading to it, and still lie outside $R_i$ when every such chain passes through an intermediate state outside $L_i \cap A_i$.'
+  rationale: Follows because conditions apply to every state of a chain, not only its endpoint.
+- id: biddiss
+  kind: source
+  passage: A review of upper-limb prosthesis use over 25 years reported mean rejection rates in adult populations of 26% for body-powered devices and 23% for electric devices [@biddiss2007].
+  evidence:
+    citation_id: biddiss2007
+    locator: Abstract
+    verified: false
+    verification_note: 'Read the abstract via OpenAlex: mean rejection rates of 26% (body-powered) and 23% (electric) in adult populations; 45% and 35% in pediatric populations.'
+    depth: abstract
+    quote: Significantly lower rates of rejection for both body-powered (26%) and electric (23%) devices were observed in adult populations
+- id: design-predictions
+  kind: interpretation
+  passage: Proposition 1 predicts that sustained use responds weakly to income where non-price constraints bind; Proposition 2 predicts that training support and coverage interact, so that either alone moves sustained use less than both together; Proposition 3 predicts that support during the transition period predicts completion independently of support after it.
+  rationale: Testable predictions derived from the propositions; explicitly stated as untested.
+- id: heidegger-bt
+  kind: interpretation
+  passage: '*Being and Time* analyses the entity for which its own being is an issue and locates its essence in its existence [@heidegger1962, sec. 9].'
+  rationale: Section-level summary of well-known content of Being and Time sections 9, 10 and 31; the translation was not inspected in this session, so these claims stay at identity level and are listed as a gap in sources.md.
+- id: heidegger-appropriation
+  kind: normative
+  passage: 'The appropriation adds one step that Heidegger did not take: it counts the body among the things toward which existence can be ahead of itself.'
+  rationale: Explicit reconstructive step beyond Heidegger; argued, not attributed.
+- id: engelland-leib
+  kind: source
+  passage: Later lecture courses take up the living body. Engelland reports a passage from the 1930s in which Heidegger writes that "the living body [Leib] belongs to the Dasein of man" while holding that the human living body, even when abstracted from human freedom, is not identical with animal bodies [@engelland2015, pp. 188-189].
+  evidence:
+    citation_id: engelland2015
+    locator: pp. 188-189
+    verified: false
+    verification_note: 'Read the open-access Cambridge PDF; Engelland quotes GA 34: 236-37 / English p. 169 for the Leib passage and the claim that the abstracted human body is not identical with animal bodies.'
+    depth: fulltext
+    quote: The living body [Leib] belongs to the Dasein of man. Being-there [Da-sein], in the sense of existence, is a fundamentally different way of being to that of nature.
+- id: engelland-poor
+  kind: source
+  passage: In the 1929 to 1930 lectures he advanced the thesis that, in comparison with Dasein, animals are poor in world [@heidegger1995, p. 177].
+  evidence:
+    citation_id: engelland2015
+    locator: p. 184
+    verified: false
+    verification_note: 'Read the open-access PDF of Engelland 2015, which cites the thesis as GA 29/30: 263/177 and quotes GA 29/30: 383-84/264. The Fundamental Concepts of Metaphysics itself was not inspected; its page numbers are taken from Engelland.'
+    depth: fulltext
+    quote: For it is not simply a question of a qualitative otherness of the animal world as compared with the human world, and especially not a question of quantitative distinctions in range, depth, and breadth
+- id: poverty-contrast
+  kind: interpretation
+  passage: Ontological impoverishment, as defined above, is exactly the graded, contingent narrowing of range that Heidegger excluded from his notion.
+  rationale: The contrast follows from Heidegger's quoted exclusion of quantitative distinctions in range.
+- id: enframing-indicator
+  kind: interpretation
+  passage: An exoskeleton issued and configured by an employer to raise lifting output may enlarge a worker's physical repertoire while keeping its purposes in someone else's hands. Under the definition, such an embodiment is not accessible to the worker in the relevant sense, because the condition on $A_i$ requires that its purposes remain under the person's control. The danger becomes an indicator of who sets purposes and who can revoke function. It does not become a reason to refuse transformation as such.
+  rationale: Translation of the Heideggerian objection into a component of the access layer; the essay is cited at identity level.
+- id: lived-integration-evidence
+  kind: interpretation
+  passage: Incorporation changes the field of what can be perceived and done. The robotic-thumb study gives this an experimental counterpart, with measured changes in control, reported embodiment and hand representation after training [@kieliba2021]. Lived integration is therefore a layer with its own evidence; it is not a metaphor.
+  rationale: Rests on the robotic-thumb abstract and on Merleau-Ponty's well-known analysis of incorporated instruments (identity level).
+- id: durant-abstract
+  kind: source
+  passage: A brief perturbation of bioelectric communication in regenerating fragments produced a constant ratio of double-headed to normal regenerates, and the authors report that "regenerating planarians' normal anterior-posterior pattern can be permanently rewritten by a brief perturbation of endogenous bioelectrical networks" [@durant2017, Abstract].
+  evidence:
+    citation_id: durant2017
+    locator: Abstract
+    verified: false
+    verification_note: Read the open-access full text (Europe PMC PMC5443973). Abstract sentence quoted verbatim.
+    depth: fulltext
+    quote: We show that regenerating planarians' normal anterior-posterior pattern can be permanently rewritten by a brief perturbation of endogenous bioelectrical networks.
+- id: durant-reset
+  kind: source
+  passage: Treating double-headed animals with a hyperpolarizing drug reset 34% of them (N = 102) to single-headed regeneration that persisted across further rounds of cutting [@durant2017, Results, Fig. 4F].
+  evidence:
+    citation_id: durant2017
+    locator: Results and Fig. 4F
+    verified: false
+    verification_note: 'Read the Results passage and Fig. 4 legend in the Europe PMC full text: 34% of DH planaria (N = 102) treated with SCH-28080 regenerated as SH, persistent across generations; vehicle controls remained DH (100%, N = 102).'
+    depth: fulltext
+    quote: We observed that 34% of DH planaria ( N = 102; Fig. 4 F ) cut and treated with SCH-28080 exhibited normal SH regeneration, which was persistent across multiple generations
+- id: durant-cryptic
+  kind: source
+  passage: Some animals that looked normal regenerated with two heads when cut again in water, and double-headed animals kept regenerating two heads in plain water long after the drug was gone.
+  evidence:
+    citation_id: durant2017
+    locator: Abstract and Results
+    verified: false
+    verification_note: Abstract describes the cryptic phenotype revealed by subsequent amputations in water; Results describe DH recurrence in plain water long after the drug.
+    depth: fulltext
+- id: durant-state
+  kind: interpretation
+  passage: 'For the formalism, the result means that the state $e$ must include regulatory state as well as visible anatomy: two bodies that look the same can have different reachable successors.'
+  rationale: Interpretive consequence of the cryptic phenotype for the state description.
+- id: pai-abstract
+  kind: source
+  passage: In *Xenopus* embryos, manipulating the membrane voltage of cells outside the eye field induced well-formed ectopic eyes, and the authors report that such eyes "can be induced far outside the anterior neural field" through a calcium-channel-dependent pathway [@pai2012, Abstract].
+  evidence:
+    citation_id: pai2012
+    locator: Abstract
+    verified: false
+    verification_note: Read the PubMed abstract via Europe PMC (PMID 22159581); full text not retrieved (Europe PMC error). The abstract does not report vision through ectopic eyes.
+    depth: abstract
+    quote: Manipulating V(mem) of non-eye cells induces well-formed ectopic eyes that are morphologically and histologically similar to endogenous eyes. Remarkably, such ectopic eyes can be induced far outside the anterior neural field.
+- id: kriegman-build
+  kind: source
+  passage: The xenobot study used an evolutionary algorithm to design candidate organisms in simulation; selected designs were built from *Xenopus* epidermal and cardiac progenitor cells, and the aggregated tissue was "manually shaped by subtraction" with microsurgery forceps and a cautery electrode [@kriegman2020, Results].
+  evidence:
+    citation_id: kriegman2020
+    locator: Results (build pipeline)
+    verified: false
+    verification_note: 'Read the open-access full text (Europe PMC PMC6994979): designs evolved in silico, built from Xenopus epidermal and cardiac progenitor cells, manually shaped with microsurgery forceps and a cautery electrode.'
+    depth: fulltext
+    quote: the aggregated tissue is then manually shaped by subtraction using a combination of microsurgery forceps and a 13-μm wire tip cautery electrode
+- id: gumuskaya2024
+  kind: source
+  passage: The anthrobot study grew motile spheroids from adult human airway epithelial cells, and the authors describe the platform as revealing "morphological and behavioral plasticity of human cells, without genomic editing" [@gumuskaya2024, Abstract].
+  evidence:
+    citation_id: gumuskaya2024
+    locator: Abstract and summary
+    verified: false
+    verification_note: Read the open-access full text (Europe PMC PMC10811512); quoted phrase from the article summary.
+    depth: fulltext
+    quote: This novel biorobotics platform reveals morphological and behavioral plasticity of human cells, without genomic editing
+- id: gumuskaya2024-scratch
+  kind: source
+  passage: In an in-vitro assay, aggregated constructs placed across a scratch in a layer of human neural cells promoted closure of the gap [@gumuskaya2024, Results].
+  evidence:
+    citation_id: gumuskaya2024
+    locator: Results, Fig. 6
+    verified: false
+    verification_note: Read the Results section on superbots placed across scratched neuronal monolayers and the Fig. 6 title ('Anthrobots can promote gap closures on scratched live neuronal monolayers').
+    depth: fulltext
+- id: gumuskaya2025-damage
+  kind: source
+  passage: 'A follow-up characterized the same constructs'' life cycle and response to injury: of 23 constructs imaged after needle damage, 16 recovered their original spheroid shape, recovery occurred within the first 20 minutes with no further healing over 48 to 72 hours, and halves separated by the needle remained distinct bodies [@gumuskaya2025, Results].'
+  evidence:
+    citation_id: gumuskaya2025
+    locator: Results (damage response)
+    verified: false
+    verification_note: 'Read the open-access full text (Europe PMC PMC12376695): of 23 bots time-lapsed after damage, 16 recovered spheroid shape; no further healing over 48-72 h beyond the first 20 min; halves remained distinct.'
+    depth: fulltext
+    quote: Out of the 23 Anthrobots that were time-lapsed immediately after being damaged, 16 showed recovery to their original spheroid shape
+- id: tame
+  kind: source
+  passage: The Technological Approach to Mind Everywhere, which Levin introduces as a Perspective, proposes to understand and manipulate cognition in unconventional substrates and to treat morphogenesis as an example of basal cognition [@levin2022, Abstract].
+  evidence:
+    citation_id: levin2022
+    locator: Abstract
+    verified: false
+    verification_note: Read the open-access full text (Europe PMC PMC8988303); the abstract calls the article a Perspective and TAME a framework.
+    depth: fulltext
+    quote: In this Perspective, I introduce TAME—Technological Approach to Mind Everywhere—a framework for understanding and manipulating cognition in unconventional substrates.
+- id: polycomputing
+  kind: source
+  passage: Bongard and Levin call "polycomputing" the ability of the same substrate to compute different things simultaneously and make the results available to different observers [@bongard2023, Abstract].
+  evidence:
+    citation_id: bongard2023
+    locator: Abstract
+    verified: false
+    verification_note: Read the open-access full text (Europe PMC PMC10046700); definition quoted from the abstract.
+    depth: fulltext
+    quote: We refer to this as “polycomputing”—the ability of the same substrate to simultaneously compute different things, and make those computational results available to different observers.
+- id: frameworks-not-evidence
+  kind: interpretation
+  passage: These are research frameworks. They suggest where routes might be sought, for example by changing setpoints that tissues already regulate toward, instead of specifying every molecular event. They are not evidence that any particular route exists.
+  rationale: Separates theoretical frameworks from experimental evidence of particular routes.
+- id: levin-layers
+  kind: interpretation
+  passage: Read by layer, the experiments enlarge the known physical possibilities and known routes for cells and tissues of the organisms studied.
+  rationale: Layer assignment of the five studies; no study measured lived integration or access for persons.
+- id: more-fundamentalism
+  kind: source
+  passage: '"Biological fundamentalism" appears in the same glossary as "a new conservatism that resists asexual reproduction, genetic engineering, altering human anatomy, overcoming death" [@more1993].'
+  evidence:
+    citation_id: more1993
+    locator: Definitions glossary
+    verified: false
+    verification_note: Glossary entry read in the archived web copy.
+    depth: fulltext
+    quote: 'Biological fundamentalism: A new conservatism that resists asexual reproduction, genetic engineering, altering human anatomy, overcoming death.'
+- id: sandberg-inequality
+  kind: source
+  passage: Against the worry that morphological freedom would widen class differences, he argued that the costs of technology fall relative to wages and that "the best way of making actual morphological freedom an option is not to restrict it, but rather to encourage the use and development of it among a wide variety of people" [@sandberg2001].
+  evidence:
+    citation_id: sandberg2001
+    locator: Section on class differences
+    verified: false
+    verification_note: Read in the archived talk text; quotation verbatim.
+    depth: fulltext
+    quote: The best way of making actual morphological freedom an option is not to restrict it, but rather to encourage the use and development of it among a wide variety of people.
+- id: more-vs-sandberg
+  kind: interpretation
+  passage: 'In the terms of the reachable set, More''s ability is membership of embodiments in $R_i$. Sandberg''s negative right protects against one component of $A_i$, interference by others, and his reply on inequality addresses one further component, price. Proposition 1 shows why these do not secure the ability: physical possibility, known routes, lived integration and the non-price components of access are untouched by either.'
+  rationale: Maps the two definitions onto the formal structure; the paper's own analysis.
+- id: xf-0x01
+  kind: source
+  passage: '"Nothing should be accepted as fixed, permanent, or ''given''–neither material conditions nor social forms," it declares, and it opposes the glorification of nature on behalf of "the queer and trans among us, the differently-abled," and those who have suffered discrimination due to pregnancy [@laboriacuboniks2015, sec. 0x01].'
+  evidence:
+    citation_id: laboriacuboniks2015
+    locator: Section 0x01
+    verified: false
+    verification_note: Read the manifesto on laboriacuboniks.net (fetched 2026-11-25); quoted text appears in section 0x01.
+    depth: fulltext
+    quote: Nothing should be accepted as fixed, permanent, or ‘given’–neither material conditions nor social forms.
+- id: xf-0x11
+  kind: source
+  passage: It describes technoscience as a domain "where nothing is so sacred that it cannot be reengineered and transformed so as to widen our aperture of freedom, extending to gender and the human" [@laboriacuboniks2015, sec. 0x11].
+  evidence:
+    citation_id: laboriacuboniks2015
+    locator: Section 0x11
+    verified: false
+    verification_note: Quoted text appears in section 0x11.
+    depth: fulltext
+    quote: Our lot is cast with technoscience, where nothing is so sacred that it cannot be reengineered and transformed so as to widen our aperture of freedom, extending to gender and the human.
+- id: xf-0x12
+  kind: source
+  passage: The manifesto pairs "normative anti-naturalism" with "ontological naturalism" and calls the work of untangling what ought to be from what is an infinite task [@laboriacuboniks2015, secs. 0x11 and 0x12].
+  evidence:
+    citation_id: laboriacuboniks2015
+    locator: Sections 0x11 and 0x12
+    verified: false
+    verification_note: Both phrases appear in 0x11; the 'infinite task' sentence is in 0x12. The correspondence to P and A is this paper's interpretation.
+    depth: fulltext
+    quote: The project of untangling what ought to be from what is, of dissociating freedom from fact, will from knowledge, is, indeed, an infinite task.
+- id: xf-0x16
+  kind: source
+  passage: On hormones, the manifesto asks who or what their distribution prioritizes or pathologizes, credits the internet with wresting control of the hormonal economy away from gatekeeping institutions, and adds that "to trade in the rule of bureaucrats for the market is, however, not a victory in itself" [@laboriacuboniks2015, sec. 0x16].
+  evidence:
+    citation_id: laboriacuboniks2015
+    locator: Section 0x16
+    verified: false
+    verification_note: Read section 0x16; paraphrase and quotation checked against the text.
+    depth: fulltext
+    quote: To trade in the rule of bureaucrats for the market is, however, not a victory in itself.
+- id: xf-0x1A
+  kind: source
+  passage: The manifesto's proposal of free and open-source medicine concerns both routes and access. Its closing section asks for "new affordances of perception and action unblinkered by naturalised identities" [@laboriacuboniks2015, sec. 0x1A], which states as a political aim the enlargement of perceptual and practical embodiment that the formal structure measures.
+  evidence:
+    citation_id: laboriacuboniks2015
+    locator: Sections 0x16 and 0x1A
+    verified: false
+    verification_note: Read sections 0x16 (free and open source medicine) and 0x1A (closing section).
+    depth: fulltext
+    quote: we militate for ampliative capacities, for spaces of freedom with a richer geometry than the aisle, the assembly line, and the feed. We need new affordances of perception and action unblinkered by naturalised identities.
+- id: hester
+  kind: source
+  passage: Hester's book develops the position at length, with attention to reproductive technologies and to collectively maintained health infrastructures [@hester2018].
+  evidence:
+    citation_id: hester2018
+    locator: Bibliographic record
+    verified: false
+    verification_note: Book not inspected in this session; cited for its well-known content (reproductive technologies, collective health infrastructures). Kept at identity depth.
+    depth: identity
+- id: disability-accommodation
+  kind: interpretation
+  passage: The reachable set accommodates these arguments and is constrained by them. A misfit can be removed by changing the world, which enlarges $L_i$ and $A_i$ for the present embodiment; the structure does not privilege changing the body. The current embodiment belongs to the evaluated set by definition, so pressure to modify counts as impoverishment. And reachable sets are compared by inclusion, never by distance from a statistical norm.
+  rationale: 'Shows how the structure answers the disability critique: world-change enlarges L and A; current embodiment is in the evaluated set; comparison is by inclusion.'
+- id: sandberg-disability
+  kind: source
+  passage: Sandberg himself observed that the disability movement had been a strong supporter of the right to determine one's body [@sandberg2001].
+  evidence:
+    citation_id: sandberg2001
+    locator: Section on disability
+    verified: false
+    verification_note: Read in the archived talk text.
+    depth: fulltext
+    quote: It should be noted that the disability movement have been strong supporters of right to determine ones body just for this reason.
+- id: table3-locations
+  kind: interpretation
+  passage: Table 3 places representative positions by political location and by stance on bodily transformation. Locations are approximate and refer to the positions taken in the cited works.
+  rationale: Locations are this paper's classification of the cited works; several rest on identity-level citation of well-known books.
+- id: record-conclusion
+  kind: interpretation
+  passage: The record supports a narrower statement than the hypothesis. Opposition to bodily transformation appears on the right and on the left, for different reasons, and enthusiasm appears on both as well.
+  rationale: Summary of the argument map in Table 3.
+- id: kallis
+  kind: source
+  passage: Degrowth scholarship argues for a reorganization of the economy toward reduced resource and energy use [@kallis2018; @hickel2022]; its quarrel is with aggregate throughput, and it does not address morphological freedom as such.
+  evidence:
+    citation_id: kallis2018
+    locator: Abstract
+    verified: false
+    verification_note: 'Read the abstract via OpenAlex: ''a radical political and economic reorganization leading to reduced resource and energy use''. Hickel et al. 2022 identity-checked only.'
+    depth: abstract
+- id: pew2016-n
+  kind: source
+  passage: Pew Research Center asked a representative panel of 4,726 U.S. adults in March 2016 about gene editing to reduce a baby's disease risk, brain chip implants to improve cognition and synthetic blood to improve physical abilities [@pew2016, pp. 3 and 104].
+  evidence:
+    citation_id: pew2016
+    locator: pp. 3 and 104
+    verified: false
+    verification_note: 'Read the downloaded report PDF (SHA-256 142c1c0b...): p. 3 names the three technologies; methodology p. 104 gives 4,726 respondents, March 2-28, 2016.'
+    depth: fulltext
+    quote: Data in this report are drawn primarily from the March wave of the panel, conducted March 2-28, 2016, among 4,726 respondents
+- id: pew2022-n
+  kind: source
+  passage: In November 2021 it asked 10,260 U.S. adults how excited or concerned they would be about six possible techniques that change human abilities, and asked further questions about brain chips, gene editing for babies and robotic exoskeletons for manual labor [@pew2022, pp. 2 and 119].
+  evidence:
+    citation_id: pew2022
+    locator: pp. 2 and 119; topline p. 138 (question POSNEGHE)
+    verified: false
+    verification_note: 'Read the downloaded report PDF (SHA-256 8bc691f0...): p. 2 and methodology p. 119 give 10,260 respondents, Nov. 1-7, 2021; the topline shows POSNEGHE asked of all respondents.'
+    depth: fulltext
+    quote: A total of 10,260 panelists responded out of 11,492 who were sampled, for a response rate of 89%.
+- id: pew-margins
+  kind: source
+  passage: Margins for differences use the 95% margins that Pew reports for each group, which include design effects, combined as for disjoint samples.
+  evidence:
+    citation_id: pew2022
+    locator: pp. 123-124 (margins table)
+    verified: false
+    verification_note: Read the methodology table of unweighted sample sizes and 95% margins by group, which Pew states take the effect of weighting into account (p. 122). Combining margins in quadrature is this paper's approximation.
+    depth: fulltext
+    quote: The following table shows the unweighted sample sizes and the error attributable to sampling that would be expected at the 95% level of confidence for different groups in the survey.
+- id: pew2016-noparty
+  kind: source
+  passage: The 2016 report publishes breakdowns by religious and demographic groups and none by party.
+  evidence:
+    citation_id: pew2016
+    locator: Whole report
+    verified: false
+    verification_note: Checked by searching the extracted text of all 132 pages and OCR of chart images on pages 1-108 for party terms (Republican, Democrat, Rep/lean, Dem/lean, conservative, liberal); no party breakdown found. Party appears only as a weighting variable in the methodology.
+    depth: fulltext
+- id: pew2016-religiosity
+  kind: source
+  passage: 'Its headline finding concerns religiosity: the more religious were more likely to say each enhancement would be "meddling with nature" and cross a line that should not be crossed [@pew2016, p. 5].'
+  evidence:
+    citation_id: pew2016
+    locator: p. 5
+    verified: false
+    verification_note: Read p. 5 text and chart.
+    depth: fulltext
+    quote: In general, the most religious are the most wary about potential enhancements.
+- id: pew2016-gap-min
+  kind: computation
+  passage: Across the three technologies, the share saying so was 24 to 36 points higher among adults with high religious commitment than among those with low commitment, against an approximate margin of 6.4 points for each difference.
+  evidence:
+    file: simulation/output/results.json
+    run_id: pew-gaps
+    pointer: /meddling_2016/summary/gap_min
+    reported: '24'
+    scale: 1
+    decimals: 0
+    units: percentage points
+    conditions: Pew Research Center 2016 report, p. 5; share saying enhancement is meddling with nature, high vs low religious commitment
+- id: pew2016-gap-max
+  kind: computation
+  passage: Across the three technologies, the share saying so was 24 to 36 points higher among adults with high religious commitment than among those with low commitment, against an approximate margin of 6.4 points for each difference.
+  evidence:
+    file: simulation/output/results.json
+    run_id: pew-gaps
+    pointer: /meddling_2016/summary/gap_max
+    reported: '36'
+    scale: 1
+    decimals: 0
+    units: percentage points
+    conditions: Pew Research Center 2016 report, p. 5; share saying enhancement is meddling with nature, high vs low religious commitment
+- id: pew2016-moe
+  kind: computation
+  passage: Across the three technologies, the share saying so was 24 to 36 points higher among adults with high religious commitment than among those with low commitment, against an approximate margin of 6.4 points for each difference.
+  evidence:
+    file: simulation/output/results.json
+    run_id: pew-gaps
+    pointer: /meddling_2016/items/gene editing giving babies a much reduced disease risk/gap_high_minus_low/moe95
+    reported: '6.4'
+    scale: 1
+    decimals: 1
+    units: percentage points (approximate 95% margin of a difference)
+    conditions: Pew Research Center 2016 report, p. 5; share saying enhancement is meddling with nature, high vs low religious commitment; margins 4.4 (high) and 4.7 (low) from p. 104 combined in quadrature
+- id: party-n-items
+  kind: computation
+  passage: On all 6 items, Democrats and Democratic-leaning independents were more often very or somewhat excited than Republicans and Republican leaners, by 8 to 11 percentage points; each gap exceeds its approximate margin of 3.2 points.
+  evidence:
+    file: simulation/output/results.json
+    run_id: pew-gaps
+    pointer: /excitement_2022/summary/n_dem_higher
+    reported: '6'
+    scale: 1
+    decimals: 0
+    units: items
+    conditions: Pew Research Center 2022 report, appendix p. 128; published percentages of U.S. adults very or somewhat excited, survey of Nov. 2021; Dem/lean Dem vs Rep/lean Rep
+- id: party-gap-min
+  kind: computation
+  passage: On all 6 items, Democrats and Democratic-leaning independents were more often very or somewhat excited than Republicans and Republican leaners, by 8 to 11 percentage points; each gap exceeds its approximate margin of 3.2 points.
+  evidence:
+    file: simulation/output/results.json
+    run_id: pew-gaps
+    pointer: /excitement_2022/summary/party_gap_min
+    reported: '8'
+    scale: 1
+    decimals: 0
+    units: percentage points
+    conditions: Pew Research Center 2022 report, appendix p. 128; published percentages of U.S. adults very or somewhat excited, survey of Nov. 2021; Dem/lean Dem vs Rep/lean Rep
+- id: party-gap-max
+  kind: computation
+  passage: On all 6 items, Democrats and Democratic-leaning independents were more often very or somewhat excited than Republicans and Republican leaners, by 8 to 11 percentage points; each gap exceeds its approximate margin of 3.2 points.
+  evidence:
+    file: simulation/output/results.json
+    run_id: pew-gaps
+    pointer: /excitement_2022/summary/party_gap_max
+    reported: '11'
+    scale: 1
+    decimals: 0
+    units: percentage points
+    conditions: Pew Research Center 2022 report, appendix p. 128; published percentages of U.S. adults very or somewhat excited, survey of Nov. 2021; Dem/lean Dem vs Rep/lean Rep
+- id: party-moe
+  kind: computation
+  passage: On all 6 items, Democrats and Democratic-leaning independents were more often very or somewhat excited than Republicans and Republican leaners, by 8 to 11 percentage points; each gap exceeds its approximate margin of 3.2 points.
+  evidence:
+    file: simulation/output/results.json
+    run_id: pew-gaps
+    pointer: /excitement_2022/summary/party_moe95
+    reported: '3.2'
+    scale: 1
+    decimals: 1
+    units: percentage points (approximate 95% margin of a difference)
+    conditions: Pew Research Center 2022 report, appendix p. 128; published percentages of U.S. adults very or somewhat excited, survey of Nov. 2021; Dem/lean Dem vs Rep/lean Rep; group margins 2.2 and 2.3 from p. 124 combined in quadrature
+- id: disease-dem
+  kind: computation
+  passage: For preventing serious disease, the shares were 72% and 61%.
+  evidence:
+    file: simulation/output/results.json
+    run_id: pew-gaps
+    pointer: /excitement_2022/items/c/party/a
+    reported: 72%
+    scale: 1
+    decimals: 0
+    units: percent of Dem/lean Dem
+    conditions: Pew Research Center 2022 report, appendix p. 128; published percentages of U.S. adults very or somewhat excited, survey of Nov. 2021; Dem/lean Dem vs Rep/lean Rep
+- id: disease-rep
+  kind: computation
+  passage: For preventing serious disease, the shares were 72% and 61%.
+  evidence:
+    file: simulation/output/results.json
+    run_id: pew-gaps
+    pointer: /excitement_2022/items/c/party/b
+    reported: 61%
+    scale: 1
+    decimals: 0
+    units: percent of Rep/lean Rep
+    conditions: Pew Research Center 2022 report, appendix p. 128; published percentages of U.S. adults very or somewhat excited, survey of Nov. 2021; Dem/lean Dem vs Rep/lean Rep
+- id: relig-gap-min
+  kind: computation
+  passage: The gap between adults with low and high religious commitment ran in the same direction and was larger, 16 to 20 points against a margin of 4.6, about twice the partisan gap on average (ratio 2.0).
+  evidence:
+    file: simulation/output/results.json
+    run_id: pew-gaps
+    pointer: /excitement_2022/summary/religiosity_gap_min
+    reported: '16'
+    scale: 1
+    decimals: 0
+    units: percentage points
+    conditions: Pew Research Center 2022 report, appendix p. 128; low vs high religious commitment index
+- id: relig-gap-max
+  kind: computation
+  passage: The gap between adults with low and high religious commitment ran in the same direction and was larger, 16 to 20 points against a margin of 4.6, about twice the partisan gap on average (ratio 2.0).
+  evidence:
+    file: simulation/output/results.json
+    run_id: pew-gaps
+    pointer: /excitement_2022/summary/religiosity_gap_max
+    reported: '20'
+    scale: 1
+    decimals: 0
+    units: percentage points
+    conditions: Pew Research Center 2022 report, appendix p. 128; low vs high religious commitment index
+- id: relig-moe
+  kind: computation
+  passage: The gap between adults with low and high religious commitment ran in the same direction and was larger, 16 to 20 points against a margin of 4.6, about twice the partisan gap on average (ratio 2.0).
+  evidence:
+    file: simulation/output/results.json
+    run_id: pew-gaps
+    pointer: /excitement_2022/summary/religiosity_moe95
+    reported: '4.6'
+    scale: 1
+    decimals: 1
+    units: percentage points (approximate 95% margin of a difference)
+    conditions: Pew Research Center 2022 report, appendix p. 128; low vs high religious commitment index; group margins 3.2 and 3.3 combined in quadrature
+- id: relig-ratio
+  kind: computation
+  passage: The gap between adults with low and high religious commitment ran in the same direction and was larger, 16 to 20 points against a margin of 4.6, about twice the partisan gap on average (ratio 2.0).
+  evidence:
+    file: simulation/output/results.json
+    run_id: pew-gaps
+    pointer: /excitement_2022/summary/ratio_mean_religiosity_to_party
+    reported: '2.0'
+    scale: 1
+    decimals: 1
+    units: ratio of mean gaps
+    conditions: Pew Research Center 2022 report, appendix p. 128; low vs high religious commitment index and party gaps, six items
+- id: relig-exceeds
+  kind: computation
+  passage: The religiosity gap exceeded the partisan gap on all 6 items.
+  evidence:
+    file: simulation/output/results.json
+    run_id: pew-gaps
+    pointer: /excitement_2022/summary/n_religiosity_exceeds_party
+    reported: '6'
+    scale: 1
+    decimals: 0
+    units: items
+    conditions: Pew Research Center 2022 report, appendix p. 128; low vs high religious commitment index
+- id: pew2022-appendix
+  kind: source
+  passage: The 2021 survey's appendix reports excitement about each of the six possibilities by party and by religious commitment [@pew2022, p. 128].
+  evidence:
+    citation_id: pew2022
+    locator: Appendix, p. 128
+    verified: false
+    verification_note: Inspected the rendered appendix chart (PDF page 129) at 160 and 300 dpi; values transcribed into simulation/data/pew2022_excitement_by_group.csv. The chart's title says 'more religious Americans' express more excitement, which contradicts its own rows (low commitment is higher on every item); this paper uses the rows.
+    depth: fulltext
+- id: reg-gap-min
+  kind: computation
+  passage: Democrats more often chose "not far enough" for brain chips, gene editing and exoskeletons alike, by 26 to 34 points across the 3 technologies [@pew2022, pp. 92, 103 and 113].
+  evidence:
+    file: simulation/output/results.json
+    run_id: pew-gaps
+    pointer: /regulation_2022/summary/gap_min
+    reported: '26'
+    scale: 1
+    decimals: 0
+    units: percentage points
+    conditions: Pew Research Center 2022 report, pp. 92, 103, 113; share choosing 'not far enough' for government regulation
+- id: reg-gap-max
+  kind: computation
+  passage: Democrats more often chose "not far enough" for brain chips, gene editing and exoskeletons alike, by 26 to 34 points across the 3 technologies [@pew2022, pp. 92, 103 and 113].
+  evidence:
+    file: simulation/output/results.json
+    run_id: pew-gaps
+    pointer: /regulation_2022/summary/gap_max
+    reported: '34'
+    scale: 1
+    decimals: 0
+    units: percentage points
+    conditions: Pew Research Center 2022 report, pp. 92, 103, 113; share choosing 'not far enough' for government regulation
+- id: reg-n
+  kind: computation
+  passage: Democrats more often chose "not far enough" for brain chips, gene editing and exoskeletons alike, by 26 to 34 points across the 3 technologies [@pew2022, pp. 92, 103 and 113].
+  evidence:
+    file: simulation/output/results.json
+    run_id: pew-gaps
+    pointer: /regulation_2022/summary/n_items
+    reported: '3'
+    scale: 1
+    decimals: 0
+    units: technologies
+    conditions: Pew Research Center 2022 report, pp. 92, 103, 113; share choosing 'not far enough' for government regulation
+- id: reg-chip-dem
+  kind: computation
+  passage: For brain chips, 64% of Democrats and 36% of Republicans chose "not far enough".
+  evidence:
+    file: simulation/output/results.json
+    run_id: pew-gaps
+    pointer: /regulation_2022/items/brain chip implants/dem_not_far_enough
+    reported: 64%
+    scale: 1
+    decimals: 0
+    units: percent of Dem/lean Dem
+    conditions: Pew Research Center 2022 report, pp. 92, 103, 113; share choosing 'not far enough' for government regulation
+- id: reg-chip-rep
+  kind: computation
+  passage: For brain chips, 64% of Democrats and 36% of Republicans chose "not far enough".
+  evidence:
+    file: simulation/output/results.json
+    run_id: pew-gaps
+    pointer: /regulation_2022/items/brain chip implants/rep_not_far_enough
+    reported: 36%
+    scale: 1
+    decimals: 0
+    units: percent of Rep/lean Rep
+    conditions: Pew Research Center 2022 report, pp. 92, 103, 113; share choosing 'not far enough' for government regulation
+- id: pew2022-regulation-view
+  kind: source
+  passage: Pew describes these differences as consistent with the parties' broader views on government regulation [@pew2022, p. 103].
+  evidence:
+    citation_id: pew2022
+    locator: p. 103
+    verified: false
+    verification_note: Read p. 103 text.
+    depth: fulltext
+    quote: Democrats and Republicans differ widely on this question, consistent with their broader views on government regulation.
+- id: evidence-limits
+  kind: interpretation
+  passage: 'These data have clear limits. They describe U.S. adults only. The comparisons are bivariate: party and religious commitment are correlated, and published tables cannot separate their contributions.'
+  rationale: 'States scope: U.S., bivariate, excitement not policy support, transcription method.'
+- id: provocation-verdict
+  kind: interpretation
+  passage: 'In the published U.S. data, the hypothesis that the left is the locus of resistance to human enhancement is contradicted: Democrats were the more enthusiastic group on every enhancement item reported by party, and religious commitment divided opinion about twice as much as party.'
+  rationale: Verdict from the recorded comparison (all six party gaps favour Democrats; religiosity gap larger on all six) and the regulation items.
+- id: pew-state-bans
+  kind: source
+  passage: Safety testing may delay a route; a ban on employers requiring implanted devices, of the kind Pew notes some states had passed [@pew2022, p. 92], protects the freedom to remain and removes one form of pressure to adopt.
+  evidence:
+    citation_id: pew2022
+    locator: p. 92
+    verified: false
+    verification_note: 'Read p. 92: some states have preemptively passed laws banning employers from requiring employees to have microchips or other implanted devices.'
+    depth: fulltext
+- id: no-political-home
+  kind: interpretation
+  passage: On the evidence and arguments examined here, ontological impoverishment has no single political home.
+  rationale: Conclusion of the argument map and survey evidence.
+- id: limits-normative
+  kind: interpretation
+  passage: 'Two inputs to the definition are normative and contestable: the set $V_i$ of embodiments a person has reason to value, and the set $\mathbb{F}$ of feasible alternative arrangements.'
+  rationale: Names the normative parameters of the definition.
+runs:
+- id: pew-gaps
+  required: true
+  record: verification/pew-gaps.json

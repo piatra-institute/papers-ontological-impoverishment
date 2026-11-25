@@ -1,0 +1,292 @@
+{
+  "environment": {
+    "matplotlib": "3.11.2",
+    "platform": "macOS-15.1-arm64-arm-64bit-Mach-O",
+    "python": "3.14.3"
+  },
+  "excitement_2022": {
+    "items": {
+      "a": {
+        "item": "Slow the aging process to allow the average person to live decades longer",
+        "party": {
+          "a": 45.0,
+          "b": 37.0,
+          "difference": 8.0,
+          "exceeds_moe": true,
+          "moe95": 3.1827660925679098,
+          "rounding_floor": 7.0,
+          "rounding_floor_exceeds_moe": true
+        },
+        "religiosity": {
+          "a": 47.0,
+          "b": 31.0,
+          "difference": 16.0,
+          "exceeds_moe": true,
+          "moe95": 4.596737973824482,
+          "rounding_floor": 15.0,
+          "rounding_floor_exceeds_moe": true
+        },
+        "religiosity_minus_party": 8.0,
+        "us_adults": 41.0
+      },
+      "b": {
+        "item": "Allow some people to far more quickly and accurately process information",
+        "party": {
+          "a": 52.0,
+          "b": 43.0,
+          "difference": 9.0,
+          "exceeds_moe": true,
+          "moe95": 3.1827660925679098,
+          "rounding_floor": 8.0,
+          "rounding_floor_exceeds_moe": true
+        },
+        "religiosity": {
+          "a": 56.0,
+          "b": 37.0,
+          "difference": 19.0,
+          "exceeds_moe": true,
+          "moe95": 4.596737973824482,
+          "rounding_floor": 18.0,
+          "rounding_floor_exceeds_moe": true
+        },
+        "religiosity_minus_party": 10.0,
+        "us_adults": 47.0
+      },
+      "c": {
+        "item": "Prevent some people from getting serious diseases or health conditions",
+        "party": {
+          "a": 72.0,
+          "b": 61.0,
+          "difference": 11.0,
+          "exceeds_moe": true,
+          "moe95": 3.1827660925679098,
+          "rounding_floor": 10.0,
+          "rounding_floor_exceeds_moe": true
+        },
+        "religiosity": {
+          "a": 76.0,
+          "b": 57.0,
+          "difference": 19.0,
+          "exceeds_moe": true,
+          "moe95": 4.596737973824482,
+          "rounding_floor": 18.0,
+          "rounding_floor_exceeds_moe": true
+        },
+        "religiosity_minus_party": 8.0,
+        "us_adults": 66.0
+      },
+      "d": {
+        "item": "Allow some people greatly increased strength for lifting heavy objects",
+        "party": {
+          "a": 49.0,
+          "b": 40.0,
+          "difference": 9.0,
+          "exceeds_moe": true,
+          "moe95": 3.1827660925679098,
+          "rounding_floor": 8.0,
+          "rounding_floor_exceeds_moe": true
+        },
+        "religiosity": {
+          "a": 53.0,
+          "b": 34.0,
+          "difference": 19.0,
+          "exceeds_moe": true,
+          "moe95": 4.596737973824482,
+          "rounding_floor": 18.0,
+          "rounding_floor_exceeds_moe": true
+        },
+        "religiosity_minus_party": 10.0,
+        "us_adults": 44.0
+      },
+      "e": {
+        "item": "Allow some people to see shapes and patterns in crowded spaces far beyond what the typical person can see today",
+        "party": {
+          "a": 46.0,
+          "b": 36.0,
+          "difference": 10.0,
+          "exceeds_moe": true,
+          "moe95": 3.1827660925679098,
+          "rounding_floor": 9.0,
+          "rounding_floor_exceeds_moe": true
+        },
+        "religiosity": {
+          "a": 49.0,
+          "b": 32.0,
+          "difference": 17.0,
+          "exceeds_moe": true,
+          "moe95": 4.596737973824482,
+          "rounding_floor": 16.0,
+          "rounding_floor_exceeds_moe": true
+        },
+        "religiosity_minus_party": 7.0,
+        "us_adults": 41.0
+      },
+      "f": {
+        "item": "Allow some people to hear sounds far beyond what the typical person can hear today",
+        "party": {
+          "a": 51.0,
+          "b": 43.0,
+          "difference": 8.0,
+          "exceeds_moe": true,
+          "moe95": 3.1827660925679098,
+          "rounding_floor": 7.0,
+          "rounding_floor_exceeds_moe": true
+        },
+        "religiosity": {
+          "a": 57.0,
+          "b": 37.0,
+          "difference": 20.0,
+          "exceeds_moe": true,
+          "moe95": 4.596737973824482,
+          "rounding_floor": 19.0,
+          "rounding_floor_exceeds_moe": true
+        },
+        "religiosity_minus_party": 12.0,
+        "us_adults": 47.0
+      }
+    },
+    "summary": {
+      "n_dem_higher": 6,
+      "n_items": 6,
+      "n_party_floor_exceeds_moe": 6,
+      "n_party_gap_exceeds_moe": 6,
+      "n_religiosity_exceeds_party": 6,
+      "n_religiosity_gap_exceeds_moe": 6,
+      "n_rep_higher": 0,
+      "party_gap_max": 11.0,
+      "party_gap_mean": 9.166666666666666,
+      "party_gap_min": 8.0,
+      "party_moe95": 3.1827660925679098,
+      "ratio_mean_religiosity_to_party": 2.0,
+      "religiosity_gap_max": 20.0,
+      "religiosity_gap_mean": 18.333333333333332,
+      "religiosity_gap_min": 16.0,
+      "religiosity_moe95": 4.596737973824482
+    }
+  },
+  "inputs": {
+    "pew2016_meddling_by_religiosity.csv": "cf29870fbb1cc616cd4b971f8b8a7da13cf61ef4d8417031e4a9a83193a717a4",
+    "pew2022_excitement_by_group.csv": "2e0b93075f00788dd2605a93d21322dd964b63a90e521cdbb2facdaefea07d27",
+    "pew2022_regulation_by_party.csv": "9d897b8cba3bf67c237546211311fe3940c4d57787005b239e1b85957fdd0a03",
+    "pew_margins_of_error.csv": "1bbe3df5a2da23cfd40eb2dd2cdbd751fe40f454601a2e10bf5ef717db34ae5e"
+  },
+  "meddling_2016": {
+    "items": {
+      "brain chip implant for much improved cognitive abilities": {
+        "gap_high_minus_low": {
+          "a": 65.0,
+          "b": 36.0,
+          "difference": 29.0,
+          "exceeds_moe": true,
+          "moe95": 6.438167441127949,
+          "rounding_floor": 28.0,
+          "rounding_floor_exceeds_moe": true
+        },
+        "high": 65.0,
+        "low": 36.0
+      },
+      "gene editing giving babies a much reduced disease risk": {
+        "gap_high_minus_low": {
+          "a": 64.0,
+          "b": 28.0,
+          "difference": 36.0,
+          "exceeds_moe": true,
+          "moe95": 6.438167441127949,
+          "rounding_floor": 35.0,
+          "rounding_floor_exceeds_moe": true
+        },
+        "high": 64.0,
+        "low": 28.0
+      },
+      "synthetic blood for much improved physical abilities": {
+        "gap_high_minus_low": {
+          "a": 60.0,
+          "b": 36.0,
+          "difference": 24.0,
+          "exceeds_moe": true,
+          "moe95": 6.438167441127949,
+          "rounding_floor": 23.0,
+          "rounding_floor_exceeds_moe": true
+        },
+        "high": 60.0,
+        "low": 36.0
+      }
+    },
+    "summary": {
+      "gap_max": 36.0,
+      "gap_min": 24.0,
+      "n_exceeds_moe": 3,
+      "n_items": 3
+    }
+  },
+  "provocation_test": {
+    "P1_left_less_excited_items_consistent": 0,
+    "P1_left_less_excited_items_contrary": 6,
+    "P1_supported": false,
+    "P2_party_larger_than_religiosity_items": 0,
+    "P2_supported": false,
+    "P3_dem_more_under_regulation_concern_items": 3,
+    "P3_supported": true
+  },
+  "regulation_2022": {
+    "items": {
+      "brain chip implants": {
+        "dem_not_far_enough": 64.0,
+        "dem_too_far": 34.0,
+        "not_far_enough_gap": {
+          "a": 64.0,
+          "b": 36.0,
+          "difference": 28.0,
+          "exceeds_moe": true,
+          "moe95": 3.1827660925679098,
+          "rounding_floor": 27.0,
+          "rounding_floor_exceeds_moe": true
+        },
+        "rep_not_far_enough": 36.0,
+        "rep_too_far": 62.0,
+        "us_not_far_enough": 50.0,
+        "us_too_far": 47.0
+      },
+      "gene editing to reduce a baby's disease risk": {
+        "dem_not_far_enough": 63.0,
+        "dem_too_far": 35.0,
+        "not_far_enough_gap": {
+          "a": 63.0,
+          "b": 37.0,
+          "difference": 26.0,
+          "exceeds_moe": true,
+          "moe95": 3.1827660925679098,
+          "rounding_floor": 25.0,
+          "rounding_floor_exceeds_moe": true
+        },
+        "rep_not_far_enough": 37.0,
+        "rep_too_far": 62.0,
+        "us_not_far_enough": 51.0,
+        "us_too_far": 47.0
+      },
+      "robotic exoskeletons for manual labor": {
+        "dem_not_far_enough": 65.0,
+        "dem_too_far": 33.0,
+        "not_far_enough_gap": {
+          "a": 65.0,
+          "b": 31.0,
+          "difference": 34.0,
+          "exceeds_moe": true,
+          "moe95": 3.1827660925679098,
+          "rounding_floor": 33.0,
+          "rounding_floor_exceeds_moe": true
+        },
+        "rep_not_far_enough": 31.0,
+        "rep_too_far": 67.0,
+        "us_not_far_enough": 48.0,
+        "us_too_far": 49.0
+      }
+    },
+    "summary": {
+      "gap_max": 34.0,
+      "gap_min": 26.0,
+      "n_dem_more_under_regulation_concern": 3,
+      "n_items": 3
+    }
+  }
+}

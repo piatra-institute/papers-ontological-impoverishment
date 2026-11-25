@@ -1,0 +1,35 @@
+slug: ontological-impoverishment
+web_slug: ontological-impoverishment
+title: 'Ontological Impoverishment: Reachable Bodies and the Freedom to Take Form'
+header: ONTOLOGICAL IMPOVERISHMENT
+created: 2026-11
+date: November 2026
+paper_dir: paper
+has_simulation: true
+claims_target: claims.yaml
+genre: conceptual analysis with a formal definition and a re-analysis of published survey aggregates
+repo: git@github.com:piatra-institute/papers-ontological-impoverishment.git
+github: https://github.com/piatra-institute/papers-ontological-impoverishment
+status: built
+coined_terms:
+- ontological impoverishment
+- reachable embodiment
+- impoverishment of inquiry
+abstract: 'This paper asks which ways of being embodied a person can reach, and defines ontological impoverishment
+  as the institutionally avoidable foreclosure of such embodiments. The definition is formal: an embodiment
+  is reachable when a chain of known routes leads to it through states that are physically possible, livable
+  for the person with feasible support, and accessible on terms that leave its purposes under the person''s
+  control. Three propositions follow: reachable sets are logically independent of income; relaxing one
+  constraint helps only where the others already hold; and intermediate states of a transition count.
+  Each layer has measurable indicators. The structure takes Heidegger''s being-ahead-of-itself and thrownness
+  while setting aside his non-quantitative notion of world-poverty. It reads the experiments of Levin
+  and colleagues on planarian regeneration, ectopic eyes, xenobots and anthrobots as enlarging physical
+  possibility and known routes for cells and tissues, with no direct bearing on lived integration or access
+  for persons. It separates More''s original ability from Sandberg''s negative right, and locates xenofeminism''s
+  demands in the non-price conditions of access. A re-analysis of published Pew aggregates tests the claim
+  that resistance to bodily enhancement belongs to the political left. In November 2021, U.S. Democrats
+  were more often excited than Republicans about all 6 enhancement possibilities, by 8 to 11 points; religiosity
+  divided opinion about twice as much; Democrats more often wanted stronger regulation. The evidence is
+  American and bivariate, and the formal propositions discipline measurement without settling who decides
+  what is worth reaching.'
+checks: 2026-11

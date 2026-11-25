@@ -1,0 +1,15 @@
+{
+  "2016": {
+    "url": "https://www.pewresearch.org/wp-content/uploads/sites/9/2016/07/PS_2016.07.26_Human-Enhancement-Survey_FINAL.pdf",
+    "file": "data/raw/pew2016.pdf",
+    "bytes": 2357237,
+    "sha256": "142c1c0b05b837e86382529e764c52aa2d31c6a0fb6e1ea1f46a8b8c1fa11aa3"
+  },
+  "2022": {
+    "url": "https://www.pewresearch.org/wp-content/uploads/sites/20/2022/03/PS_2022.03.17_AI-HE_REPORT.pdf",
+    "file": "data/raw/pew2022.pdf",
+    "bytes": 4259293,
+    "sha256": "8bc691f0bdf299eb8926d41ce69d32174701631bdf3466784913aef7933e7765"
+  },
+  "fetched_utc": "2026-11-25T21:54:38Z"
+}

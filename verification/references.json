@@ -1,0 +1,2072 @@
+{
+  "schema": 1,
+  "references_sha256": "94ace51f9ccb2bc74bffebd03f809e84f0e6cdd84161b14720a3cdcce419fcad",
+  "bibliography_inputs": {
+    "references.yaml": "94ace51f9ccb2bc74bffebd03f809e84f0e6cdd84161b14720a3cdcce419fcad"
+  },
+  "entries": [
+    {
+      "id": "kieliba2021",
+      "doi": "10.1126/scirobotics.abd7935",
+      "outcome": "advisory",
+      "compared_fields": {
+        "title": {
+          "reference": "Robotic hand augmentation drives changes in neural body representation",
+          "registry": [
+            "Robotic hand augmentation drives changes in neural body representation"
+          ],
+          "registry_subtitle": [],
+          "similarity": 1.0,
+          "match": true
+        },
+        "author": {
+          "reference": "kieliba",
+          "registry": "kieliba",
+          "match": true
+        },
+        "year": {
+          "reference": [
+            2021
+          ],
+          "registry": [
+            2021,
+            2021,
+            2021
+          ],
+          "match": true
+        },
+        "container-title": {
+          "reference": "Science Robotics",
+          "registry": [
+            "Science Robotics"
+          ],
+          "match": true
+        },
+        "volume": {
+          "reference": "6",
+          "registry": "6",
+          "match": true
+        },
+        "issue": {
+          "reference": "54",
+          "registry": "54",
+          "match": true
+        },
+        "page": {
+          "reference": "eabd7935",
+          "registry": null,
+          "match": false
+        }
+      },
+      "registry": "Crossref",
+      "fetched_at": "2026-11-25T22:09:34.938452+00:00",
+      "record_sha256": "622c14d9f76b18af7068872a7e6036e45aeb19880c50181c9f87d043616f470e",
+      "suggestions": [],
+      "message": "different fields: page"
+    },
+    {
+      "id": "more1993",
+      "doi": null,
+      "outcome": "unverified",
+      "compared_fields": {},
+      "registry": null,
+      "fetched_at": "2026-11-25T22:09:35.831443+00:00",
+      "record_sha256": null,
+      "suggestions": [
+        {
+          "DOI": "10.4324/9780203633977-15",
+          "title": [
+            "Technological salvation or more human solutions?"
+          ],
+          "registry": "Crossref"
+        },
+        {
+          "DOI": "10.1017/cbo9780511759345.013",
+          "title": [
+            "The Identity of Identity: Moral and Legal Aspects of Technological Self-Transformation"
+          ],
+          "registry": "Crossref"
+        },
+        {
+          "DOI": "10.1007/978-94-009-2597-7_1",
+          "title": [
+            "The Technological Self"
+          ],
+          "registry": "Crossref"
+        }
+      ],
+      "message": "no DOI; identity reviewed by the referee",
+      "unverified_reason": "no_doi"
+    },
+    {
+      "id": "sandberg2001",
+      "doi": null,
+      "outcome": "unverified",
+      "compared_fields": {},
+      "registry": null,
+      "fetched_at": "2026-11-25T22:09:36.424734+00:00",
+      "record_sha256": null,
+      "suggestions": [
+        {
+          "DOI": "10.1002/9781118555927.ch5",
+          "title": [
+            "Morphological Freedom – Why We Not Just Want It, but Need It"
+          ],
+          "registry": "Crossref"
+        },
+        {
+          "DOI": "10.64628/aal.wetuucy3u",
+          "title": [
+            "Why we need an international freedom movement"
+          ],
+          "registry": "Crossref"
+        },
+        {
+          "DOI": "10.1016/j.ntt.2025.107478",
+          "title": [
+            "Why we need segmentation of data in medical records and why we might not want it"
+          ],
+          "registry": "Crossref"
+        }
+      ],
+      "message": "no DOI; identity reviewed by the referee",
+      "unverified_reason": "no_doi"
+    },
+    {
+      "id": "sandberg2013",
+      "doi": "10.1002/9781118555927.ch5",
+      "outcome": "verified",
+      "compared_fields": {
+        "title": {
+          "reference": "Morphological freedom: Why we not just want it, but need it",
+          "registry": [
+            "Morphological Freedom – Why We Not Just Want It, but Need It"
+          ],
+          "registry_subtitle": [],
+          "similarity": 1.0,
+          "match": true
+        },
+        "author": {
+          "reference": "sandberg",
+          "registry": "sandberg",
+          "match": true
+        },
+        "year": {
+          "reference": [
+            2013
+          ],
+          "registry": [
+            2013,
+            2013,
+            2013,
+            2013
+          ],
+          "match": true
+        },
+        "container-title": {
+          "reference": "The Transhumanist Reader",
+          "registry": [
+            "The Transhumanist Reader"
+          ],
+          "match": true
+        },
+        "volume": {
+          "reference": null,
+          "registry": null,
+          "match": true
+        },
+        "issue": {
+          "reference": null,
+          "registry": null,
+          "match": true
+        },
+        "page": {
+          "reference": "56-64",
+          "registry": "56-64",
+          "match": true
+        }
+      },
+      "registry": "Crossref",
+      "fetched_at": "2026-11-25T22:09:37.042770+00:00",
+      "record_sha256": "2fa3d8a8e8ea30db56919513a2a209134765642a9011c5540e0576abefadfbdc",
+      "suggestions": [],
+      "message": "identity matches"
+    },
+    {
+      "id": "bradshaw2010",
+      "doi": "10.1093/jmp/jhq048",
+      "outcome": "verified",
+      "compared_fields": {
+        "title": {
+          "reference": "A transhumanist fault line around disability: Morphological freedom and the obligation to enhance",
+          "registry": [
+            "A Transhumanist Fault Line Around Disability: Morphological Freedom and the Obligation to Enhance"
+          ],
+          "registry_subtitle": [],
+          "similarity": 1.0,
+          "match": true
+        },
+        "author": {
+          "reference": "bradshaw",
+          "registry": "bradshaw",
+          "match": true
+        },
+        "year": {
+          "reference": [
+            2010
+          ],
+          "registry": [
+            2010,
+            2010,
+            2010,
+            2010
+          ],
+          "match": true
+        },
+        "container-title": {
+          "reference": "Journal of Medicine and Philosophy",
+          "registry": [
+            "Journal of Medicine and Philosophy"
+          ],
+          "match": true
+        },
+        "volume": {
+          "reference": "35",
+          "registry": "35",
+          "match": true
+        },
+        "issue": {
+          "reference": "6",
+          "registry": "6",
+          "match": true
+        },
+        "page": {
+          "reference": "670-684",
+          "registry": "670-684",
+          "match": true
+        }
+      },
+      "registry": "Crossref",
+      "fetched_at": "2026-11-25T22:09:37.721266+00:00",
+      "record_sha256": "28e045288193bba4a725083b760a6525fa9fa69d1c72e234158a69afecf91ade",
+      "suggestions": [],
+      "message": "identity matches"
+    },
+    {
+      "id": "dolezal2016",
+      "doi": "10.1515/9781474400053-020",
+      "outcome": "verified",
+      "compared_fields": {
+        "title": {
+          "reference": "Morphological freedom and medicine: Constructing the posthuman body",
+          "registry": [
+            "17 Morphological Freedom and Medicine: Constructing the Posthuman Body"
+          ],
+          "registry_subtitle": [],
+          "similarity": 0.9777777777777777,
+          "match": true
+        },
+        "author": {
+          "reference": "dolezal",
+          "registry": "dolezal",
+          "match": true
+        },
+        "year": {
+          "reference": [
+            2016
+          ],
+          "registry": [
+            2016,
+            2016,
+            2016
+          ],
+          "match": true
+        },
+        "container-title": {
+          "reference": "The Edinburgh Companion to the Critical Medical Humanities",
+          "registry": [
+            "The Edinburgh Companion to the Critical Medical Humanities"
+          ],
+          "match": true
+        },
+        "volume": {
+          "reference": null,
+          "registry": null,
+          "match": true
+        },
+        "issue": {
+          "reference": null,
+          "registry": null,
+          "match": true
+        },
+        "page": {
+          "reference": "310-324",
+          "registry": "310-324",
+          "match": true
+        }
+      },
+      "registry": "Crossref",
+      "fetched_at": "2026-11-25T22:09:38.527809+00:00",
+      "record_sha256": "5d1c39c83b0e113f3efe1621e4161f6cd298bd7d0d9fc29b22769552f30f575a",
+      "suggestions": [],
+      "message": "identity matches"
+    },
+    {
+      "id": "earle2021",
+      "doi": "10.1007/978-3-030-70099-7_13",
+      "outcome": "advisory",
+      "compared_fields": {
+        "title": {
+          "reference": "Engineering our selves: Morphological freedom and the myth of multiplicity",
+          "registry": [
+            "Engineering Our Selves: Morphological Freedom and the Myth of Multiplicity"
+          ],
+          "registry_subtitle": [],
+          "similarity": 1.0,
+          "match": true
+        },
+        "author": {
+          "reference": "earle",
+          "registry": "earle",
+          "match": true
+        },
+        "year": {
+          "reference": [
+            2021
+          ],
+          "registry": [
+            2021,
+            2021,
+            2021,
+            2021
+          ],
+          "match": true
+        },
+        "container-title": {
+          "reference": "Engineering and Philosophy",
+          "registry": [
+            "Philosophy of Engineering and Technology",
+            "Engineering and Philosophy"
+          ],
+          "match": false
+        },
+        "volume": {
+          "reference": null,
+          "registry": null,
+          "match": true
+        },
+        "issue": {
+          "reference": null,
+          "registry": null,
+          "match": true
+        },
+        "page": {
+          "reference": "249-267",
+          "registry": "249-267",
+          "match": true
+        }
+      },
+      "registry": "Crossref",
+      "fetched_at": "2026-11-25T22:09:40.481533+00:00",
+      "record_sha256": "653d83fdc3e0a62e2b5fe773cb7a235131f58119b93bf023449540743fa4d38d",
+      "suggestions": [],
+      "message": "different fields: container-title"
+    },
+    {
+      "id": "earle2022",
+      "doi": "10.1007/978-3-031-14328-1_9",
+      "outcome": "advisory",
+      "compared_fields": {
+        "title": {
+          "reference": "Embodiment diffracted: Queering and cripping morphological freedom",
+          "registry": [
+            "Embodiment Diffracted: Queering and Cripping Morphological Freedom"
+          ],
+          "registry_subtitle": [],
+          "similarity": 1.0,
+          "match": true
+        },
+        "author": {
+          "reference": "earle",
+          "registry": "earle",
+          "match": true
+        },
+        "year": {
+          "reference": [
+            2022
+          ],
+          "registry": [
+            2022,
+            2022,
+            2022,
+            2022
+          ],
+          "match": true
+        },
+        "container-title": {
+          "reference": "Transhumanism: Entering an Era of Bodyhacking and Radical Human Modification",
+          "registry": [
+            "The International Library of Bioethics",
+            "Transhumanism: Entering an Era of Bodyhacking and Radical Human Modification"
+          ],
+          "match": false
+        },
+        "volume": {
+          "reference": null,
+          "registry": null,
+          "match": true
+        },
+        "issue": {
+          "reference": null,
+          "registry": null,
+          "match": true
+        },
+        "page": {
+          "reference": "149-173",
+          "registry": "149-173",
+          "match": true
+        }
+      },
+      "registry": "Crossref",
+      "fetched_at": "2026-11-25T22:09:41.173849+00:00",
+      "record_sha256": "a9e80655b3174b46b7ca7acbe6811aba0ae06e7938668bd898902a180fccfcc1",
+      "suggestions": [],
+      "message": "different fields: container-title"
+    },
+    {
+      "id": "hughes2004",
+      "doi": null,
+      "outcome": "unverified",
+      "compared_fields": {},
+      "registry": null,
+      "fetched_at": "2026-11-25T22:09:42.655508+00:00",
+      "record_sha256": null,
+      "suggestions": [
+        {
+          "DOI": "10.1080/15265160500246418",
+          "title": [
+            "A Review of: “James Hughes. 2004. Citizen Cyborg: Why Democratic Societies Must Respond to the Redesigned Human of the Future”"
+          ],
+          "registry": "Crossref"
+        },
+        {
+          "DOI": "10.1093/9780198902768.003.0001",
+          "title": [
+            "Introduction"
+          ],
+          "registry": "Crossref"
+        },
+        {
+          "DOI": "10.1093/9780198902768.003.0002",
+          "title": [
+            "Theoretical Framework"
+          ],
+          "registry": "Crossref"
+        }
+      ],
+      "message": "no DOI; identity reviewed by the referee",
+      "unverified_reason": "no_doi"
+    },
+    {
+      "id": "sen1985",
+      "doi": "10.2307/2026184",
+      "outcome": "advisory",
+      "compared_fields": {
+        "title": {
+          "reference": "Well-being, agency and freedom: The Dewey Lectures 1984",
+          "registry": [
+            "Well-Being, Agency and Freedom: The Dewey Lectures 1984"
+          ],
+          "registry_subtitle": [],
+          "similarity": 1.0,
+          "match": true
+        },
+        "author": {
+          "reference": "sen",
+          "registry": "sen",
+          "match": true
+        },
+        "year": {
+          "reference": [
+            1985
+          ],
+          "registry": [
+            1985,
+            1985,
+            1985
+          ],
+          "match": true
+        },
+        "container-title": {
+          "reference": "The Journal of Philosophy",
+          "registry": [
+            "The Journal of Philosophy"
+          ],
+          "match": true
+        },
+        "volume": {
+          "reference": "82",
+          "registry": "82",
+          "match": true
+        },
+        "issue": {
+          "reference": "4",
+          "registry": "4",
+          "match": true
+        },
+        "page": {
+          "reference": "169-221",
+          "registry": "169",
+          "match": false
+        }
+      },
+      "registry": "Crossref",
+      "fetched_at": "2026-11-25T22:09:43.205691+00:00",
+      "record_sha256": "ddb1a5d7a15988c47f06cc95c5d787845d7a19a31a8053648327943d3aff10aa",
+      "suggestions": [],
+      "message": "different fields: page"
+    },
+    {
+      "id": "nussbaum2011",
+      "doi": "10.4159/harvard.9780674061200",
+      "outcome": "verified",
+      "compared_fields": {
+        "title": {
+          "reference": "Creating Capabilities: The Human Development Approach",
+          "registry": [
+            "Creating Capabilities"
+          ],
+          "registry_subtitle": [
+            "The Human Development Approach"
+          ],
+          "similarity": 1.0,
+          "match": true
+        },
+        "author": {
+          "reference": "nussbaum",
+          "registry": "nussbaum",
+          "match": true
+        },
+        "year": {
+          "reference": [
+            2011
+          ],
+          "registry": [
+            2011,
+            2011,
+            2011,
+            2011
+          ],
+          "match": true
+        },
+        "container-title": {
+          "reference": null,
+          "registry": [],
+          "match": true
+        },
+        "volume": {
+          "reference": null,
+          "registry": null,
+          "match": true
+        },
+        "issue": {
+          "reference": null,
+          "registry": null,
+          "match": true
+        },
+        "page": {
+          "reference": null,
+          "registry": null,
+          "match": true
+        }
+      },
+      "registry": "Crossref",
+      "fetched_at": "2026-11-25T22:09:43.815114+00:00",
+      "record_sha256": "516db649ab0060c1f7281072ba73fd89e3fffa4b715137856834a77cdcf1b158",
+      "suggestions": [],
+      "message": "identity matches"
+    },
+    {
+      "id": "robeyns2017",
+      "doi": "10.11647/OBP.0130",
+      "outcome": "verified",
+      "compared_fields": {
+        "title": {
+          "reference": "Wellbeing, Freedom and Social Justice: The Capability Approach Re-Examined",
+          "registry": [
+            "Wellbeing, Freedom and Social Justice"
+          ],
+          "registry_subtitle": [
+            "The Capability Approach Re-Examined"
+          ],
+          "similarity": 1.0,
+          "match": true
+        },
+        "author": {
+          "reference": "robeyns",
+          "registry": "robeyns",
+          "match": true
+        },
+        "year": {
+          "reference": [
+            2017
+          ],
+          "registry": [
+            2017,
+            2017,
+            2017
+          ],
+          "match": true
+        },
+        "container-title": {
+          "reference": null,
+          "registry": [],
+          "match": true
+        },
+        "volume": {
+          "reference": null,
+          "registry": null,
+          "match": true
+        },
+        "issue": {
+          "reference": null,
+          "registry": null,
+          "match": true
+        },
+        "page": {
+          "reference": null,
+          "registry": null,
+          "match": true
+        }
+      },
+      "registry": "Crossref",
+      "fetched_at": "2026-11-25T22:09:44.984640+00:00",
+      "record_sha256": "0b9d6d9c8f699e197daffff0e781d1583328f0248fc895ea618736dba8761c4a",
+      "suggestions": [],
+      "message": "identity matches"
+    },
+    {
+      "id": "biddiss2007",
+      "doi": "10.1080/03093640600994581",
+      "outcome": "advisory",
+      "compared_fields": {
+        "title": {
+          "reference": "Upper limb prosthesis use and abandonment: A survey of the last 25 years",
+          "registry": [
+            "Upper limb prosthesis use and abandonment"
+          ],
+          "registry_subtitle": [
+            "A survey of the last 25 years"
+          ],
+          "similarity": 1.0,
+          "match": true
+        },
+        "author": {
+          "reference": "biddiss",
+          "registry": "biddiss",
+          "match": true
+        },
+        "year": {
+          "reference": [
+            2007
+          ],
+          "registry": [
+            2007,
+            2007,
+            2007
+          ],
+          "match": true
+        },
+        "container-title": {
+          "reference": "Prosthetics and Orthotics International",
+          "registry": [
+            "Prosthetics &amp; Orthotics International"
+          ],
+          "match": false
+        },
+        "volume": {
+          "reference": "31",
+          "registry": "31",
+          "match": true
+        },
+        "issue": {
+          "reference": "3",
+          "registry": "3",
+          "match": true
+        },
+        "page": {
+          "reference": "236-257",
+          "registry": "236-257",
+          "match": true
+        }
+      },
+      "registry": "Crossref",
+      "fetched_at": "2026-11-25T22:09:45.678024+00:00",
+      "record_sha256": "bd92b9d174688bf0deff458adb31bda3ff38fe6bec9cd7769d6e512a7763bb5b",
+      "suggestions": [],
+      "message": "different fields: container-title"
+    },
+    {
+      "id": "heidegger1962",
+      "doi": null,
+      "outcome": "unverified",
+      "compared_fields": {},
+      "registry": null,
+      "fetched_at": "2026-11-25T22:09:46.219867+00:00",
+      "record_sha256": null,
+      "suggestions": [
+        {
+          "DOI": "10.5840/heideggercircle20124613",
+          "title": [
+            "The Matter of Being in “Time and Being”"
+          ],
+          "registry": "Crossref"
+        },
+        {
+          "DOI": "10.7591/cornell/9781501779596.003.0003",
+          "title": [
+            "Being and Time"
+          ],
+          "registry": "Crossref"
+        },
+        {
+          "DOI": "10.7591/cornell/9781501779596.003.0004",
+          "title": [
+            "Being and Time"
+          ],
+          "registry": "Crossref"
+        }
+      ],
+      "message": "no DOI; identity reviewed by the referee",
+      "unverified_reason": "no_doi"
+    },
+    {
+      "id": "heidegger1977",
+      "doi": null,
+      "outcome": "unverified",
+      "compared_fields": {},
+      "registry": null,
+      "fetched_at": "2026-11-25T22:09:46.793352+00:00",
+      "record_sha256": null,
+      "suggestions": [
+        {
+          "DOI": "10.5040/9781472547873.ch-002",
+          "title": [
+            "Žižek and the other Heidegger : Technology and danger"
+          ],
+          "registry": "Crossref"
+        },
+        {
+          "DOI": "10.5040/9798216385448.ch-1",
+          "title": [
+            "The Question Concerning Technology"
+          ],
+          "registry": "Crossref"
+        },
+        {
+          "DOI": "10.4324/9781315561226-7",
+          "title": [
+            "The Question Concerning the Machine"
+          ],
+          "registry": "Crossref"
+        }
+      ],
+      "message": "no DOI; identity reviewed by the referee",
+      "unverified_reason": "no_doi"
+    },
+    {
+      "id": "heidegger1995",
+      "doi": null,
+      "outcome": "unverified",
+      "compared_fields": {},
+      "registry": null,
+      "fetched_at": "2026-11-25T22:09:47.338413+00:00",
+      "record_sha256": null,
+      "suggestions": [
+        {
+          "DOI": "10.2979/3513.0",
+          "title": [
+            "The Fundamental Concepts of Metaphysics"
+          ],
+          "registry": "Crossref"
+        },
+        {
+          "DOI": "10.2307/j.ctvswx8mg",
+          "title": [
+            "The Fundamental Concepts of Metaphysics"
+          ],
+          "registry": "Crossref"
+        },
+        {
+          "DOI": "10.5040/9781350604162.ch-1",
+          "title": [
+            "HEIDEGGER’S UNDERSTANDING OF AN ANIMAL’S WAY OF BEING IN  THE FUNDAMENTAL CONCEPTS OF METAPHYSICS: WORLD, FINITUDE, SOLITUDE"
+          ],
+          "registry": "Crossref"
+        }
+      ],
+      "message": "no DOI; identity reviewed by the referee",
+      "unverified_reason": "no_doi"
+    },
+    {
+      "id": "engelland2015",
+      "doi": "10.1017/apa.2014.25",
+      "outcome": "verified",
+      "compared_fields": {
+        "title": {
+          "reference": "Heidegger and the human difference",
+          "registry": [
+            "Heidegger and the Human Difference"
+          ],
+          "registry_subtitle": [],
+          "similarity": 1.0,
+          "match": true
+        },
+        "author": {
+          "reference": "engelland",
+          "registry": "engelland",
+          "match": true
+        },
+        "year": {
+          "reference": [
+            2015
+          ],
+          "registry": [
+            2015,
+            2015,
+            2015,
+            2015
+          ],
+          "match": true
+        },
+        "container-title": {
+          "reference": "Journal of the American Philosophical Association",
+          "registry": [
+            "Journal of the American Philosophical Association"
+          ],
+          "match": true
+        },
+        "volume": {
+          "reference": "1",
+          "registry": "1",
+          "match": true
+        },
+        "issue": {
+          "reference": "1",
+          "registry": "1",
+          "match": true
+        },
+        "page": {
+          "reference": "175-193",
+          "registry": "175-193",
+          "match": true
+        }
+      },
+      "registry": "Crossref",
+      "fetched_at": "2026-11-25T22:09:47.896725+00:00",
+      "record_sha256": "aef3869ae9611a7bdddddecae5c8368c9ea7b24dc1089c023e25c5ac3624dcb5",
+      "suggestions": [],
+      "message": "identity matches"
+    },
+    {
+      "id": "merleauponty2012",
+      "doi": "10.4324/9780203720714",
+      "outcome": "verified",
+      "compared_fields": {
+        "title": {
+          "reference": "Phenomenology of Perception",
+          "registry": [
+            "Phenomenology of Perception"
+          ],
+          "registry_subtitle": [],
+          "similarity": 1.0,
+          "match": true
+        },
+        "author": {
+          "reference": "merleau ponty",
+          "registry": "merleau ponty",
+          "match": true
+        },
+        "year": {
+          "reference": [
+            2012
+          ],
+          "registry": [
+            2013,
+            2013,
+            2013
+          ],
+          "match": true
+        },
+        "container-title": {
+          "reference": null,
+          "registry": [],
+          "match": true
+        },
+        "volume": {
+          "reference": null,
+          "registry": null,
+          "match": true
+        },
+        "issue": {
+          "reference": null,
+          "registry": null,
+          "match": true
+        },
+        "page": {
+          "reference": null,
+          "registry": null,
+          "match": true
+        }
+      },
+      "registry": "Crossref",
+      "fetched_at": "2026-11-25T22:09:48.523980+00:00",
+      "record_sha256": "a3cd3b0613d0314fdc12ac13c7cd8e5f3154a7eb1c055c40fcdbb8dfa7e5d991",
+      "suggestions": [],
+      "message": "identity matches"
+    },
+    {
+      "id": "durant2017",
+      "doi": "10.1016/j.bpj.2017.04.011",
+      "outcome": "verified",
+      "compared_fields": {
+        "title": {
+          "reference": "Long-term, stochastic editing of regenerative anatomy via targeting endogenous bioelectric gradients",
+          "registry": [
+            "Long-Term, Stochastic Editing of Regenerative Anatomy via Targeting Endogenous Bioelectric Gradients"
+          ],
+          "registry_subtitle": [],
+          "similarity": 1.0,
+          "match": true
+        },
+        "author": {
+          "reference": "durant",
+          "registry": "durant",
+          "match": true
+        },
+        "year": {
+          "reference": [
+            2017
+          ],
+          "registry": [
+            2017,
+            2017,
+            2017
+          ],
+          "match": true
+        },
+        "container-title": {
+          "reference": "Biophysical Journal",
+          "registry": [
+            "Biophysical Journal"
+          ],
+          "match": true
+        },
+        "volume": {
+          "reference": "112",
+          "registry": "112",
+          "match": true
+        },
+        "issue": {
+          "reference": "10",
+          "registry": "10",
+          "match": true
+        },
+        "page": {
+          "reference": "2231-2243",
+          "registry": "2231-2243",
+          "match": true
+        }
+      },
+      "registry": "Crossref",
+      "fetched_at": "2026-11-25T22:09:49.378642+00:00",
+      "record_sha256": "c6288ea068f67ba33a722deac6bdf53659c1d87c0a2486b8042b1e0b7482336b",
+      "suggestions": [],
+      "message": "identity matches"
+    },
+    {
+      "id": "pai2012",
+      "doi": "10.1242/dev.073759",
+      "outcome": "verified",
+      "compared_fields": {
+        "title": {
+          "reference": "Transmembrane voltage potential controls embryonic eye patterning in <span class=\"nocase\">*Xenopus laevis*</span>",
+          "registry": [
+            "Transmembrane voltage potential controls embryonic eye patterning in\n                    <i>Xenopus laevis</i>"
+          ],
+          "registry_subtitle": [],
+          "similarity": 1.0,
+          "match": true
+        },
+        "author": {
+          "reference": "pai",
+          "registry": "pai",
+          "match": true
+        },
+        "year": {
+          "reference": [
+            2012
+          ],
+          "registry": [
+            2012,
+            2012,
+            2012
+          ],
+          "match": true
+        },
+        "container-title": {
+          "reference": "Development",
+          "registry": [
+            "Development"
+          ],
+          "match": true
+        },
+        "volume": {
+          "reference": "139",
+          "registry": "139",
+          "match": true
+        },
+        "issue": {
+          "reference": "2",
+          "registry": "2",
+          "match": true
+        },
+        "page": {
+          "reference": "313-323",
+          "registry": "313-323",
+          "match": true
+        }
+      },
+      "registry": "Crossref",
+      "fetched_at": "2026-11-25T22:09:50.124991+00:00",
+      "record_sha256": "dc2d2abdccfd259f3f85730a43bb371b62b620ce2533f09ae98ed134c647d983",
+      "suggestions": [],
+      "message": "identity matches"
+    },
+    {
+      "id": "kriegman2020",
+      "doi": "10.1073/pnas.1910837117",
+      "outcome": "verified",
+      "compared_fields": {
+        "title": {
+          "reference": "A scalable pipeline for designing reconfigurable organisms",
+          "registry": [
+            "A scalable pipeline for designing reconfigurable organisms"
+          ],
+          "registry_subtitle": [],
+          "similarity": 1.0,
+          "match": true
+        },
+        "author": {
+          "reference": "kriegman",
+          "registry": "kriegman",
+          "match": true
+        },
+        "year": {
+          "reference": [
+            2020
+          ],
+          "registry": [
+            2020,
+            2020,
+            2020,
+            2020
+          ],
+          "match": true
+        },
+        "container-title": {
+          "reference": "Proceedings of the National Academy of Sciences",
+          "registry": [
+            "Proceedings of the National Academy of Sciences"
+          ],
+          "match": true
+        },
+        "volume": {
+          "reference": "117",
+          "registry": "117",
+          "match": true
+        },
+        "issue": {
+          "reference": "4",
+          "registry": "4",
+          "match": true
+        },
+        "page": {
+          "reference": "1853-1859",
+          "registry": "1853-1859",
+          "match": true
+        }
+      },
+      "registry": "Crossref",
+      "fetched_at": "2026-11-25T22:09:50.655618+00:00",
+      "record_sha256": "780f194ba3bf8baf8e5fe49a24c154eaae39d3f4dbfec5ba58d2d499913e4b51",
+      "suggestions": [],
+      "message": "identity matches"
+    },
+    {
+      "id": "gumuskaya2024",
+      "doi": "10.1002/advs.202303575",
+      "outcome": "advisory",
+      "compared_fields": {
+        "title": {
+          "reference": "Motile living biobots self-construct from adult human somatic progenitor seed cells",
+          "registry": [
+            "Motile Living Biobots Self‐Construct from Adult Human Somatic Progenitor Seed Cells"
+          ],
+          "registry_subtitle": [],
+          "similarity": 1.0,
+          "match": true
+        },
+        "author": {
+          "reference": "gumuskaya",
+          "registry": "gumuskaya",
+          "match": true
+        },
+        "year": {
+          "reference": [
+            2024
+          ],
+          "registry": [
+            2023,
+            2023,
+            2024,
+            2023
+          ],
+          "match": true
+        },
+        "container-title": {
+          "reference": "Advanced Science",
+          "registry": [
+            "Advanced Science"
+          ],
+          "match": true
+        },
+        "volume": {
+          "reference": "11",
+          "registry": "11",
+          "match": true
+        },
+        "issue": {
+          "reference": "4",
+          "registry": "4",
+          "match": true
+        },
+        "page": {
+          "reference": "2303575",
+          "registry": null,
+          "match": false
+        }
+      },
+      "registry": "Crossref",
+      "fetched_at": "2026-11-25T22:09:51.343663+00:00",
+      "record_sha256": "04749591fb5dc64125b7820121f309e9654a8c732cd6d44ab269687b76c244c6",
+      "suggestions": [],
+      "message": "different fields: page"
+    },
+    {
+      "id": "gumuskaya2025",
+      "doi": "10.1002/advs.202409330",
+      "outcome": "verified",
+      "compared_fields": {
+        "title": {
+          "reference": "The morphological, behavioral, and transcriptomic life cycle of anthrobots",
+          "registry": [
+            "The Morphological, Behavioral, and Transcriptomic Life Cycle of Anthrobots"
+          ],
+          "registry_subtitle": [],
+          "similarity": 1.0,
+          "match": true
+        },
+        "author": {
+          "reference": "gumuskaya",
+          "registry": "gumuskaya",
+          "match": true
+        },
+        "year": {
+          "reference": [
+            2025
+          ],
+          "registry": [
+            2025,
+            2025,
+            2025,
+            2025
+          ],
+          "match": true
+        },
+        "container-title": {
+          "reference": "Advanced Science",
+          "registry": [
+            "Advanced Science"
+          ],
+          "match": true
+        },
+        "volume": {
+          "reference": "12",
+          "registry": "12",
+          "match": true
+        },
+        "issue": {
+          "reference": "31",
+          "registry": "31",
+          "match": true
+        },
+        "page": {
+          "reference": null,
+          "registry": null,
+          "match": true
+        }
+      },
+      "registry": "Crossref",
+      "fetched_at": "2026-11-25T22:09:52.033300+00:00",
+      "record_sha256": "0b5e78b49972bdf03d7aa94883d968d1564d9ecd0504b1686293ebdf3d933315",
+      "suggestions": [],
+      "message": "identity matches"
+    },
+    {
+      "id": "levin2022",
+      "doi": "10.3389/fnsys.2022.768201",
+      "outcome": "advisory",
+      "compared_fields": {
+        "title": {
+          "reference": "Technological approach to mind everywhere: An experimentally-grounded framework for understanding diverse bodies and minds",
+          "registry": [
+            "Technological Approach to Mind Everywhere: An Experimentally-Grounded Framework for Understanding Diverse Bodies and Minds"
+          ],
+          "registry_subtitle": [],
+          "similarity": 1.0,
+          "match": true
+        },
+        "author": {
+          "reference": "levin",
+          "registry": "levin",
+          "match": true
+        },
+        "year": {
+          "reference": [
+            2022
+          ],
+          "registry": [
+            2022,
+            2022,
+            2022
+          ],
+          "match": true
+        },
+        "container-title": {
+          "reference": "Frontiers in Systems Neuroscience",
+          "registry": [
+            "Frontiers in Systems Neuroscience"
+          ],
+          "match": true
+        },
+        "volume": {
+          "reference": "16",
+          "registry": "16",
+          "match": true
+        },
+        "issue": {
+          "reference": null,
+          "registry": null,
+          "match": true
+        },
+        "page": {
+          "reference": "768201",
+          "registry": null,
+          "match": false
+        }
+      },
+      "registry": "Crossref",
+      "fetched_at": "2026-11-25T22:09:53.446680+00:00",
+      "record_sha256": "f6fd3ae1d12b243bc86fce1f5cf6dc68562043c30d420e20eb6916822764e423",
+      "suggestions": [],
+      "message": "different fields: page"
+    },
+    {
+      "id": "bongard2023",
+      "doi": "10.3390/biomimetics8010110",
+      "outcome": "verified",
+      "compared_fields": {
+        "title": {
+          "reference": "There’s plenty of room right here: Biological systems as evolved, overloaded, multi-scale machines",
+          "registry": [
+            "There’s Plenty of Room Right Here: Biological Systems as Evolved, Overloaded, Multi-Scale Machines"
+          ],
+          "registry_subtitle": [],
+          "similarity": 1.0,
+          "match": true
+        },
+        "author": {
+          "reference": "bongard",
+          "registry": "bongard",
+          "match": true
+        },
+        "year": {
+          "reference": [
+            2023
+          ],
+          "registry": [
+            2023,
+            2023,
+            2023
+          ],
+          "match": true
+        },
+        "container-title": {
+          "reference": "Biomimetics",
+          "registry": [
+            "Biomimetics"
+          ],
+          "match": true
+        },
+        "volume": {
+          "reference": "8",
+          "registry": "8",
+          "match": true
+        },
+        "issue": {
+          "reference": "1",
+          "registry": "1",
+          "match": true
+        },
+        "page": {
+          "reference": "110",
+          "registry": "110",
+          "match": true
+        }
+      },
+      "registry": "Crossref",
+      "fetched_at": "2026-11-25T22:09:54.554117+00:00",
+      "record_sha256": "2c3a472c0b1818e324f1dfac904b7492fdcaf3b641499a725881b52a7381b3f7",
+      "suggestions": [],
+      "message": "identity matches"
+    },
+    {
+      "id": "bostrom2005",
+      "doi": "10.1111/j.1467-8519.2005.00437.x",
+      "outcome": "verified",
+      "compared_fields": {
+        "title": {
+          "reference": "In defense of posthuman dignity",
+          "registry": [
+            "IN DEFENSE OF POSTHUMAN DIGNITY"
+          ],
+          "registry_subtitle": [],
+          "similarity": 1.0,
+          "match": true
+        },
+        "author": {
+          "reference": "bostrom",
+          "registry": "bostrom",
+          "match": true
+        },
+        "year": {
+          "reference": [
+            2005
+          ],
+          "registry": [
+            2005,
+            2005,
+            2005
+          ],
+          "match": true
+        },
+        "container-title": {
+          "reference": "Bioethics",
+          "registry": [
+            "Bioethics"
+          ],
+          "match": true
+        },
+        "volume": {
+          "reference": "19",
+          "registry": "19",
+          "match": true
+        },
+        "issue": {
+          "reference": "3",
+          "registry": "3",
+          "match": true
+        },
+        "page": {
+          "reference": "202-214",
+          "registry": "202-214",
+          "match": true
+        }
+      },
+      "registry": "Crossref",
+      "fetched_at": "2026-11-25T22:09:55.085874+00:00",
+      "record_sha256": "695eebc49db850248cafc9fb946cb054fc5c09d4159204b1943804c7cbf1d82b",
+      "suggestions": [],
+      "message": "identity matches"
+    },
+    {
+      "id": "bostrom2006",
+      "doi": "10.1086/505233",
+      "outcome": "verified",
+      "compared_fields": {
+        "title": {
+          "reference": "The reversal test: Eliminating status quo bias in applied ethics",
+          "registry": [
+            "The Reversal Test: Eliminating Status Quo Bias in Applied Ethics"
+          ],
+          "registry_subtitle": [],
+          "similarity": 1.0,
+          "match": true
+        },
+        "author": {
+          "reference": "bostrom",
+          "registry": "bostrom",
+          "match": true
+        },
+        "year": {
+          "reference": [
+            2006
+          ],
+          "registry": [
+            2006,
+            2006,
+            2006
+          ],
+          "match": true
+        },
+        "container-title": {
+          "reference": "Ethics",
+          "registry": [
+            "Ethics"
+          ],
+          "match": true
+        },
+        "volume": {
+          "reference": "116",
+          "registry": "116",
+          "match": true
+        },
+        "issue": {
+          "reference": "4",
+          "registry": "4",
+          "match": true
+        },
+        "page": {
+          "reference": "656-679",
+          "registry": "656-679",
+          "match": true
+        }
+      },
+      "registry": "Crossref",
+      "fetched_at": "2026-11-25T22:09:55.632063+00:00",
+      "record_sha256": "5a40c3935bf54797477af7d81bb450911b50d483236fc50e7966b67136a1819d",
+      "suggestions": [],
+      "message": "identity matches"
+    },
+    {
+      "id": "laboriacuboniks2015",
+      "doi": null,
+      "outcome": "unverified",
+      "compared_fields": {},
+      "registry": null,
+      "fetched_at": "2026-11-25T22:09:56.307050+00:00",
+      "record_sha256": null,
+      "suggestions": [
+        {
+          "DOI": "10.1111/rsr.13824",
+          "title": [
+            "Xenofeminism: A Politics for Alienation. Manifesto. By Laboria Cuboniks. 2018. http://www.laboriacuboniks.net/#interrupt."
+          ],
+          "registry": "Crossref"
+        },
+        {
+          "DOI": "10.24193/mjcst.2024.17.07",
+          "title": [
+            "From Xenofeminism to Domestic Realism: Some Notes on Helen Hester’s Writings Post-Laboria Cuboniks"
+          ],
+          "registry": "Crossref"
+        },
+        {
+          "DOI": "10.5209/tekn.74390",
+          "title": [
+            "Reseña/Review (Zafra, Remedios y López-Pellisa Teresa (Eds.), \"Ciberfeminismo: de VNS Matrix a Laboria Cuboniks\", Barcelona, Holobionte Ediciones – Saturnalia y Rosa Atómica, S.L, ISBN: 978-84-948782-6-8,  págs. 460, 2019)"
+          ],
+          "registry": "Crossref"
+        }
+      ],
+      "message": "no DOI; identity reviewed by the referee",
+      "unverified_reason": "no_doi"
+    },
+    {
+      "id": "hester2018",
+      "doi": null,
+      "outcome": "unverified",
+      "compared_fields": {},
+      "registry": null,
+      "fetched_at": "2026-11-25T22:09:57.072824+00:00",
+      "record_sha256": null,
+      "suggestions": [
+        {
+          "DOI": "10.4324/9780429340345-6",
+          "title": [
+            "Sapience + Care"
+          ],
+          "registry": "Crossref"
+        },
+        {
+          "DOI": "10.46957/con.2019.2.14",
+          "title": [
+            "Helen Hester, Xenofeminism"
+          ],
+          "registry": "Crossref"
+        },
+        {
+          "DOI": "10.1007/s42438-020-00157-w",
+          "title": [
+            "Review of Helen Hester (2018). Xenofeminism"
+          ],
+          "registry": "Crossref"
+        }
+      ],
+      "message": "no DOI; identity reviewed by the referee",
+      "unverified_reason": "no_doi"
+    },
+    {
+      "id": "haraway1991",
+      "doi": null,
+      "outcome": "unverified",
+      "compared_fields": {},
+      "registry": null,
+      "fetched_at": "2026-11-25T22:09:57.997256+00:00",
+      "record_sha256": null,
+      "suggestions": [
+        {
+          "DOI": "10.5749/9781452950143-002",
+          "title": [
+            "A Cyborg Manifesto"
+          ],
+          "registry": "Crossref"
+        },
+        {
+          "DOI": "10.1007/978-1-137-05194-3_10",
+          "title": [
+            "A Cyborg Manifesto: Science, Technology, and Socialist-Feminism in the Late Twentieth Century"
+          ],
+          "registry": "Crossref"
+        },
+        {
+          "DOI": "10.5040/9781474248655.0035",
+          "title": [
+            "A cyborg manifesto: Science, technology, and socialist-feminism in the late twentieth century"
+          ],
+          "registry": "Crossref"
+        }
+      ],
+      "message": "no DOI; identity reviewed by the referee",
+      "unverified_reason": "no_doi"
+    },
+    {
+      "id": "garlandthomson2011",
+      "doi": "10.1111/j.1527-2001.2011.01206.x",
+      "outcome": "verified",
+      "compared_fields": {
+        "title": {
+          "reference": "Misfits: A feminist materialist disability concept",
+          "registry": [
+            "Misfits: A Feminist Materialist Disability Concept"
+          ],
+          "registry_subtitle": [],
+          "similarity": 1.0,
+          "match": true
+        },
+        "author": {
+          "reference": "garland thomson",
+          "registry": "garland thomson",
+          "match": true
+        },
+        "year": {
+          "reference": [
+            2011
+          ],
+          "registry": [
+            2011,
+            2011,
+            2011,
+            2020
+          ],
+          "match": true
+        },
+        "container-title": {
+          "reference": "Hypatia",
+          "registry": [
+            "Hypatia"
+          ],
+          "match": true
+        },
+        "volume": {
+          "reference": "26",
+          "registry": "26",
+          "match": true
+        },
+        "issue": {
+          "reference": "3",
+          "registry": "3",
+          "match": true
+        },
+        "page": {
+          "reference": "591-609",
+          "registry": "591-609",
+          "match": true
+        }
+      },
+      "registry": "Crossref",
+      "fetched_at": "2026-11-25T22:09:58.546202+00:00",
+      "record_sha256": "aa411561a5ec9087595f55eb00e52244e44b3a6ff5cd5c68fcd5fb688618faa2",
+      "suggestions": [],
+      "message": "identity matches"
+    },
+    {
+      "id": "garlandthomson2012",
+      "doi": "10.1007/s11673-012-9380-0",
+      "outcome": "verified",
+      "compared_fields": {
+        "title": {
+          "reference": "The case for conserving disability",
+          "registry": [
+            "The Case for Conserving Disability"
+          ],
+          "registry_subtitle": [],
+          "similarity": 1.0,
+          "match": true
+        },
+        "author": {
+          "reference": "garland thomson",
+          "registry": "garland thomson",
+          "match": true
+        },
+        "year": {
+          "reference": [
+            2012
+          ],
+          "registry": [
+            2012,
+            2012,
+            2012,
+            2012
+          ],
+          "match": true
+        },
+        "container-title": {
+          "reference": "Journal of Bioethical Inquiry",
+          "registry": [
+            "Journal of Bioethical Inquiry"
+          ],
+          "match": true
+        },
+        "volume": {
+          "reference": "9",
+          "registry": "9",
+          "match": true
+        },
+        "issue": {
+          "reference": "3",
+          "registry": "3",
+          "match": true
+        },
+        "page": {
+          "reference": "339-355",
+          "registry": "339-355",
+          "match": true
+        }
+      },
+      "registry": "Crossref",
+      "fetched_at": "2026-11-25T22:09:59.240310+00:00",
+      "record_sha256": "415abedf203149802e572d806ff412f586d3dad98250da82446ca38a7dea8f38",
+      "suggestions": [],
+      "message": "identity matches"
+    },
+    {
+      "id": "kafer2013",
+      "doi": null,
+      "outcome": "unverified",
+      "compared_fields": {},
+      "registry": null,
+      "fetched_at": "2026-11-25T22:09:59.710572+00:00",
+      "record_sha256": null,
+      "suggestions": [
+        {
+          "DOI": "10.2979/6841.0",
+          "title": [
+            "Feminist, Queer, Crip"
+          ],
+          "registry": "Crossref"
+        },
+        {
+          "DOI": "10.1016/j.alter.2014.09.008",
+          "title": [
+            "Kafer Alison. 2013. Feminist, queer, crip. Bloomington: Indiana University Press"
+          ],
+          "registry": "Crossref"
+        },
+        {
+          "DOI": "10.16995/sim.11",
+          "title": [
+            "Alison Kafer, Feminist Queer Crip (Indiana: Indiana University Press, 2013), pp. 258, ISBN: 9780253009340, £16.99, paperback."
+          ],
+          "registry": "Crossref"
+        }
+      ],
+      "message": "no DOI; identity reviewed by the referee",
+      "unverified_reason": "no_doi"
+    },
+    {
+      "id": "srnicek2015",
+      "doi": null,
+      "outcome": "unverified",
+      "compared_fields": {},
+      "registry": null,
+      "fetched_at": "2026-11-25T22:10:01.355243+00:00",
+      "record_sha256": null,
+      "suggestions": [
+        {
+          "ISBN": "1784780960",
+          "title": "Inventing the Future",
+          "registry": "OpenLibrary"
+        }
+      ],
+      "message": "no DOI; identity reviewed by the referee",
+      "unverified_reason": "no_doi"
+    },
+    {
+      "id": "bastani2019",
+      "doi": null,
+      "outcome": "unverified",
+      "compared_fields": {},
+      "registry": null,
+      "fetched_at": "2026-11-25T22:10:03.011230+00:00",
+      "record_sha256": null,
+      "suggestions": [
+        {
+          "DOI": "10.31261/ssp.2023.21.10",
+          "title": [
+            "Fully Automated Luxury Gay Space Communism: The Case of Iain M. Banks’ Culture"
+          ],
+          "registry": "Crossref"
+        },
+        {
+          "DOI": "10.1163/9789004681385_005",
+          "title": [
+            "A Brave New World in the Making: Fully Automated Luxury Communism as a Political Dystopia"
+          ],
+          "registry": "Crossref"
+        },
+        {
+          "DOI": "10.2307/j.ctv1n9dkkw.9",
+          "title": [
+            "Socialist Governmentality and the Problem of the Capital Strike, or, a Defence of Fully Automated Luxury Communism"
+          ],
+          "registry": "Crossref"
+        }
+      ],
+      "message": "no DOI; identity reviewed by the referee",
+      "unverified_reason": "no_doi"
+    },
+    {
+      "id": "kallis2018",
+      "doi": "10.1146/annurev-environ-102017-025941",
+      "outcome": "advisory",
+      "compared_fields": {
+        "title": {
+          "reference": "Research on degrowth",
+          "registry": [
+            "Research On Degrowth"
+          ],
+          "registry_subtitle": [],
+          "similarity": 1.0,
+          "match": true
+        },
+        "author": {
+          "reference": "kallis",
+          "registry": "kallis",
+          "match": true
+        },
+        "year": {
+          "reference": [
+            2018
+          ],
+          "registry": [
+            2018,
+            2018,
+            2018
+          ],
+          "match": true
+        },
+        "container-title": {
+          "reference": "Annual Review of Environment and Resources",
+          "registry": [
+            "Annual Review of Environment and Resources"
+          ],
+          "match": true
+        },
+        "volume": {
+          "reference": "43",
+          "registry": "43",
+          "match": true
+        },
+        "issue": {
+          "reference": null,
+          "registry": "1",
+          "match": false
+        },
+        "page": {
+          "reference": "291-316",
+          "registry": "291-316",
+          "match": true
+        }
+      },
+      "registry": "Crossref",
+      "fetched_at": "2026-11-25T22:10:03.795940+00:00",
+      "record_sha256": "4eb89641405d7c8551b1ccb30aef44a7fc2465aeaafedd6419b72a547c900008",
+      "suggestions": [],
+      "message": "different fields: issue"
+    },
+    {
+      "id": "hickel2022",
+      "doi": "10.1038/d41586-022-04412-x",
+      "outcome": "verified",
+      "compared_fields": {
+        "title": {
+          "reference": "Degrowth can work, here's how science can help",
+          "registry": [
+            "Degrowth can work — here’s how science can help"
+          ],
+          "registry_subtitle": [],
+          "similarity": 1.0,
+          "match": true
+        },
+        "author": {
+          "reference": "hickel",
+          "registry": "hickel",
+          "match": true
+        },
+        "year": {
+          "reference": [
+            2022
+          ],
+          "registry": [
+            2022,
+            2022,
+            2022,
+            2022
+          ],
+          "match": true
+        },
+        "container-title": {
+          "reference": "Nature",
+          "registry": [
+            "Nature"
+          ],
+          "match": true
+        },
+        "volume": {
+          "reference": "612",
+          "registry": "612",
+          "match": true
+        },
+        "issue": {
+          "reference": "7940",
+          "registry": "7940",
+          "match": true
+        },
+        "page": {
+          "reference": "400-403",
+          "registry": "400-403",
+          "match": true
+        }
+      },
+      "registry": "Crossref",
+      "fetched_at": "2026-11-25T22:10:04.328761+00:00",
+      "record_sha256": "285ffeda7385de934fb3a0869fbc008e5d2e216062657ad21a1a1899332a56cb",
+      "suggestions": [],
+      "message": "identity matches"
+    },
+    {
+      "id": "habermas2003",
+      "doi": null,
+      "outcome": "unverified",
+      "compared_fields": {},
+      "registry": null,
+      "fetched_at": "2026-11-25T22:10:05.046198+00:00",
+      "record_sha256": null,
+      "suggestions": [
+        {
+          "DOI": "10.7312/brun16642-043",
+          "title": [
+            "41. Human Nature and Genetic Manipulation: The Future of Human Nature (2001)"
+          ],
+          "registry": "Crossref"
+        },
+        {
+          "DOI": "10.1017/s0031819104110395",
+          "title": [
+            "<i>The Future of Human Nature</i> By Jurgen Habermas Polity Press, London, 2003, £14.99"
+          ],
+          "registry": "Crossref"
+        },
+        {
+          "DOI": "10.1017/s0730938400006432",
+          "title": [
+            "Jürgen Habermas, The Future of Human Nature, translated by William Rehg, Max Pensky, and Hella Beister, Cambridge:Polity Press, 2003; 127 pages. ISBN: 0745629865"
+          ],
+          "registry": "Crossref"
+        }
+      ],
+      "message": "no DOI; identity reviewed by the referee",
+      "unverified_reason": "no_doi"
+    },
+    {
+      "id": "sandel2007",
+      "doi": null,
+      "outcome": "unverified",
+      "compared_fields": {},
+      "registry": null,
+      "fetched_at": "2026-11-25T22:10:05.793667+00:00",
+      "record_sha256": null,
+      "suggestions": [
+        {
+          "DOI": "10.4159/9780674043060",
+          "title": [
+            "The Case against Perfection"
+          ],
+          "registry": "Crossref"
+        },
+        {
+          "DOI": "10.2307/j.ctvjz80mc",
+          "title": [
+            "The Case against Perfection"
+          ],
+          "registry": "Crossref"
+        },
+        {
+          "DOI": "10.15804/ppsy2007019",
+          "title": [
+            "Book review: Michael Sandel, “The Case against Perfection: Ethics in the Age of Genetic Engineering”, The"
+          ],
+          "registry": "Crossref"
+        }
+      ],
+      "message": "no DOI; identity reviewed by the referee",
+      "unverified_reason": "no_doi"
+    },
+    {
+      "id": "kass2003",
+      "doi": null,
+      "outcome": "unverified",
+      "compared_fields": {},
+      "registry": null,
+      "fetched_at": "2026-11-25T22:10:07.579550+00:00",
+      "record_sha256": null,
+      "suggestions": [
+        {
+          "DOI": "10.4324/9781315082820",
+          "title": [
+            "Ageless Nation"
+          ],
+          "registry": "Crossref"
+        },
+        {
+          "DOI": "10.4324/9781315082820-3",
+          "title": [
+            "The Second Wind"
+          ],
+          "registry": "Crossref"
+        },
+        {
+          "DOI": "10.4324/9781315082820-2",
+          "title": [
+            "What Man Hath Wrought"
+          ],
+          "registry": "Crossref"
+        }
+      ],
+      "message": "no DOI; identity reviewed by the referee",
+      "unverified_reason": "no_doi"
+    },
+    {
+      "id": "fukuyama2002",
+      "doi": null,
+      "outcome": "unverified",
+      "compared_fields": {},
+      "registry": null,
+      "fetched_at": "2026-11-25T22:10:08.343160+00:00",
+      "record_sha256": null,
+      "suggestions": [
+        {
+          "DOI": "10.5840/ncbq20022420",
+          "title": [
+            "Fukuyama, Francis. Our Posthuman Future: Consequences of the Biotechnology Revolution"
+          ],
+          "registry": "Crossref"
+        },
+        {
+          "DOI": "10.5840/jis2004161/215",
+          "title": [
+            "Fukuyama, Francis. Our Posthuman Future: Consequences of the Biotechnology Revolution"
+          ],
+          "registry": "Crossref"
+        },
+        {
+          "DOI": "10.5860/choice.40-0873",
+          "title": [
+            "Our posthuman future: consequences of the biotechnology revolution"
+          ],
+          "registry": "Crossref"
+        }
+      ],
+      "message": "no DOI; identity reviewed by the referee",
+      "unverified_reason": "no_doi"
+    },
+    {
+      "id": "pew2016",
+      "doi": null,
+      "outcome": "unverified",
+      "compared_fields": {},
+      "registry": null,
+      "fetched_at": "2026-11-25T22:10:10.335658+00:00",
+      "record_sha256": null,
+      "suggestions": [],
+      "message": "no DOI; identity reviewed by the referee",
+      "unverified_reason": "no_doi"
+    },
+    {
+      "id": "pew2022",
+      "doi": null,
+      "outcome": "unverified",
+      "compared_fields": {},
+      "registry": null,
+      "fetched_at": "2026-11-25T22:10:11.276521+00:00",
+      "record_sha256": null,
+      "suggestions": [
+        {
+          "DOI": "10.1515/9781644693629-062",
+          "title": [
+            "8. Barry Kosmin, Highlights of the CJF 1990 National Jewish Population Survey “A Portrait of Jewish Americans,” Pew Research Center"
+          ],
+          "registry": "Crossref"
+        },
+        {
+          "DOI": "10.2307/j.ctv1zjg9h6.63",
+          "title": [
+            "Barry Kosmin, “Highlights of the CJF 1990 National Jewish Population Survey,” 1991; “A Portrait of Jewish Americans,” Pew Research Center, 2013"
+          ],
+          "registry": "Crossref"
+        },
+        {
+          "DOI": "10.4135/9781452281889.n242",
+          "title": [
+            "Pew Research and State of Asian Americans"
+          ],
+          "registry": "Crossref"
+        }
+      ],
+      "message": "no DOI; identity reviewed by the referee",
+      "unverified_reason": "no_doi"
+    }
+  ]
+}

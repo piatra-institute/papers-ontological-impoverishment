@@ -1,0 +1,388 @@
+# CSL references with stable IDs; cite using Pandoc [@id] syntax.
+# Identity checks and inspected passages are recorded in sources.md and claims.yaml.
+references:
+- id: kieliba2021
+  type: article-journal
+  author: [{family: Kieliba, given: Paulina}, {family: Clode, given: Danielle}, {family: Maimon-Mor, given: Roni O.}, {family: Makin, given: Tamar R.}]
+  title: Robotic hand augmentation drives changes in neural body representation
+  container-title: Science Robotics
+  volume: '6'
+  issue: '54'
+  page: eabd7935
+  issued: {date-parts: [[2021]]}
+  DOI: 10.1126/scirobotics.abd7935
+- id: more1993
+  type: article-journal
+  author: [{family: More, given: Max}]
+  title: 'Technological self-transformation: Expanding personal extropy'
+  container-title: Extropy
+  volume: '4'
+  issue: '2'
+  issued: {date-parts: [[1993]]}
+  note: Extropy no. 10. Accessed via the author's archived web copy
+  URL: http://www.maxmore.com/selftrns.htm
+- id: sandberg2001
+  type: speech
+  author: [{family: Sandberg, given: Anders}]
+  title: 'Morphological freedom: Why we not just want it, but need it'
+  event: TransVision 2001
+  event-place: Berlin
+  issued: {date-parts: [[2001]]}
+  URL: http://www.aleph.se/Nada/Texts/MorphologicalFreedom.htm
+- id: sandberg2013
+  type: chapter
+  author: [{family: Sandberg, given: Anders}]
+  title: 'Morphological freedom: Why we not just want it, but need it'
+  container-title: The Transhumanist Reader
+  editor: [{family: More, given: Max}, {family: Vita-More, given: Natasha}]
+  publisher: Wiley-Blackwell
+  publisher-place: Chichester
+  page: 56-64
+  issued: {date-parts: [[2013]]}
+  DOI: 10.1002/9781118555927.ch5
+- id: bradshaw2010
+  type: article-journal
+  author: [{family: Bradshaw, given: Hiliary G.}, {family: ter Meulen, given: Ruud}]
+  title: 'A transhumanist fault line around disability: Morphological freedom and the obligation to enhance'
+  container-title: Journal of Medicine and Philosophy
+  volume: '35'
+  issue: '6'
+  page: 670-684
+  issued: {date-parts: [[2010]]}
+  DOI: 10.1093/jmp/jhq048
+- id: dolezal2016
+  type: chapter
+  author: [{family: Dolezal, given: Luna}]
+  title: 'Morphological freedom and medicine: Constructing the posthuman body'
+  container-title: The Edinburgh Companion to the Critical Medical Humanities
+  publisher: Edinburgh University Press
+  publisher-place: Edinburgh
+  page: 310-324
+  issued: {date-parts: [[2016]]}
+  DOI: 10.1515/9781474400053-020
+- id: earle2021
+  type: chapter
+  author: [{family: Earle, given: Joshua}]
+  title: 'Engineering our selves: Morphological freedom and the myth of multiplicity'
+  container-title: Engineering and Philosophy
+  collection-title: Philosophy of Engineering and Technology
+  publisher: Springer
+  publisher-place: Cham
+  page: 249-267
+  issued: {date-parts: [[2021]]}
+  DOI: 10.1007/978-3-030-70099-7_13
+- id: earle2022
+  type: chapter
+  author: [{family: Earle, given: Joshua}]
+  title: 'Embodiment diffracted: Queering and cripping morphological freedom'
+  container-title: 'Transhumanism: Entering an Era of Bodyhacking and Radical Human Modification'
+  collection-title: The International Library of Bioethics
+  publisher: Springer
+  publisher-place: Cham
+  page: 149-173
+  issued: {date-parts: [[2022]]}
+  DOI: 10.1007/978-3-031-14328-1_9
+- id: hughes2004
+  type: book
+  author: [{family: Hughes, given: James}]
+  title: 'Citizen Cyborg: Why Democratic Societies Must Respond to the Redesigned Human of the Future'
+  publisher: Westview Press
+  publisher-place: Cambridge, MA
+  issued: {date-parts: [[2004]]}
+- id: sen1985
+  type: article-journal
+  author: [{family: Sen, given: Amartya}]
+  title: 'Well-being, agency and freedom: The Dewey Lectures 1984'
+  container-title: The Journal of Philosophy
+  volume: '82'
+  issue: '4'
+  page: 169-221
+  issued: {date-parts: [[1985]]}
+  DOI: 10.2307/2026184
+- id: nussbaum2011
+  type: book
+  author: [{family: Nussbaum, given: Martha C.}]
+  title: 'Creating Capabilities: The Human Development Approach'
+  publisher: Harvard University Press
+  publisher-place: Cambridge, MA
+  issued: {date-parts: [[2011]]}
+  DOI: 10.4159/harvard.9780674061200
+- id: robeyns2017
+  type: book
+  author: [{family: Robeyns, given: Ingrid}]
+  title: 'Wellbeing, Freedom and Social Justice: The Capability Approach Re-Examined'
+  publisher: Open Book Publishers
+  publisher-place: Cambridge
+  issued: {date-parts: [[2017]]}
+  DOI: 10.11647/OBP.0130
+- id: biddiss2007
+  type: article-journal
+  author: [{family: Biddiss, given: Elaine A.}, {family: Chau, given: Tom T.}]
+  title: 'Upper limb prosthesis use and abandonment: A survey of the last 25 years'
+  container-title: Prosthetics and Orthotics International
+  volume: '31'
+  issue: '3'
+  page: 236-257
+  issued: {date-parts: [[2007]]}
+  DOI: 10.1080/03093640600994581
+- id: heidegger1962
+  type: book
+  author: [{family: Heidegger, given: Martin}]
+  title: Being and Time
+  translator: [{family: Macquarrie, given: John}, {family: Robinson, given: Edward}]
+  publisher: Harper & Row
+  publisher-place: New York
+  issued: {date-parts: [[1962]]}
+  original-date: {date-parts: [[1927]]}
+- id: heidegger1977
+  type: book
+  author: [{family: Heidegger, given: Martin}]
+  title: The Question Concerning Technology and Other Essays
+  translator: [{family: Lovitt, given: William}]
+  publisher: Harper & Row
+  publisher-place: New York
+  issued: {date-parts: [[1977]]}
+- id: heidegger1995
+  type: book
+  author: [{family: Heidegger, given: Martin}]
+  title: 'The Fundamental Concepts of Metaphysics: World, Finitude, Solitude'
+  translator: [{family: McNeill, given: William}, {family: Walker, given: Nicholas}]
+  publisher: Indiana University Press
+  publisher-place: Bloomington
+  issued: {date-parts: [[1995]]}
+  original-date: {date-parts: [[1983]]}
+- id: engelland2015
+  type: article-journal
+  author: [{family: Engelland, given: Chad}]
+  title: Heidegger and the human difference
+  container-title: Journal of the American Philosophical Association
+  volume: '1'
+  issue: '1'
+  page: 175-193
+  issued: {date-parts: [[2015]]}
+  DOI: 10.1017/apa.2014.25
+- id: merleauponty2012
+  type: book
+  author: [{family: Merleau-Ponty, given: Maurice}]
+  title: Phenomenology of Perception
+  translator: [{family: Landes, given: Donald A.}]
+  publisher: Routledge
+  publisher-place: London
+  issued: {date-parts: [[2012]]}
+  DOI: 10.4324/9780203720714
+- id: durant2017
+  type: article-journal
+  author: [{family: Durant, given: Fallon}, {family: Morokuma, given: Junji}, {family: Fields, given: Christopher}, {family: Williams, given: Katherine}, {family: Adams, given: Dany Spencer}, {family: Levin, given: Michael}]
+  title: Long-term, stochastic editing of regenerative anatomy via targeting endogenous bioelectric gradients
+  container-title: Biophysical Journal
+  volume: '112'
+  issue: '10'
+  page: 2231-2243
+  issued: {date-parts: [[2017]]}
+  DOI: 10.1016/j.bpj.2017.04.011
+- id: pai2012
+  type: article-journal
+  author: [{family: Pai, given: Vaibhav P.}, {family: Aw, given: Sherry}, {family: Shomrat, given: Tal}, {family: Lemire, given: Joan M.}, {family: Levin, given: Michael}]
+  title: Transmembrane voltage potential controls embryonic eye patterning in <span class="nocase">*Xenopus laevis*</span>
+  container-title: Development
+  volume: '139'
+  issue: '2'
+  page: 313-323
+  issued: {date-parts: [[2012]]}
+  DOI: 10.1242/dev.073759
+- id: kriegman2020
+  type: article-journal
+  author: [{family: Kriegman, given: Sam}, {family: Blackiston, given: Douglas}, {family: Levin, given: Michael}, {family: Bongard, given: Josh}]
+  title: A scalable pipeline for designing reconfigurable organisms
+  container-title: Proceedings of the National Academy of Sciences
+  volume: '117'
+  issue: '4'
+  page: 1853-1859
+  issued: {date-parts: [[2020]]}
+  DOI: 10.1073/pnas.1910837117
+- id: gumuskaya2024
+  type: article-journal
+  author: [{family: Gumuskaya, given: Gizem}, {family: Srivastava, given: Pranjal}, {family: Cooper, given: Ben G.}, {family: Lesser, given: Hannah}, {family: Semegran, given: Ben}, {family: Garnier, given: Simon}, {family: Levin, given: Michael}]
+  title: Motile living biobots self-construct from adult human somatic progenitor seed cells
+  container-title: Advanced Science
+  volume: '11'
+  issue: '4'
+  page: '2303575'
+  issued: {date-parts: [[2024]]}
+  DOI: 10.1002/advs.202303575
+- id: gumuskaya2025
+  type: article-journal
+  author: [{family: Gumuskaya, given: Gizem}, {family: Davey, given: Nikolai}, {family: Srivastava, given: Pranjal}, {family: Bender, given: Andrew}, {family: Pio-Lopez, given: Léo}, {family: Hazel, given: Douglas}, {family: Levin, given: Michael}]
+  title: The morphological, behavioral, and transcriptomic life cycle of anthrobots
+  container-title: Advanced Science
+  volume: '12'
+  issue: '31'
+  issued: {date-parts: [[2025]]}
+  DOI: 10.1002/advs.202409330
+- id: levin2022
+  type: article-journal
+  author: [{family: Levin, given: Michael}]
+  title: 'Technological approach to mind everywhere: An experimentally-grounded framework for understanding diverse bodies and minds'
+  container-title: Frontiers in Systems Neuroscience
+  volume: '16'
+  page: '768201'
+  issued: {date-parts: [[2022]]}
+  DOI: 10.3389/fnsys.2022.768201
+- id: bongard2023
+  type: article-journal
+  author: [{family: Bongard, given: Joshua}, {family: Levin, given: Michael}]
+  title: 'There’s plenty of room right here: Biological systems as evolved, overloaded, multi-scale machines'
+  container-title: Biomimetics
+  volume: '8'
+  issue: '1'
+  page: '110'
+  issued: {date-parts: [[2023]]}
+  DOI: 10.3390/biomimetics8010110
+- id: bostrom2005
+  type: article-journal
+  author: [{family: Bostrom, given: Nick}]
+  title: In defense of posthuman dignity
+  container-title: Bioethics
+  volume: '19'
+  issue: '3'
+  page: 202-214
+  issued: {date-parts: [[2005]]}
+  DOI: 10.1111/j.1467-8519.2005.00437.x
+- id: bostrom2006
+  type: article-journal
+  author: [{family: Bostrom, given: Nick}, {family: Ord, given: Toby}]
+  title: 'The reversal test: Eliminating status quo bias in applied ethics'
+  container-title: Ethics
+  volume: '116'
+  issue: '4'
+  page: 656-679
+  issued: {date-parts: [[2006]]}
+  DOI: 10.1086/505233
+- id: laboriacuboniks2015
+  type: webpage
+  author: [{literal: Laboria Cuboniks}]
+  title: 'Xenofeminism: A politics for alienation'
+  container-title: <span class="nocase">laboriacuboniks.net</span>
+  issued: {date-parts: [[2015]]}
+  URL: https://laboriacuboniks.net/manifesto/xenofeminism-a-politics-for-alienation/
+- id: hester2018
+  type: book
+  author: [{family: Hester, given: Helen}]
+  title: Xenofeminism
+  publisher: Polity
+  publisher-place: Cambridge
+  issued: {date-parts: [[2018]]}
+- id: haraway1991
+  type: chapter
+  author: [{family: Haraway, given: Donna J.}]
+  title: 'A cyborg manifesto: Science, technology, and socialist-feminism in the late twentieth century'
+  container-title: 'Simians, Cyborgs, and Women: The Reinvention of Nature'
+  publisher: Routledge
+  publisher-place: New York
+  page: 149-181
+  issued: {date-parts: [[1991]]}
+- id: garlandthomson2011
+  type: article-journal
+  author: [{family: Garland-Thomson, given: Rosemarie}]
+  title: 'Misfits: A feminist materialist disability concept'
+  container-title: Hypatia
+  volume: '26'
+  issue: '3'
+  page: 591-609
+  issued: {date-parts: [[2011]]}
+  DOI: 10.1111/j.1527-2001.2011.01206.x
+- id: garlandthomson2012
+  type: article-journal
+  author: [{family: Garland-Thomson, given: Rosemarie}]
+  title: The case for conserving disability
+  container-title: Journal of Bioethical Inquiry
+  volume: '9'
+  issue: '3'
+  page: 339-355
+  issued: {date-parts: [[2012]]}
+  DOI: 10.1007/s11673-012-9380-0
+- id: kafer2013
+  type: book
+  author: [{family: Kafer, given: Alison}]
+  title: Feminist, Queer, Crip
+  publisher: Indiana University Press
+  publisher-place: Bloomington
+  issued: {date-parts: [[2013]]}
+- id: srnicek2015
+  type: book
+  author: [{family: Srnicek, given: Nick}, {family: Williams, given: Alex}]
+  title: 'Inventing the Future: Postcapitalism and a World Without Work'
+  publisher: Verso
+  publisher-place: London
+  issued: {date-parts: [[2015]]}
+- id: bastani2019
+  type: book
+  author: [{family: Bastani, given: Aaron}]
+  title: 'Fully Automated Luxury Communism: A Manifesto'
+  publisher: Verso
+  publisher-place: London
+  issued: {date-parts: [[2019]]}
+- id: kallis2018
+  type: article-journal
+  author: [{family: Kallis, given: Giorgos}, {family: Kostakis, given: Vasilis}, {family: Lange, given: Steffen}, {family: Muraca, given: Barbara}, {family: Paulson, given: Susan}, {family: Schmelzer, given: Matthias}]
+  title: Research on degrowth
+  container-title: Annual Review of Environment and Resources
+  volume: '43'
+  page: 291-316
+  issued: {date-parts: [[2018]]}
+  DOI: 10.1146/annurev-environ-102017-025941
+- id: hickel2022
+  type: article-journal
+  author: [{family: Hickel, given: Jason}, {family: Kallis, given: Giorgos}, {family: Jackson, given: Tim}, {family: O'Neill, given: Daniel W.}, {family: Schor, given: Juliet B.}, {family: Steinberger, given: Julia K.}, {family: Victor, given: Peter A.}, {family: Ürge-Vorsatz, given: Diana}]
+  title: Degrowth can work, here's how science can help
+  container-title: Nature
+  volume: '612'
+  issue: '7940'
+  page: 400-403
+  issued: {date-parts: [[2022]]}
+  DOI: 10.1038/d41586-022-04412-x
+- id: habermas2003
+  type: book
+  author: [{family: Habermas, given: Jürgen}]
+  title: The Future of Human Nature
+  publisher: Polity
+  publisher-place: Cambridge
+  issued: {date-parts: [[2003]]}
+- id: sandel2007
+  type: book
+  author: [{family: Sandel, given: Michael J.}]
+  title: 'The Case Against Perfection: Ethics in the Age of Genetic Engineering'
+  publisher: Belknap Press of Harvard University Press
+  publisher-place: Cambridge, MA
+  issued: {date-parts: [[2007]]}
+- id: kass2003
+  type: article-journal
+  author: [{family: Kass, given: Leon R.}]
+  title: 'Ageless bodies, happy souls: Biotechnology and the pursuit of perfection'
+  container-title: The New Atlantis
+  issue: '1'
+  page: 9-28
+  issued: {date-parts: [[2003]]}
+- id: fukuyama2002
+  type: book
+  author: [{family: Fukuyama, given: Francis}]
+  title: 'Our Posthuman Future: Consequences of the Biotechnology Revolution'
+  publisher: Farrar, Straus and Giroux
+  publisher-place: New York
+  issued: {date-parts: [[2002]]}
+- id: pew2016
+  type: report
+  author: [{literal: Pew Research Center}]
+  title: U.S. public wary of biomedical technologies to 'enhance' human abilities
+  publisher: Pew Research Center
+  publisher-place: Washington, DC
+  issued: {date-parts: [[2016, 7]]}
+  URL: https://www.pewresearch.org/wp-content/uploads/sites/9/2016/07/PS_2016.07.26_Human-Enhancement-Survey_FINAL.pdf
+- id: pew2022
+  type: report
+  author: [{literal: Pew Research Center}]
+  title: 'AI and human enhancement: Americans’ openness is tempered by a range of concerns'
+  publisher: Pew Research Center
+  publisher-place: Washington, DC
+  issued: {date-parts: [[2022, 3]]}
+  URL: https://www.pewresearch.org/wp-content/uploads/sites/20/2022/03/PS_2022.03.17_AI-HE_REPORT.pdf
