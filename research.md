@@ -33,6 +33,6 @@ Findings tiered by proximity to the claim. T1 primary, T2 authoritative secondar
 - [T1] Laboria Cuboniks 2015 (full text), secs. 0x01, 0x11, 0x12, 0x16, 0x1A.
 - [T1, identity] Hester 2018; Haraway 1991; Srnicek and Williams 2015; Bastani 2019; Hughes 2004; Kass 2003; Fukuyama 2002; Sandel 2007; Habermas 2003; Kafer 2013; Garland-Thomson 2011, 2012; Bostrom 2005; Bostrom and Ord 2006.
 - [T2] Kallis et al. 2018 (abstract): degrowth as reorganization toward reduced resource and energy use.
-- [T1] Pew Research Center 2016 (full report): religiosity divides "meddling with nature" judgments; no party breakdown published.
-- [T1] Pew Research Center 2022 (full report): appendix p. 128 excitement by party and religiosity for six possibilities; regulation concern by party (pp. 92, 103, 113); margins (pp. 123-124).
-- Recorded run `pew-gaps`: party gaps 8 to 11 points favouring Democrats on 6 of 6 items; religiosity gaps 16 to 20; ratio of mean gaps 2.0; regulation gaps 26 to 34; 2016 religiosity gaps 24 to 36.
+- [T1] Pew Research Center 2016 (full report): no party breakdown published, so it cannot test the hypothesis.
+- [T1] Pew Research Center 2022 (full report): appendix p. 128 excitement by party for six possibilities; regulation concern by party (pp. 40, 54, 67, 92, 103, 113); margins (pp. 123-124).
+- Recorded run `pew-gaps` (round 3): unadjusted party gaps in excitement 8 to 11 points favouring Democrats on 6 of 6 items; party gaps in fearing under-regulation 26 to 34 (enhancement) and 21 to 30 (non-bodily). Religious-commitment rows are transcribed but, by owner decision, not compared with party.

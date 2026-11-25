@@ -1,0 +1,188 @@
+{
+ "central_claims": [
+  "Ontological impoverishment can be defined formally as the institutionally avoidable foreclosure of reachable embodiments: $O_i(t) = (\\bigcup_{(S', I') \\in \\mathbb{F}} R_i(t; S', I') \\setminus R_i(t; S, I)) \\cap (V_i \\cup \\{e_i(t)\\})$, where $R_i$ requires a chain of known routes in $\\mathcal{T}(t)$ whose every state from $x_0 = e_i(t)$ to $x_k = e$ lies in $P \\cap L_i(S) \\cap A_i(I)$.",
+  "Three structural propositions follow from the definition to discipline measurement across four layers: (1) reachable sets are logically independent of income under the assumption that income acts only through price and purchased support; (2) relaxing one constraint helps only where the other constraints already hold (complementarity); and (3) intermediate transition states must also satisfy $L_i(S) \\cap A_i(I)$ (path dependence).",
+  "This framework adds beyond capability theory (Sen 1985, Nussbaum 2011, Robeyns 2017) by treating embodiment as a state variable with developmental routes and path conditions rather than a fixed parameter, and beyond morphological freedom (More 1993, Sandberg 2001/2013) by separating More's ability from Sandberg's negative right and price replies while accommodating xenofeminist (Laboria Cuboniks 2015) and disability-justice (Garland-Thomson 2011/2012, Kafer 2013) constraints.",
+  "The paper appropriates Heidegger's being-ahead-of-itself and thrownness while rejecting his non-quantitative world-poverty and pairing lived integration with Merleau-Ponty's incorporation and Kieliba et al.'s (2021) Third Thumb study; it assigns five studies by Levin and colleagues to physical possibility and developmental reachability for cells/tissues, arguing no direct lived-integration or political conclusion follows from the biology alone.",
+  "Against the hypothesis that resistance to bodily enhancement and technological abundance belongs to the political left, an argument map (Table 3) and a re-analysis of Pew Research Center aggregates (2016 and 2022) show U.S. Democrats were more excited than Republicans on all 6 enhancement items (8–11 pp), religiosity divided opinion about twice as much (16–20 pp, ratio 2.0), and Democrats more often wanted stronger government regulation (26–34 pp), indicating the hypothesis conflates enthusiasm for transformation with governance preferences."
+ ],
+ "checks_not_done": [
+  "Full text of paywalled or unretrieved philosophical and critical works was not inspected (heidegger1962, heidegger1977, heidegger1995, merleauponty2012, nussbaum2011, robeyns2017, sen1985, dolezal2016, earle2021, earle2022, biddiss2007, bradshaw2010, hughes2004, hester2018, haraway1991, garlandthomson2011, garlandthomson2012, kafer2013, srnicek2015, bastani2019, kallis2018, hickel2022, habermas2003, sandel2007, kass2003 full text, fukuyama2002, bostrom2005, bostrom2006, sandberg2013).",
+  "Full text of pai2012 (abstract and NCBI abstract-length XML inspected; publisher PDF returned HTTP 403) and kieliba2021 (Europe PMC abstract and metadata inspected; full-text XML request timed out/errored) was not retrieved.",
+  "Respondent-level Pew Research Center microdata (American Trends Panel Wave 99 and 2016 survey) were not downloaded or modeled.",
+  "Rendered PDF pagination and typography of paper/PAPER.pdf were not inspected page-by-page (inspection covered paper/PAPER.md, paper/figures/fig_gaps.png, and rendered PNGs of Pew chart pages pew2022.pdf p. 129 and pew2016.pdf p. 6).",
+  "uv run python run_all.py could not create simulation/.venv inside the read-only sandbox; simulation/test_analysis.py and simulation/analysis.py were executed and verified directly via python3 instead."
+ ],
+ "contribution": {
+  "closest_prior_work": [
+   {
+    "how_verified": "Verified archived full text via Wayback Machine snapshot 2006-01-16 of maxmore.com/selftrns.htm and 2013-03-09 of aleph.se/Nada/Texts/MorphologicalFreedom.htm; Sandberg 2013 verified via Crossref DOI 10.1002/9781118555927.ch5.",
+    "identifier": "http://www.maxmore.com/selftrns.htm; DOI 10.1002/9781118555927.ch5",
+    "relation": "Originates morphological freedom as an ability (More 1993) and recasts it as a negative right (Sandberg 2001/2013); the manuscript maps More's ability to membership in R_i and Sandberg's right/price reply to two subcomponents of A_i.",
+    "work": "Max More (1993), 'Technological self-transformation: Expanding personal extropy'; Anders Sandberg (2001/2013), 'Morphological freedom: Why we not just want it, but need it'"
+   },
+   {
+    "how_verified": "Verified via Crossref DOIs and OpenAlex/SEP records (plato.stanford.edu/entries/capability-approach/).",
+    "identifier": "DOI 10.2307/2026184; DOI 10.4159/harvard.9780674061200; DOI 10.11647/OBP.0130",
+    "relation": "Provides the capability-set / functioning evaluation framework and combined-capabilities/conversion-factor vocabulary that the manuscript adapts to embodiment transitions, though the manuscript mischaracterizes prior capability accounts as treating the body strictly as a parameter.",
+    "work": "Amartya Sen (1985), 'Well-being, agency and freedom'; Martha C. Nussbaum (2011), Creating Capabilities; Ingrid Robeyns (2017), Wellbeing, Freedom and Social Justice"
+   },
+   {
+    "how_verified": "Verified via Crossref DOIs and Europe PMC / Springer abstracts.",
+    "identifier": "DOI 10.1093/jmp/jhq048; DOI 10.1007/978-3-031-14328-1_9",
+    "relation": "Already critiques individualistic morphological freedom in relation to disability, queer/crip embodiment, and societal obligations not to abandon disadvantaged members.",
+    "work": "Heather G. Bradshaw & Ruud ter Meulen (2010), 'A transhumanist fault line around disability'; Joshua Earle (2022), 'Embodiment diffracted: Queering and cripping morphological freedom'"
+   },
+   {
+    "how_verified": "Verified via Crossref and OpenAlex metadata/abstracts.",
+    "identifier": "DOI 10.1177/10442073060160040501; DOI 10.1017/cbo9780511806940; OpenLibrary Health Justice (Venkatapuram 2011)",
+    "relation": "Uncited cornerstone works that already apply capability sets and opportunity-range justice directly to bodily impairment, health states, and genetic/technological enhancement.",
+    "work": "Sophie Mitra (2006), 'The Capability Approach and Disability'; Sridhar Venkatapuram (2011), Health Justice; Allen Buchanan et al. (2000), From Chance to Choice"
+   },
+   {
+    "how_verified": "Verified local PDFs in simulation/data/raw/ via sha256, pdftotext, and rendered PNG inspection; Scheufele 2008 verified via Crossref and Europe PMC abstract.",
+    "identifier": "Pew Research Center reports PS_2016.07.26 and PS_2022.03.17; DOI 10.1038/nnano.2008.361",
+    "relation": "Primary survey reports re-analyzed by the manuscript, plus prior peer-reviewed empirical work establishing religious filters as a primary driver of U.S. opposition to emerging technologies.",
+    "work": "Pew Research Center (2016; 2022); Dietram A. Scheufele et al. (2008/2009), 'Religious beliefs and public attitudes toward nanotechnology in Europe and the United States'"
+   }
+  ],
+  "strongest_feasible_extension": "Download and analyze the publicly available Pew Research Center American Trends Panel Wave 99 respondent-level dataset (https://www.pewresearch.org/dataset/american-trends-panel-wave-99/, N = 10,260, and the 2016 survey microdata if released) inside simulation/ using survey-weighted multivariable regressions for all enhancement outcomes (excitement POSNEGHE, personal desire to adopt, societal/moral acceptability, and regulation concern) jointly on party affiliation, political ideology (separating self-identified liberals from moderate/conservative Democrats), the three-level religious commitment index, education, age, gender, and income, with Form 2 half-sample weights where applicable. This directly resolves the bivariate religiosity-party confound, the extreme-tail vs binary-group distortion, and the Democrat-vs-left construct mismatch using public data.",
+  "verdict": "useful synthesis",
+  "what_is_new": "The paper provides an explicit four-layer taxonomy (physical possibility P, known developmental/technical routes T(t) including hidden regulatory state, lived integration L_i(S), and non-price/control terms of access A_i(I) including k=0 for freedom to remain and intermediate transition states) that bridges developmental bioelectricity/synthetic morphology (Durant et al. 2017, Kriegman et al. 2020, Gumuskaya et al. 2024/2025), sensorimotor incorporation (Kieliba et al. 2021, Biddiss & Chau 2007), disability/xenofeminist critiques, and morphological freedom. It also extracts and checks the bivariate partisan and religiosity gaps across the six enhancement excitement items in Pew 2022's appendix (catching a title contradiction on Pew 2022 p. 128). However, Propositions 1-3 are straightforward set-theoretic consequences of a conjunctive path definition, the claimed contrast with capability theory overstates novelty, and the Pew re-analysis is a confounded bivariate aggregate subtraction rather than a definitive empirical test."
+ },
+ "findings": [
+  {
+   "category": "correctness",
+   "confidence": "high",
+   "evidence": "In paper/PAPER.md line 48, membership in R_i(t; S, I) requires x_j in P intersect L_i(S) intersect A_i(I) for 0 <= j <= k, which includes x_0 = e_i(t). Whenever e_i(t) itself is outside L_i(S) or A_i(I) (e.g., an unsupported bodily state/misfit at t or an employer penalty on remaining in e_i(t)), the condition at j=0 fails for every chain of any length k >= 0, collapsing R_i(t; S, I) to the empty set. This makes even a fully supported, accessible restorative or assistive transition x_0 -> x_1 unreachable, contradicting lines 50 and 153 on addressing misfits and coercion.",
+   "id": "F1",
+   "location": "paper/PAPER.md, lines 46-50 and 153",
+   "passage": "$$\\begin{aligned} R_i(t; S, I) = \\{\\, e \\in \\mathcal{E} :\\ & \\exists\\, x_0 = e_i(t), x_1, \\ldots, x_k = e \\ \\text{with}\\ x_{j-1} \\to x_j \\in \\mathcal{T}(t) \\\\ & \\text{and}\\ x_j \\in P \\cap L_i(S) \\cap A_i(I)\\ \\text{for}\\ 0 \\le j \\le k \\,\\}. \\end{aligned}$$",
+   "problem": "Requiring x_0 = e_i(t) to satisfy P intersect L_i(S) intersect A_i(I) for all chains (0 <= j <= k) collapses the entire reachable set R_i(t; S, I) to the empty set whenever a person's current embodiment is unlivable without support or pressured under coercion.",
+   "repair": "Separate staying from transitioning: include e_i(t) in R_i iff e_i(t) in P intersect L_i(S) intersect A_i(I), and for chains of length k >= 1 require x_j in P intersect L_i(S) intersect A_i(I) for 1 <= j <= k (preserving Proposition 3's intermediate-state condition without erasing outgoing transitions from unsupported or coerced starting states).",
+   "severity": "major"
+  },
+  {
+   "category": "correctness",
+   "confidence": "high",
+   "evidence": "Line 17 defines ontological impoverishment as obstacles imposed or left in place 'without a justification that the affected person could accept'. By contrast, lines 54-60 define F purely as 'support and institutions that the society could provide with the resources and knowledge available at comparable cost' and define O_i(t) as any valued or current embodiment reachable under some (S', I') in F but not under (S, I). Line 60 contains no acceptability or third-party-harm constraint, so justified restrictions (e.g., public safety or competing resource priorities noted on line 202) still count in O_i(t). Additionally, line 62 claims O_i(t) excludes embodiments 'with no known route in any feasible arrangement over the horizon considered', whereas Eq. (1)-(2) fix T(t) at static time t independently of (S', I') and include no time horizon.",
+   "id": "F2",
+   "location": "paper/PAPER.md, lines 17 and 54-62",
+   "passage": "This paper names the loss that occurs when such obstacles are imposed, or left in place, without a justification that the affected person could accept: ontological impoverishment.",
+   "problem": "The informal contractualist definition in Section 1 ('without a justification that the affected person could accept') disagrees with the formal definition in Section 3, which omits any justification filter and fixes T(t) statically despite claiming a horizon-based exclusion.",
+   "repair": "Either incorporate a justification/externalities constraint explicitly into the admissibility of (S', I') in F and clarify whether 'comparable cost' excludes underfunded support regimes, or remove the unformalized contractualist clause from line 17 and align line 62 with fixed T(t).",
+   "severity": "major"
+  },
+  {
+   "category": "correctness",
+   "confidence": "high",
+   "evidence": "Abstract line 9 states unqualifiedly that 'reachable sets are logically independent of income', omitting Proposition 1's premise on line 72 ('Suppose income enters the structure only through the price component of A_i and through support in S that must be purchased'). Under that premise, for any fixed (P, T(t), L_i, non-price A_i, e_i(t)), R_i is monotonically non-decreasing in income; independence holds only across differing jurisdictions or non-price constraints. Moreover, the proof of part (b) on line 74 constructs only an equal-income comparison and asserts the strict-inequality case ('a person with lower income may have the larger reachable set') without constructing it. In reality, high income buys travel across jurisdictions (changing effective I), private/off-label routes, and paid leave during transition states x_1.",
+   "id": "F3",
+   "location": "paper/PAPER.md, lines 9, 17, and 72-74",
+   "passage": "Three propositions follow: reachable sets are logically independent of income; relaxing one constraint helps only where the others already hold; and intermediate states of a transition count.",
+   "problem": "The abstract overstates Proposition 1 by omitting its exogenous-institution condition, and the proof of part (b) does not construct a strict income-reversal example despite claiming logical independence of orderings.",
+   "repair": "Qualify the abstract and Section 1 to state that income ordering and reachable-set inclusion are independent only across differing institutional/route regimes and fail to guarantee access where non-price constraints bind; explicitly construct the strict-inequality counterexample (y_1 < y_2 with R_1 supset R_2) in the proof of Proposition 1(b).",
+   "severity": "major"
+  },
+  {
+   "category": "statistics",
+   "confidence": "high",
+   "evidence": "Verified directly against simulation/data/pew_margins_of_error.csv, simulation/analysis.py, simulation/output/results.json, and Pew 2022 report PDF (simulation/data/raw/pew2022.pdf, pp. 124 and 128, inspected via pdftotext and rendered PNG). On p. 124, Dem/lean Dem (n = 5,142, weighted 51%) and Rep/lean Rep (n = 4,869, weighted 42%) partition 93% of U.S. adults, whereas High religious commitment (n = 2,158, ~21% unweighted) and Low religious commitment (n = 2,472, ~24% unweighted) are the extreme tails of a 3-tier index that omits the middle 54% (Medium, n = 5,554). Comparing Low-High (16-20 pp) against Dem-Rep (8-11 pp) to claim 'ratio 2.0' / 'about twice as much' is an apples-to-oranges contrast (adjacent High-Medium and Medium-Low differences on p. 128 are 8-11 pp and 5-11 pp, matching the partisan gap). Moreover, as line 192 concedes, party and religiosity are correlated in the U.S., so the bivariate 8-11 pp party gap is confounded by religiosity (as well as education and age, which vary by 12-22 pp on p. 128).",
+   "id": "F4",
+   "location": "paper/PAPER.md, lines 9, 186, 192, and 196; simulation/analysis.py, lines 45-81",
+   "passage": "The gap between adults with low and high religious commitment ran in the same direction and was larger, 16 to 20 points against a margin of 4.6, about twice the partisan gap on average (ratio 2.0).",
+   "problem": "The Pew comparison compares an extreme-tail religiosity contrast (omitting 54% in the middle category) against a nearly exhaustive two-party split (93% of U.S. adults) to claim religiosity divides opinion 'about twice as much', and leaves party-religiosity confounding unadjusted in bivariate aggregates.",
+   "repair": "Drop the 'twice as much' (ratio 2.0) extreme-tails vs full-sample claim, and replace the bivariate aggregate comparison with multivariable regression on Pew's public respondent-level Wave 99 data separating party, political ideology, religious commitment, education, age, and gender.",
+   "severity": "major"
+  },
+  {
+   "category": "reality-check",
+   "confidence": "high",
+   "evidence": "Verified from simulation/data/raw/pew2022.pdf (pp. 40, 54, 67, 74, 92, 103, 113, 124, 128, 138). First, Dem/lean Dem represents 51% of all U.S. adults (including moderate and conservative Democrats), not the ideological/degrowth/socialist left examined in Table 3. Second, the six p. 128 items measure general 'excitement' led by 'Prevent some people from getting serious diseases or health conditions' (72% vs 61%), i.e. disease prevention rather than morphological freedom, while Pew 2022 publishes no party breakdowns on personal desire ('would NOT want': 78% brain chips, 49% gene editing, 54% exoskeletons, p. 74), societal harms, or 'meddling with nature'. Third, the 26-34 pp Democratic gap on wanting stronger regulation ('not far enough', pp. 92, 103, 113) mirrors the same survey's generic partisan regulation gap on non-bodily tech (police facial recognition +22 pp on p. 40; social media algorithms +21 pp on p. 54; driverless cars +30 pp on p. 67).",
+   "id": "F5",
+   "location": "paper/PAPER.md, lines 21, 186, 190, and 196",
+   "passage": "In the published U.S. data, the hypothesis that the left is the locus of resistance to human enhancement is contradicted: Democrats were the more enthusiastic group on every enhancement item reported by party, and religious commitment divided opinion about twice as much as party.",
+   "problem": "Testing a claim about 'the political left' and morphological freedom using U.S. Dem/lean Dem aggregates on vague enhancement 'excitement' (led by disease prevention) and generic regulation attitudes suffers from severe construct mismatch.",
+   "repair": "Reframe the finding strictly as U.S. Dem/lean Dem vs Rep/lean Rep bivariate attitudes on Pew's six excitement items and generic technology regulation preferences, rather than a refutation regarding 'the political left' or morphological freedom.",
+   "severity": "major"
+  },
+  {
+   "category": "novelty",
+   "confidence": "high",
+   "evidence": "Verified via Stanford Encyclopedia of Philosophy (plato.stanford.edu/entries/capability-approach/) and OpenAlex abstracts (Mitra 2006, DOI 10.1177/10442073060160040501; Nussbaum 2006, DOI 10.4159/9780674041578; Sen 1985 Commodities and Capabilities). In capability theory, functionings explicitly include bodily states of 'being' (e.g., being healthy, well-nourished, mobile); Nussbaum's central capabilities explicitly include 'Bodily Health' and 'Bodily Integrity' as primary capabilities, and her 'internal capabilities' are trained/developed bodily and cognitive states shaped by social conditions rather than fixed parameters; and Mitra (2006) and Venkatapuram (2011) model bodily impairments and health as endogenous capability outcomes of biological, resource, and environmental interactions.",
+   "id": "F6",
+   "location": "paper/PAPER.md, lines 29 and 31",
+   "passage": "Nussbaum's combined capabilities join a person's internal powers to the external conditions for exercising them [@nussbaum2011], and the capability literature treats bodily characteristics as personal conversion factors that turn resources into functionings [@robeyns2017]. In these accounts the body is a parameter. This paper treats the embodiment itself as a state variable whose reachable successors are the object of evaluation.",
+   "problem": "Claiming that capability theory treats the body solely as a parameter mischaracterizes Sen, Nussbaum, and the health/disability capability literature, where bodily health, bodily integrity, and trained internal capacities are already endogenous capabilities and functionings.",
+   "repair": "Acknowledge that capability theory already evaluates bodily states (health, bodily integrity, developed internal capabilities) as functionings/capabilities, and narrow the claimed contribution to adding an explicit developmental-route layer T(t) and intermediate transition-chain constraint on embodiment changes.",
+   "severity": "major"
+  },
+  {
+   "category": "missing-literature",
+   "confidence": "high",
+   "evidence": "Verified via Crossref, OpenAlex, and OpenLibrary: (1) Buchanan, Brock, Daniels, and Wikler (2000), From Chance to Choice: Genetics and Justice (DOI 10.1017/cbo9780511806940), and Daniels (2007/2008), Just Health (DOI 10.1017/cbo9780511809514), are foundational treatments of enhancement, therapy vs enhancement, disability, and normal opportunity range. (2) Mitra (2006), 'The Capability Approach and Disability' (DOI 10.1177/10442073060160040501), Venkatapuram (2011), Health Justice (OpenLibrary Health Justice), and Nussbaum (2006), Frontiers of Justice (DOI 10.4159/9780674041578), develop the capability model of disability and bodily health. (3) Pattanaik & Xu (1990), 'On Ranking Opportunity Sets in Terms of Freedom of Choice' (DOI 10.1017/s0770451800043955), anchors formal opportunity-set evaluation. (4) Scheufele et al. (2008/2009), 'Religious beliefs and public attitudes toward nanotechnology in Europe and the United States' (DOI 10.1038/nnano.2008.361), is a cornerstone empirical study showing religious filters drive public opposition to emerging enhancement/nanotech in the U.S. (5) Aho (2009), Heidegger's Neglect of the Body (DOI 10.2307/jj.18253495), directly addresses Heidegger's omission of the body. None of these is cited.",
+   "id": "F7",
+   "location": "paper/PAPER.md, lines 29, 109, 147, 176, and 180-198",
+   "passage": "Capability theory evaluates freedom by the set of functionings a person can achieve [@sen1985]. Nussbaum's combined capabilities join a person's internal powers to the external conditions for exercising them [@nussbaum2011], and the capability literature treats bodily characteristics as personal conversion factors that turn resources into functionings [@robeyns2017].",
+   "problem": "The paper engages capability-based disability/health theory, liberal enhancement justice, opportunity-set formalisms, Heidegger's neglect of the body, and empirical surveys on religion vs politics in emerging tech without citing their cornerstone works.",
+   "repair": "Integrate and position the argument against Buchanan et al. (2000), Daniels (2007), Mitra (2006), Venkatapuram (2011), Pattanaik & Xu (1990), Scheufele et al. (2008), and Aho (2009).",
+   "severity": "major"
+  },
+  {
+   "category": "missing-literature",
+   "confidence": "high",
+   "evidence": "Verified via Crossref and Europe PMC abstract for Blackiston & Levin (2013), 'Ectopic eyes outside the head in Xenopus tadpoles provide sensory data for light-mediated learning', Journal of Experimental Biology 216(6):1031-1040 (DOI 10.1242/jeb.074963). While pai2012 (DOI 10.1242/dev.073759) itself did not test vision, the same laboratory subsequently demonstrated functional visual sensory integration and light-mediated learning from ectopic eyes in Xenopus tadpoles.",
+   "id": "F8",
+   "location": "paper/PAPER.md, lines 133 and 141",
+   "passage": "In *Xenopus* embryos, manipulating the membrane voltage of cells outside the eye field induced well-formed ectopic eyes, and the authors report that such eyes \"can be induced far outside the anterior neural field\" through a calcium-channel-dependent pathway [@pai2012, Abstract]. The result concerns organ patterning in embryos; it does not report vision through the ectopic eyes.",
+   "problem": "Highlighting that Pai et al. (2012) does not report vision through ectopic eyes while omitting Blackiston & Levin (2013) from the same group gives a misleadingly truncated picture of what Levin's ectopic-eye experiments establish regarding sensory function.",
+   "repair": "Cite Blackiston & Levin (2013) alongside Pai et al. (2012), noting that ectopic eyes in Xenopus tadpoles did provide functional sensory data for light-mediated learning while still remaining non-human animal evidence rather than human lived integration.",
+   "severity": "major"
+  },
+  {
+   "category": "source-support",
+   "confidence": "high",
+   "evidence": "Verified from sources.md (lines 16, 20-29), claims.yaml (lines 124, 208, 230), and Springer chapter abstracts (10.1007/978-3-030-70099-7_13 and 10.1007/978-3-031-14328-1_9). First, sources.md explicitly records that heidegger1962, heidegger1977, heidegger1995, merleauponty2012, sen1985, nussbaum2011, robeyns2017, earle2021, earle2022, and 15 other works were never read in full text (only identity or title depth), yet paper/PAPER.md cites specific section, part, and page locators (secs. 9, 10, 23, 29, 31, 41; p. 177; part one) directly, violating standards.md ('Give page or section locators only when the text was retrieved'). Second, PAPER.md line 111 cites '[@heidegger1995, p. 177]' directly without noting the locator was taken secondhand from Engelland (2015). Third, Springer's abstract for earle2021 poses introductory questions about buying abilities to sing or fly, whereas only earle2022's abstract discusses queering/cripping morphological freedom, showing that citing earle2021 for 'queer and crip perspectives' on line 27 relied on title/companion pairing without checking content.",
+   "id": "F9",
+   "location": "paper/PAPER.md, lines 27, 105-115; sources.md, lines 16, 26-29",
+   "passage": "*Being and Time* analyses the entity for which its own being is an issue and locates its essence in its existence [@heidegger1962, sec. 9]. Heidegger separates this existential analytic from anthropology, psychology and biology [@heidegger1962, sec. 10].",
+   "problem": "Specific section, page, and part locators are cited for core philosophical texts that were never retrieved (and secondhand page locators from Engelland 2015 are presented as direct citations to heidegger1995), while earle2021 is attributed claims verified only for earle2022.",
+   "repair": "Retrieve and verify Being and Time, Question Concerning Technology, Fundamental Concepts of Metaphysics, Phenomenology of Perception, Sen/Nussbaum/Robeyns, and Earle (2021) before citing section/page locators or attributing claims, or explicitly attribute secondhand Heidegger citations to Engelland (2015) and drop unverified locators.",
+   "severity": "major"
+  },
+  {
+   "category": "citation",
+   "confidence": "high",
+   "evidence": "Europe PMC / PubMed record for DOI 10.1093/jmp/jhq048 lists the first author as 'Heather G Bradshaw' (authorString: 'Bradshaw HG, ter Meulen R.'; correspondence email 'heather.bradshaw@bristol.ac.uk'), not 'Hiliary G. Bradshaw'. Additionally, references.yaml omits article number '2409330' on gumuskaya2025 (Crossref DOI 10.1002/advs.202409330 reports article-number '2409330') and pairs 2012 print year with the 2013 Taylor & Francis ebook DOI 10.4324/9780203720714 on merleauponty2012.",
+   "id": "F10",
+   "location": "references.yaml, lines 43-52, 165-172, and 213-221",
+   "passage": "author: [{family: Bradshaw, given: Hiliary G.}, {family: ter Meulen, given: Ruud}]",
+   "problem": "Author given name for bradshaw2010 is misspelled as 'Hiliary G.' instead of 'Heather G.' (alongside minor metadata discrepancies on gumuskaya2025 and merleauponty2012).",
+   "repair": "Correct 'Hiliary G.' to 'Heather G.' in references.yaml line 45, add article/page '2409330' to gumuskaya2025 (or note article-number), and note the 2013 ebook DOI date for merleauponty2012.",
+   "severity": "minor"
+  },
+  {
+   "category": "statistics",
+   "confidence": "high",
+   "evidence": "Verified in simulation/data/raw/pew2022.pdf: the topline on pp. 152-164 marks all three technology-specific modules (brain chips, gene editing, exoskeletons, including regulation items on pp. 92, 103, 113) as 'ASK FORM 2 ONLY [XFORM=2] [N=5,107]' (a half-sample). On p. 124 (PDF p. 125), Pew gives half-sample MOEs of 3.2 pp (Dem/lean Dem) and 3.3 pp (Rep/lean Rep), yielding combined moe95 = sqrt(3.2^2 + 3.3^2) = 4.60 pp. However, simulation/analysis.py line 98 passes the full-sample MOEs (2.2 and 2.3 from pew_margins_of_error.csv), producing moe95 = 3.1828 in simulation/output/results.json lines 241, 259, and 276. Because the observed regulation gaps are 26-34 pp and PAPER.md line 190 does not state 3.2 for regulation, the prose inference is unaffected, but the stored JSON MOE is incorrect.",
+   "id": "F11",
+   "location": "simulation/analysis.py, line 98; simulation/output/results.json, lines 236-278",
+   "passage": "\"not_far_enough_gap\": gap(float(dem[\"pct_not_far_enough\"]), float(rep[\"pct_not_far_enough\"]), m[PARTY[0]], m[PARTY[1]]),",
+   "problem": "simulation/analysis.py uses full-sample party margins of error (2.2 and 2.3 pp; combined 3.18 pp) instead of Pew's Form-2 half-sample margins (3.2 and 3.3 pp; combined 4.60 pp) for the three regulation questions.",
+   "repair": "Add the Form-2 half-sample party MOEs (3.2 and 3.3 pp from Pew 2022 p. 124) to pew_margins_of_error.csv and pass them in regulation_gaps() before re-running the recorded pipeline.",
+   "severity": "minor"
+  },
+  {
+   "category": "prose",
+   "confidence": "high",
+   "evidence": "Checked paper/PAPER.md directly: line 17 writes 'gives it a formal structure that does work'; line 66 writes 'The word \"ontological\" needs a caution' and adds a disclaimer ('The usage is reconstructive and does not borrow Heidegger's authority'); line 109 writes 'an honest appropriation records each'; line 115 uses negation framing ('it is not a metaphor'); and lines 192 and 204 append broad disclaimers ('These data have clear limits...', '...will regard the paper's use of \"ontological\" as a change of subject, and the paper accepts that description') rather than narrowing the overstated claims in lines 9, 17, 21, 107, and 196. Abstract word count is 243 words (<= 250 limit).",
+   "id": "F12",
+   "location": "paper/PAPER.md, lines 17, 66, 109, 115, 192, and 204",
+   "passage": "The word \"ontological\" needs a caution. In Heidegger's vocabulary, restrictions on particular bodily possibilities are ontic, not ontological: they concern entities and their properties, not the structures of existence.",
+   "problem": "The manuscript contains authorial meta-commentary ('does work', 'needs a caution', 'honest appropriation') and relies on appended disclaimers for 'ontological' and the Pew limitations instead of restating the claims at their justified scale.",
+   "repair": "Remove self-referential meta-commentary in lines 17, 66, 109, and 115, and replace disclaimer hedging with appropriately scoped claims in the abstract, introduction, and empirical section (or adopt an ontic term if Heidegger's ontological sense is disavowed).",
+   "severity": "minor"
+  }
+ ],
+ "paper": "Ontological Impoverishment: Reachable Bodies and the Freedom to Take Form"
+}

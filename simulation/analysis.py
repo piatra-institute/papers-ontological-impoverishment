@@ -42,6 +42,21 @@ def gap(a: float, b: float, moe_a: float, moe_b: float) -> dict:
     }
 
 
+def coverage() -> dict:
+    """Population coverage of the compared groups (Pew 2022 margins table, p. 124)."""
+    rows = {r["group"]: r for r in read("pew_margins_of_error.csv") if r["survey"] == "2022"}
+    total = float(rows["Total sample"]["unweighted_n"])
+    return {
+        "party_weighted_pct_dem": float(rows[PARTY[0]]["weighted_pct"]),
+        "party_weighted_pct_rep": float(rows[PARTY[1]]["weighted_pct"]),
+        "party_weighted_pct_both": float(rows[PARTY[0]]["weighted_pct"]) + float(rows[PARTY[1]]["weighted_pct"]),
+        "religiosity_unweighted_share_high": 100 * float(rows["High religious commitment"]["unweighted_n"]) / total,
+        "religiosity_unweighted_share_medium": 100 * float(rows["Medium religious commitment"]["unweighted_n"]) / total,
+        "religiosity_unweighted_share_low": 100 * float(rows["Low religious commitment"]["unweighted_n"]) / total,
+        "religiosity_unweighted_share_tails": 100 * (float(rows["High religious commitment"]["unweighted_n"]) + float(rows["Low religious commitment"]["unweighted_n"])) / total,
+    }
+
+
 def excitement_gaps() -> dict:
     rows = read("pew2022_excitement_by_group.csv")
     m = margins("2022")
@@ -58,6 +73,8 @@ def excitement_gaps() -> dict:
             "religiosity": gap(t[RELIGIOSITY[0]], t[RELIGIOSITY[1]], m[RELIGIOSITY[0]], m[RELIGIOSITY[1]]),
         }
         items[code]["religiosity_minus_party"] = items[code]["religiosity"]["difference"] - items[code]["party"]["difference"]
+        items[code]["step_high_to_medium"] = t["Medium religious commitment"] - t["High religious commitment"]
+        items[code]["step_medium_to_low"] = t["Low religious commitment"] - t["Medium religious commitment"]
     party = [items[c]["party"]["difference"] for c in ITEM_ORDER]
     relig = [items[c]["religiosity"]["difference"] for c in ITEM_ORDER]
     summary = {
@@ -76,34 +93,46 @@ def excitement_gaps() -> dict:
         "n_religiosity_gap_exceeds_moe": sum(items[c]["religiosity"]["exceeds_moe"] for c in ITEM_ORDER),
         "n_religiosity_exceeds_party": sum(items[c]["religiosity_minus_party"] > 0 for c in ITEM_ORDER),
         "party_moe95": items[ITEM_ORDER[0]]["party"]["moe95"],
+        "religiosity_step_min": min(min(items[c]["step_high_to_medium"], items[c]["step_medium_to_low"]) for c in ITEM_ORDER),
+        "religiosity_step_max": max(max(items[c]["step_high_to_medium"], items[c]["step_medium_to_low"]) for c in ITEM_ORDER),
+        "coverage": coverage(),
         "religiosity_moe95": items[ITEM_ORDER[0]]["religiosity"]["moe95"],
     }
     return {"items": items, "summary": summary}
 
 
 def regulation_gaps() -> dict:
+    """Party gaps in fearing under-regulation. All six items were asked of a half sample
+    (Form 2 for the enhancement modules, Form 1 for the non-bodily AI modules), so the
+    half-sample party margins from p. 124 apply."""
     rows = read("pew2022_regulation_by_party.csv")
     m = margins("2022")
+    moe_dem, moe_rep = m[PARTY[0] + " (half sample)"], m[PARTY[1] + " (half sample)"]
     out = {}
     for tech in dict.fromkeys(r["technology"] for r in rows):
         t = {r["group"]: r for r in rows if r["technology"] == tech}
         dem, rep = t[PARTY[0]], t[PARTY[1]]
         out[tech] = {
+            "domain": dem["domain"],
             "us_not_far_enough": float(t["U.S. adults"]["pct_not_far_enough"]),
             "us_too_far": float(t["U.S. adults"]["pct_too_far"]),
             "dem_not_far_enough": float(dem["pct_not_far_enough"]),
             "rep_not_far_enough": float(rep["pct_not_far_enough"]),
             "dem_too_far": float(dem["pct_too_far"]),
             "rep_too_far": float(rep["pct_too_far"]),
-            "not_far_enough_gap": gap(float(dem["pct_not_far_enough"]), float(rep["pct_not_far_enough"]), m[PARTY[0]], m[PARTY[1]]),
+            "not_far_enough_gap": gap(float(dem["pct_not_far_enough"]), float(rep["pct_not_far_enough"]), moe_dem, moe_rep),
         }
-    gaps = [v["not_far_enough_gap"]["difference"] for v in out.values()]
-    return {"items": out, "summary": {
-        "n_items": len(gaps),
-        "n_dem_more_under_regulation_concern": sum(g > 0 for g in gaps),
-        "gap_min": min(gaps),
-        "gap_max": max(gaps),
-    }}
+    summary = {}
+    for domain in ("enhancement", "non-bodily"):
+        gaps = [v["not_far_enough_gap"]["difference"] for v in out.values() if v["domain"] == domain]
+        summary[domain] = {
+            "n_items": len(gaps),
+            "n_dem_more_under_regulation_concern": sum(g > 0 for g in gaps),
+            "gap_min": min(gaps),
+            "gap_max": max(gaps),
+        }
+    summary["moe95"] = math.sqrt(moe_dem ** 2 + moe_rep ** 2)
+    return {"items": out, "summary": summary}
 
 
 def meddling_2016() -> dict:
@@ -126,18 +155,16 @@ def meddling_2016() -> dict:
 def provocation_test(exc: dict, reg: dict) -> dict:
     """Score the hypothesis that the political left is the locus of resistance.
 
-    Prediction P1: Democrats and leaners report less excitement than Republicans
-    and leaners about enhancement possibilities. Prediction P2: party is the main
-    divider, so the party gap exceeds the religiosity gap. Prediction P3:
+    Scope: unadjusted U.S. Dem/lean Dem vs Rep/lean Rep differences. Prediction
+    P1: Democrats and leaners report less excitement than Republicans and leaners
+    about six specific techniques. Prediction P3:
     Democrats more often fear under-regulation (a preference about governance).
     """
     s = exc["summary"]
     return {
         "P1_left_less_excited_items_consistent": s["n_rep_higher"],
         "P1_left_less_excited_items_contrary": s["n_dem_higher"],
-        "P2_party_larger_than_religiosity_items": s["n_items"] - s["n_religiosity_exceeds_party"],
-        "P3_dem_more_under_regulation_concern_items": reg["summary"]["n_dem_more_under_regulation_concern"],
+        "P3_dem_more_under_regulation_concern_items": reg["summary"]["enhancement"]["n_dem_more_under_regulation_concern"],
         "P1_supported": s["n_rep_higher"] > s["n_dem_higher"],
-        "P2_supported": s["n_religiosity_exceeds_party"] < s["n_items"] / 2,
-        "P3_supported": reg["summary"]["n_dem_more_under_regulation_concern"] == reg["summary"]["n_items"],
+        "P3_supported": reg["summary"]["enhancement"]["n_dem_more_under_regulation_concern"] == reg["summary"]["enhancement"]["n_items"],
     }

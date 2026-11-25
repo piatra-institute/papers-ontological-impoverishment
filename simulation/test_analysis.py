@@ -25,6 +25,17 @@ class GapTests(unittest.TestCase):
         self.assertIn("Dem/lean Dem", groups)
         self.assertIn("Low religious commitment", groups)
 
+    def test_regulation_uses_half_sample_margins(self):
+        reg = analysis.regulation_gaps()
+        self.assertAlmostEqual(reg["summary"]["moe95"], math.sqrt(3.2 ** 2 + 3.3 ** 2))
+        self.assertEqual(reg["summary"]["enhancement"]["n_items"], 3)
+        self.assertEqual(reg["summary"]["non-bodily"]["n_items"], 3)
+
+    def test_adjacent_steps_sum_to_tail_gap(self):
+        exc = analysis.excitement_gaps()
+        for item in exc["items"].values():
+            self.assertEqual(item["step_high_to_medium"] + item["step_medium_to_low"], item["religiosity"]["difference"])
+
     def test_regulation_rows_sum_near_100(self):
         for r in csv.DictReader(open(DATA / "pew2022_regulation_by_party.csv")):
             total = int(r["pct_not_far_enough"]) + int(r["pct_too_far"])

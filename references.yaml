@@ -42,7 +42,7 @@ references:
   DOI: 10.1002/9781118555927.ch5
 - id: bradshaw2010
   type: article-journal
-  author: [{family: Bradshaw, given: Hiliary G.}, {family: ter Meulen, given: Ruud}]
+  author: [{family: Bradshaw, given: H. G.}, {family: ter Meulen, given: Ruud}]
   title: 'A transhumanist fault line around disability: Morphological freedom and the obligation to enhance'
   container-title: Journal of Medicine and Philosophy
   volume: '35'
@@ -217,6 +217,7 @@ references:
   container-title: Advanced Science
   volume: '12'
   issue: '31'
+  page: '2409330'
   issued: {date-parts: [[2025]]}
   DOI: 10.1002/advs.202409330
 - id: levin2022
@@ -386,3 +387,73 @@ references:
   publisher-place: Washington, DC
   issued: {date-parts: [[2022, 3]]}
   URL: https://www.pewresearch.org/wp-content/uploads/sites/20/2022/03/PS_2022.03.17_AI-HE_REPORT.pdf
+- id: blackiston2013
+  type: article-journal
+  author: [{family: Blackiston, given: Douglas J.}, {family: Levin, given: Michael}]
+  title: Ectopic eyes outside the head in <span class="nocase">*Xenopus*</span> tadpoles provide sensory data for light-mediated learning
+  container-title: Journal of Experimental Biology
+  volume: '216'
+  issue: '6'
+  page: 1031-1040
+  issued: {date-parts: [[2013]]}
+  DOI: 10.1242/jeb.074963
+- id: mitra2006
+  type: article-journal
+  author: [{family: Mitra, given: Sophie}]
+  title: The capability approach and disability
+  container-title: Journal of Disability Policy Studies
+  volume: '16'
+  issue: '4'
+  page: 236-247
+  issued: {date-parts: [[2006]]}
+  DOI: 10.1177/10442073060160040501
+- id: nussbaum2006
+  type: book
+  author: [{family: Nussbaum, given: Martha C.}]
+  title: 'Frontiers of Justice: Disability, Nationality, Species Membership'
+  publisher: Harvard University Press
+  publisher-place: Cambridge, MA
+  issued: {date-parts: [[2006]]}
+  note: Harvard University Press DOI 10.4159/9780674041578 (registry record lacks an author field)
+- id: venkatapuram2011
+  type: book
+  author: [{family: Venkatapuram, given: Sridhar}]
+  title: 'Health Justice: An Argument from the Capabilities Approach'
+  publisher: Polity
+  publisher-place: Cambridge
+  issued: {date-parts: [[2011]]}
+- id: pattanaik1990
+  type: article-journal
+  author: [{family: Pattanaik, given: Prasanta K.}, {family: Xu, given: Yongsheng}]
+  title: On ranking opportunity sets in terms of freedom of choice
+  container-title: Recherches économiques de Louvain
+  volume: '56'
+  issue: 3-4
+  page: 383-390
+  issued: {date-parts: [[1990]]}
+  DOI: 10.1017/S0770451800043955
+  language: en
+- id: buchanan2000
+  type: book
+  author: [{family: Buchanan, given: Allen}, {family: Brock, given: Dan W.}, {family: Daniels, given: Norman}, {family: Wikler, given: Daniel}]
+  title: 'From Chance to Choice: Genetics and Justice'
+  publisher: Cambridge University Press
+  publisher-place: Cambridge
+  issued: {date-parts: [[2000]]}
+  DOI: 10.1017/CBO9780511806940
+- id: daniels2007
+  type: book
+  author: [{family: Daniels, given: Norman}]
+  title: 'Just Health: Meeting Health Needs Fairly'
+  publisher: Cambridge University Press
+  publisher-place: Cambridge
+  issued: {date-parts: [[2007]]}
+  DOI: 10.1017/CBO9780511809514
+- id: aho2009
+  type: book
+  author: [{family: Aho, given: Kevin A.}]
+  title: Heidegger's Neglect of the Body
+  publisher: State University of New York Press
+  publisher-place: Albany
+  issued: {date-parts: [[2009]]}
+  DOI: 10.2307/jj.18253495

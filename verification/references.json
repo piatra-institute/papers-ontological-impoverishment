@@ -1,8 +1,8 @@
 {
   "schema": 1,
-  "references_sha256": "94ace51f9ccb2bc74bffebd03f809e84f0e6cdd84161b14720a3cdcce419fcad",
+  "references_sha256": "616c8a6ff9da9654328946a3f8911aea263c167e843159f2d85730511baac835",
   "bibliography_inputs": {
-    "references.yaml": "94ace51f9ccb2bc74bffebd03f809e84f0e6cdd84161b14720a3cdcce419fcad"
+    "references.yaml": "616c8a6ff9da9654328946a3f8911aea263c167e843159f2d85730511baac835"
   },
   "entries": [
     {
@@ -59,7 +59,7 @@
         }
       },
       "registry": "Crossref",
-      "fetched_at": "2026-11-25T22:09:34.938452+00:00",
+      "fetched_at": "2026-11-25T23:16:11.054066+00:00",
       "record_sha256": "622c14d9f76b18af7068872a7e6036e45aeb19880c50181c9f87d043616f470e",
       "suggestions": [],
       "message": "different fields: page"
@@ -70,7 +70,7 @@
       "outcome": "unverified",
       "compared_fields": {},
       "registry": null,
-      "fetched_at": "2026-11-25T22:09:35.831443+00:00",
+      "fetched_at": "2026-11-25T23:16:11.849820+00:00",
       "record_sha256": null,
       "suggestions": [
         {
@@ -104,7 +104,7 @@
       "outcome": "unverified",
       "compared_fields": {},
       "registry": null,
-      "fetched_at": "2026-11-25T22:09:36.424734+00:00",
+      "fetched_at": "2026-11-25T23:16:12.377173+00:00",
       "record_sha256": null,
       "suggestions": [
         {
@@ -187,7 +187,7 @@
         }
       },
       "registry": "Crossref",
-      "fetched_at": "2026-11-25T22:09:37.042770+00:00",
+      "fetched_at": "2026-11-25T23:16:12.923345+00:00",
       "record_sha256": "2fa3d8a8e8ea30db56919513a2a209134765642a9011c5540e0576abefadfbdc",
       "suggestions": [],
       "message": "identity matches"
@@ -247,7 +247,7 @@
         }
       },
       "registry": "Crossref",
-      "fetched_at": "2026-11-25T22:09:37.721266+00:00",
+      "fetched_at": "2026-11-25T23:16:13.539093+00:00",
       "record_sha256": "28e045288193bba4a725083b760a6525fa9fa69d1c72e234158a69afecf91ade",
       "suggestions": [],
       "message": "identity matches"
@@ -306,7 +306,7 @@
         }
       },
       "registry": "Crossref",
-      "fetched_at": "2026-11-25T22:09:38.527809+00:00",
+      "fetched_at": "2026-11-25T23:16:14.156042+00:00",
       "record_sha256": "5d1c39c83b0e113f3efe1621e4161f6cd298bd7d0d9fc29b22769552f30f575a",
       "suggestions": [],
       "message": "identity matches"
@@ -367,7 +367,7 @@
         }
       },
       "registry": "Crossref",
-      "fetched_at": "2026-11-25T22:09:40.481533+00:00",
+      "fetched_at": "2026-11-25T23:16:14.809431+00:00",
       "record_sha256": "653d83fdc3e0a62e2b5fe773cb7a235131f58119b93bf023449540743fa4d38d",
       "suggestions": [],
       "message": "different fields: container-title"
@@ -428,7 +428,7 @@
         }
       },
       "registry": "Crossref",
-      "fetched_at": "2026-11-25T22:09:41.173849+00:00",
+      "fetched_at": "2026-11-25T23:16:15.496923+00:00",
       "record_sha256": "a9e80655b3174b46b7ca7acbe6811aba0ae06e7938668bd898902a180fccfcc1",
       "suggestions": [],
       "message": "different fields: container-title"
@@ -439,7 +439,7 @@
       "outcome": "unverified",
       "compared_fields": {},
       "registry": null,
-      "fetched_at": "2026-11-25T22:09:42.655508+00:00",
+      "fetched_at": "2026-11-25T23:16:16.431044+00:00",
       "record_sha256": null,
       "suggestions": [
         {
@@ -521,7 +521,7 @@
         }
       },
       "registry": "Crossref",
-      "fetched_at": "2026-11-25T22:09:43.205691+00:00",
+      "fetched_at": "2026-11-25T23:16:17.038038+00:00",
       "record_sha256": "ddb1a5d7a15988c47f06cc95c5d787845d7a19a31a8053648327943d3aff10aa",
       "suggestions": [],
       "message": "different fields: page"
@@ -581,7 +581,7 @@
         }
       },
       "registry": "Crossref",
-      "fetched_at": "2026-11-25T22:09:43.815114+00:00",
+      "fetched_at": "2026-11-25T23:16:17.761884+00:00",
       "record_sha256": "516db649ab0060c1f7281072ba73fd89e3fffa4b715137856834a77cdcf1b158",
       "suggestions": [],
       "message": "identity matches"
@@ -640,8 +640,8 @@
         }
       },
       "registry": "Crossref",
-      "fetched_at": "2026-11-25T22:09:44.984640+00:00",
-      "record_sha256": "0b9d6d9c8f699e197daffff0e781d1583328f0248fc895ea618736dba8761c4a",
+      "fetched_at": "2026-11-25T23:16:18.616254+00:00",
+      "record_sha256": "aca67d7dfe54e0a27637db3ee57cac2a7f5fa9496dfdc4b8a2c4ddcd64a3dcf1",
       "suggestions": [],
       "message": "identity matches"
     },
@@ -701,7 +701,7 @@
         }
       },
       "registry": "Crossref",
-      "fetched_at": "2026-11-25T22:09:45.678024+00:00",
+      "fetched_at": "2026-11-25T23:16:19.372540+00:00",
       "record_sha256": "bd92b9d174688bf0deff458adb31bda3ff38fe6bec9cd7769d6e512a7763bb5b",
       "suggestions": [],
       "message": "different fields: container-title"
@@ -712,7 +712,7 @@
       "outcome": "unverified",
       "compared_fields": {},
       "registry": null,
-      "fetched_at": "2026-11-25T22:09:46.219867+00:00",
+      "fetched_at": "2026-11-25T23:16:19.868768+00:00",
       "record_sha256": null,
       "suggestions": [
         {
@@ -746,7 +746,7 @@
       "outcome": "unverified",
       "compared_fields": {},
       "registry": null,
-      "fetched_at": "2026-11-25T22:09:46.793352+00:00",
+      "fetched_at": "2026-11-25T23:16:20.409268+00:00",
       "record_sha256": null,
       "suggestions": [
         {
@@ -780,7 +780,7 @@
       "outcome": "unverified",
       "compared_fields": {},
       "registry": null,
-      "fetched_at": "2026-11-25T22:09:47.338413+00:00",
+      "fetched_at": "2026-11-25T23:16:20.898938+00:00",
       "record_sha256": null,
       "suggestions": [
         {
@@ -863,7 +863,7 @@
         }
       },
       "registry": "Crossref",
-      "fetched_at": "2026-11-25T22:09:47.896725+00:00",
+      "fetched_at": "2026-11-25T23:16:21.458717+00:00",
       "record_sha256": "aef3869ae9611a7bdddddecae5c8368c9ea7b24dc1089c023e25c5ac3624dcb5",
       "suggestions": [],
       "message": "identity matches"
@@ -920,7 +920,7 @@
         }
       },
       "registry": "Crossref",
-      "fetched_at": "2026-11-25T22:09:48.523980+00:00",
+      "fetched_at": "2026-11-25T23:16:21.996709+00:00",
       "record_sha256": "a3cd3b0613d0314fdc12ac13c7cd8e5f3154a7eb1c055c40fcdbb8dfa7e5d991",
       "suggestions": [],
       "message": "identity matches"
@@ -979,7 +979,7 @@
         }
       },
       "registry": "Crossref",
-      "fetched_at": "2026-11-25T22:09:49.378642+00:00",
+      "fetched_at": "2026-11-25T23:16:22.691725+00:00",
       "record_sha256": "c6288ea068f67ba33a722deac6bdf53659c1d87c0a2486b8042b1e0b7482336b",
       "suggestions": [],
       "message": "identity matches"
@@ -1038,7 +1038,7 @@
         }
       },
       "registry": "Crossref",
-      "fetched_at": "2026-11-25T22:09:50.124991+00:00",
+      "fetched_at": "2026-11-25T23:16:23.376717+00:00",
       "record_sha256": "dc2d2abdccfd259f3f85730a43bb371b62b620ce2533f09ae98ed134c647d983",
       "suggestions": [],
       "message": "identity matches"
@@ -1098,7 +1098,7 @@
         }
       },
       "registry": "Crossref",
-      "fetched_at": "2026-11-25T22:09:50.655618+00:00",
+      "fetched_at": "2026-11-25T23:16:23.980105+00:00",
       "record_sha256": "780f194ba3bf8baf8e5fe49a24c154eaae39d3f4dbfec5ba58d2d499913e4b51",
       "suggestions": [],
       "message": "identity matches"
@@ -1158,7 +1158,7 @@
         }
       },
       "registry": "Crossref",
-      "fetched_at": "2026-11-25T22:09:51.343663+00:00",
+      "fetched_at": "2026-11-25T23:16:24.652503+00:00",
       "record_sha256": "04749591fb5dc64125b7820121f309e9654a8c732cd6d44ab269687b76c244c6",
       "suggestions": [],
       "message": "different fields: page"
@@ -1166,7 +1166,7 @@
     {
       "id": "gumuskaya2025",
       "doi": "10.1002/advs.202409330",
-      "outcome": "verified",
+      "outcome": "advisory",
       "compared_fields": {
         "title": {
           "reference": "The morphological, behavioral, and transcriptomic life cycle of anthrobots",
@@ -1212,16 +1212,16 @@
           "match": true
         },
         "page": {
-          "reference": null,
+          "reference": "2409330",
           "registry": null,
-          "match": true
+          "match": false
         }
       },
       "registry": "Crossref",
-      "fetched_at": "2026-11-25T22:09:52.033300+00:00",
+      "fetched_at": "2026-11-25T23:16:25.395473+00:00",
       "record_sha256": "0b5e78b49972bdf03d7aa94883d968d1564d9ecd0504b1686293ebdf3d933315",
       "suggestions": [],
-      "message": "identity matches"
+      "message": "different fields: page"
     },
     {
       "id": "levin2022",
@@ -1277,7 +1277,7 @@
         }
       },
       "registry": "Crossref",
-      "fetched_at": "2026-11-25T22:09:53.446680+00:00",
+      "fetched_at": "2026-11-25T23:16:26.347734+00:00",
       "record_sha256": "f6fd3ae1d12b243bc86fce1f5cf6dc68562043c30d420e20eb6916822764e423",
       "suggestions": [],
       "message": "different fields: page"
@@ -1336,7 +1336,7 @@
         }
       },
       "registry": "Crossref",
-      "fetched_at": "2026-11-25T22:09:54.554117+00:00",
+      "fetched_at": "2026-11-25T23:16:27.160483+00:00",
       "record_sha256": "2c3a472c0b1818e324f1dfac904b7492fdcaf3b641499a725881b52a7381b3f7",
       "suggestions": [],
       "message": "identity matches"
@@ -1395,7 +1395,7 @@
         }
       },
       "registry": "Crossref",
-      "fetched_at": "2026-11-25T22:09:55.085874+00:00",
+      "fetched_at": "2026-11-25T23:16:27.703168+00:00",
       "record_sha256": "695eebc49db850248cafc9fb946cb054fc5c09d4159204b1943804c7cbf1d82b",
       "suggestions": [],
       "message": "identity matches"
@@ -1454,7 +1454,7 @@
         }
       },
       "registry": "Crossref",
-      "fetched_at": "2026-11-25T22:09:55.632063+00:00",
+      "fetched_at": "2026-11-25T23:16:28.245440+00:00",
       "record_sha256": "5a40c3935bf54797477af7d81bb450911b50d483236fc50e7966b67136a1819d",
       "suggestions": [],
       "message": "identity matches"
@@ -1465,7 +1465,7 @@
       "outcome": "unverified",
       "compared_fields": {},
       "registry": null,
-      "fetched_at": "2026-11-25T22:09:56.307050+00:00",
+      "fetched_at": "2026-11-25T23:16:28.891428+00:00",
       "record_sha256": null,
       "suggestions": [
         {
@@ -1499,31 +1499,9 @@
       "outcome": "unverified",
       "compared_fields": {},
       "registry": null,
-      "fetched_at": "2026-11-25T22:09:57.072824+00:00",
+      "fetched_at": "2026-11-25T23:16:29.952132+00:00",
       "record_sha256": null,
-      "suggestions": [
-        {
-          "DOI": "10.4324/9780429340345-6",
-          "title": [
-            "Sapience + Care"
-          ],
-          "registry": "Crossref"
-        },
-        {
-          "DOI": "10.46957/con.2019.2.14",
-          "title": [
-            "Helen Hester, Xenofeminism"
-          ],
-          "registry": "Crossref"
-        },
-        {
-          "DOI": "10.1007/s42438-020-00157-w",
-          "title": [
-            "Review of Helen Hester (2018). Xenofeminism"
-          ],
-          "registry": "Crossref"
-        }
-      ],
+      "suggestions": [],
       "message": "no DOI; identity reviewed by the referee",
       "unverified_reason": "no_doi"
     },
@@ -1533,7 +1511,7 @@
       "outcome": "unverified",
       "compared_fields": {},
       "registry": null,
-      "fetched_at": "2026-11-25T22:09:57.997256+00:00",
+      "fetched_at": "2026-11-25T23:16:30.631721+00:00",
       "record_sha256": null,
       "suggestions": [
         {
@@ -1616,7 +1594,7 @@
         }
       },
       "registry": "Crossref",
-      "fetched_at": "2026-11-25T22:09:58.546202+00:00",
+      "fetched_at": "2026-11-25T23:16:31.183959+00:00",
       "record_sha256": "aa411561a5ec9087595f55eb00e52244e44b3a6ff5cd5c68fcd5fb688618faa2",
       "suggestions": [],
       "message": "identity matches"
@@ -1676,7 +1654,7 @@
         }
       },
       "registry": "Crossref",
-      "fetched_at": "2026-11-25T22:09:59.240310+00:00",
+      "fetched_at": "2026-11-25T23:16:31.857511+00:00",
       "record_sha256": "415abedf203149802e572d806ff412f586d3dad98250da82446ca38a7dea8f38",
       "suggestions": [],
       "message": "identity matches"
@@ -1687,7 +1665,7 @@
       "outcome": "unverified",
       "compared_fields": {},
       "registry": null,
-      "fetched_at": "2026-11-25T22:09:59.710572+00:00",
+      "fetched_at": "2026-11-25T23:16:32.386585+00:00",
       "record_sha256": null,
       "suggestions": [
         {
@@ -1698,16 +1676,16 @@
           "registry": "Crossref"
         },
         {
-          "DOI": "10.1016/j.alter.2014.09.008",
+          "DOI": "10.16995/sim.11",
           "title": [
-            "Kafer Alison. 2013. Feminist, queer, crip. Bloomington: Indiana University Press"
+            "Alison Kafer, Feminist Queer Crip (Indiana: Indiana University Press, 2013), pp. 258, ISBN: 9780253009340, £16.99, paperback."
           ],
           "registry": "Crossref"
         },
         {
-          "DOI": "10.16995/sim.11",
+          "DOI": "10.1016/j.alter.2014.09.008",
           "title": [
-            "Alison Kafer, Feminist Queer Crip (Indiana: Indiana University Press, 2013), pp. 258, ISBN: 9780253009340, £16.99, paperback."
+            "Kafer Alison. 2013. Feminist, queer, crip. Bloomington: Indiana University Press"
           ],
           "registry": "Crossref"
         }
@@ -1721,13 +1699,29 @@
       "outcome": "unverified",
       "compared_fields": {},
       "registry": null,
-      "fetched_at": "2026-11-25T22:10:01.355243+00:00",
+      "fetched_at": "2026-11-25T23:16:32.918204+00:00",
       "record_sha256": null,
       "suggestions": [
         {
-          "ISBN": "1784780960",
-          "title": "Inventing the Future",
-          "registry": "OpenLibrary"
+          "DOI": "10.1515/bis-2017-0012",
+          "title": [
+            "Srnicek, Nick; Williams, Alex: Inventing the Future: Postcapitalism and a World Without Work"
+          ],
+          "registry": "Crossref"
+        },
+        {
+          "DOI": "10.12775/rf.2016.031",
+          "title": [
+            "Nick Srnicek, Alex Williams, Inventing the Future: Postcapitalism and a World Without Work, Verso, Londyn/Nowy Jork 2015, ss. 256."
+          ],
+          "registry": "Crossref"
+        },
+        {
+          "DOI": "10.22394/2074-0492-2018-4-207-218",
+          "title": [
+            "Versions of Postcapitalism: Fighting for the Future. Books Review of: Streeck W. (2016) How will Capitalism End?: Essays on a Failing System, London and New York: Verso; Mason P. (2016) Postcapitalism: A Guide to our Future, Moscow: Ad Marginem; Srnicek N., Williams A. (2015) Inventing the Future: Postcapitalism and a world without work, London and New York: Verso"
+          ],
+          "registry": "Crossref"
         }
       ],
       "message": "no DOI; identity reviewed by the referee",
@@ -1739,7 +1733,7 @@
       "outcome": "unverified",
       "compared_fields": {},
       "registry": null,
-      "fetched_at": "2026-11-25T22:10:03.011230+00:00",
+      "fetched_at": "2026-11-25T23:16:33.552809+00:00",
       "record_sha256": null,
       "suggestions": [
         {
@@ -1821,7 +1815,7 @@
         }
       },
       "registry": "Crossref",
-      "fetched_at": "2026-11-25T22:10:03.795940+00:00",
+      "fetched_at": "2026-11-25T23:16:34.234496+00:00",
       "record_sha256": "4eb89641405d7c8551b1ccb30aef44a7fc2465aeaafedd6419b72a547c900008",
       "suggestions": [],
       "message": "different fields: issue"
@@ -1881,7 +1875,7 @@
         }
       },
       "registry": "Crossref",
-      "fetched_at": "2026-11-25T22:10:04.328761+00:00",
+      "fetched_at": "2026-11-25T23:16:34.853298+00:00",
       "record_sha256": "285ffeda7385de934fb3a0869fbc008e5d2e216062657ad21a1a1899332a56cb",
       "suggestions": [],
       "message": "identity matches"
@@ -1892,7 +1886,7 @@
       "outcome": "unverified",
       "compared_fields": {},
       "registry": null,
-      "fetched_at": "2026-11-25T22:10:05.046198+00:00",
+      "fetched_at": "2026-11-25T23:16:35.421402+00:00",
       "record_sha256": null,
       "suggestions": [
         {
@@ -1926,31 +1920,9 @@
       "outcome": "unverified",
       "compared_fields": {},
       "registry": null,
-      "fetched_at": "2026-11-25T22:10:05.793667+00:00",
+      "fetched_at": "2026-11-25T23:16:36.869922+00:00",
       "record_sha256": null,
-      "suggestions": [
-        {
-          "DOI": "10.4159/9780674043060",
-          "title": [
-            "The Case against Perfection"
-          ],
-          "registry": "Crossref"
-        },
-        {
-          "DOI": "10.2307/j.ctvjz80mc",
-          "title": [
-            "The Case against Perfection"
-          ],
-          "registry": "Crossref"
-        },
-        {
-          "DOI": "10.15804/ppsy2007019",
-          "title": [
-            "Book review: Michael Sandel, “The Case against Perfection: Ethics in the Age of Genetic Engineering”, The"
-          ],
-          "registry": "Crossref"
-        }
-      ],
+      "suggestions": [],
       "message": "no DOI; identity reviewed by the referee",
       "unverified_reason": "no_doi"
     },
@@ -1960,7 +1932,7 @@
       "outcome": "unverified",
       "compared_fields": {},
       "registry": null,
-      "fetched_at": "2026-11-25T22:10:07.579550+00:00",
+      "fetched_at": "2026-11-25T23:16:37.395453+00:00",
       "record_sha256": null,
       "suggestions": [
         {
@@ -1994,7 +1966,7 @@
       "outcome": "unverified",
       "compared_fields": {},
       "registry": null,
-      "fetched_at": "2026-11-25T22:10:08.343160+00:00",
+      "fetched_at": "2026-11-25T23:16:37.904037+00:00",
       "record_sha256": null,
       "suggestions": [
         {
@@ -2028,9 +2000,31 @@
       "outcome": "unverified",
       "compared_fields": {},
       "registry": null,
-      "fetched_at": "2026-11-25T22:10:10.335658+00:00",
+      "fetched_at": "2026-11-25T23:16:38.639460+00:00",
       "record_sha256": null,
-      "suggestions": [],
+      "suggestions": [
+        {
+          "DOI": "10.1126/science.aag0684",
+          "title": [
+            "Public is wary of using technologies to enhance human performance, survey finds"
+          ],
+          "registry": "Crossref"
+        },
+        {
+          "DOI": "10.1007/978-1-349-68398-7_161",
+          "title": [
+            "Pew Research Center"
+          ],
+          "registry": "Crossref"
+        },
+        {
+          "DOI": "10.32614/cran.package.pewdata",
+          "title": [
+            "pewdata: Reproducible Retrieval of Pew Research Center Datasets"
+          ],
+          "registry": "Crossref"
+        }
+      ],
       "message": "no DOI; identity reviewed by the referee",
       "unverified_reason": "no_doi"
     },
@@ -2040,7 +2034,7 @@
       "outcome": "unverified",
       "compared_fields": {},
       "registry": null,
-      "fetched_at": "2026-11-25T22:10:11.276521+00:00",
+      "fetched_at": "2026-11-25T23:16:39.166725+00:00",
       "record_sha256": null,
       "suggestions": [
         {
@@ -2067,6 +2061,430 @@
       ],
       "message": "no DOI; identity reviewed by the referee",
       "unverified_reason": "no_doi"
+    },
+    {
+      "id": "blackiston2013",
+      "doi": "10.1242/jeb.074963",
+      "outcome": "verified",
+      "compared_fields": {
+        "title": {
+          "reference": "Ectopic eyes outside the head in <span class=\"nocase\">*Xenopus*</span> tadpoles provide sensory data for light-mediated learning",
+          "registry": [
+            "Ectopic eyes outside the head in<i>Xenopus</i>tadpoles provide sensory data for light-mediated learning"
+          ],
+          "registry_subtitle": [],
+          "similarity": 0.9896907216494846,
+          "match": true
+        },
+        "author": {
+          "reference": "blackiston",
+          "registry": "blackiston",
+          "match": true
+        },
+        "year": {
+          "reference": [
+            2013
+          ],
+          "registry": [
+            2013,
+            2013,
+            2013
+          ],
+          "match": true
+        },
+        "container-title": {
+          "reference": "Journal of Experimental Biology",
+          "registry": [
+            "Journal of Experimental Biology"
+          ],
+          "match": true
+        },
+        "volume": {
+          "reference": "216",
+          "registry": "216",
+          "match": true
+        },
+        "issue": {
+          "reference": "6",
+          "registry": "6",
+          "match": true
+        },
+        "page": {
+          "reference": "1031-1040",
+          "registry": "1031-1040",
+          "match": true
+        }
+      },
+      "registry": "Crossref",
+      "fetched_at": "2026-11-25T23:16:39.851386+00:00",
+      "record_sha256": "746933798e313673a1414ca98f5f9cf2b0cd0e74518ed68458dfbf1d297f030e",
+      "suggestions": [],
+      "message": "identity matches"
+    },
+    {
+      "id": "mitra2006",
+      "doi": "10.1177/10442073060160040501",
+      "outcome": "verified",
+      "compared_fields": {
+        "title": {
+          "reference": "The capability approach and disability",
+          "registry": [
+            "The Capability Approach and Disability"
+          ],
+          "registry_subtitle": [],
+          "similarity": 1.0,
+          "match": true
+        },
+        "author": {
+          "reference": "mitra",
+          "registry": "mitra",
+          "match": true
+        },
+        "year": {
+          "reference": [
+            2006
+          ],
+          "registry": [
+            2006,
+            2006,
+            2006,
+            2006
+          ],
+          "match": true
+        },
+        "container-title": {
+          "reference": "Journal of Disability Policy Studies",
+          "registry": [
+            "Journal of Disability Policy Studies"
+          ],
+          "match": true
+        },
+        "volume": {
+          "reference": "16",
+          "registry": "16",
+          "match": true
+        },
+        "issue": {
+          "reference": "4",
+          "registry": "4",
+          "match": true
+        },
+        "page": {
+          "reference": "236-247",
+          "registry": "236-247",
+          "match": true
+        }
+      },
+      "registry": "Crossref",
+      "fetched_at": "2026-11-25T23:16:40.406206+00:00",
+      "record_sha256": "469b096ffc6bfbeb3e2a85ca96d49849bd3499f987bcfdc723bc99f1333dade6",
+      "suggestions": [],
+      "message": "identity matches"
+    },
+    {
+      "id": "nussbaum2006",
+      "doi": null,
+      "outcome": "unverified",
+      "compared_fields": {},
+      "registry": null,
+      "fetched_at": "2026-11-25T23:16:40.970025+00:00",
+      "record_sha256": null,
+      "suggestions": [
+        {
+          "DOI": "10.2307/j.ctv1c7zftw",
+          "title": [
+            "Frontiers of Justice"
+          ],
+          "registry": "Crossref"
+        },
+        {
+          "DOI": "10.4159/9780674041578",
+          "title": [
+            "Frontiers of Justice"
+          ],
+          "registry": "Crossref"
+        },
+        {
+          "DOI": "10.4159/9780674041578-fm",
+          "title": [
+            "Frontmatter"
+          ],
+          "registry": "Crossref"
+        }
+      ],
+      "message": "no DOI; identity reviewed by the referee",
+      "unverified_reason": "no_doi"
+    },
+    {
+      "id": "venkatapuram2011",
+      "doi": null,
+      "outcome": "unverified",
+      "compared_fields": {},
+      "registry": null,
+      "fetched_at": "2026-11-25T23:16:41.597047+00:00",
+      "record_sha256": null,
+      "suggestions": [
+        {
+          "DOI": "10.1080/17441692.2013.820767",
+          "title": [
+            "Health justice: An argument from the capabilities approach\n            <b>Health justice: An argument from the capabilities approach</b>\n            , by Sridhar Venkatapuram, Cambridge, Polity Press, 2011, 288 pp., US$69.95 (paperback), ISBN 9780745650340"
+          ],
+          "registry": "Crossref"
+        },
+        {
+          "DOI": "10.1111/j.1365-2753.2012.01930.x",
+          "title": [
+            "Health, Power, Justice and Truth. Review of Venkatapuram, S. Health Justice: An Argument from the Capabilities Approach"
+          ],
+          "registry": "Crossref"
+        },
+        {
+          "DOI": "10.1007/s11017-013-9270-4",
+          "title": [
+            "Sridhar Venkatapuram: Health justice: an argument from the capabilities approach"
+          ],
+          "registry": "Crossref"
+        }
+      ],
+      "message": "no DOI; identity reviewed by the referee",
+      "unverified_reason": "no_doi"
+    },
+    {
+      "id": "pattanaik1990",
+      "doi": "10.1017/S0770451800043955",
+      "outcome": "verified",
+      "compared_fields": {
+        "title": {
+          "reference": "On ranking opportunity sets in terms of freedom of choice",
+          "registry": [
+            "On Ranking Opportunity Sets in Terms of Freedom of Choice"
+          ],
+          "registry_subtitle": [],
+          "similarity": 1.0,
+          "match": true
+        },
+        "author": {
+          "reference": "pattanaik",
+          "registry": "pattanaik",
+          "match": true
+        },
+        "year": {
+          "reference": [
+            1990
+          ],
+          "registry": [
+            1990,
+            1990,
+            1990,
+            2016
+          ],
+          "match": true
+        },
+        "container-title": {
+          "reference": "Recherches économiques de Louvain",
+          "registry": [
+            "Recherches économiques de Louvain"
+          ],
+          "match": true
+        },
+        "volume": {
+          "reference": "56",
+          "registry": "56",
+          "match": true
+        },
+        "issue": {
+          "reference": "3-4",
+          "registry": "3-4",
+          "match": true
+        },
+        "page": {
+          "reference": "383-390",
+          "registry": "383-390",
+          "match": true
+        }
+      },
+      "registry": "Crossref",
+      "fetched_at": "2026-11-25T23:16:42.153169+00:00",
+      "record_sha256": "35f193eba3f7188ca6108d90a7d6ba84d1d329f9c6e0f929d7ba3d40e8e0f41f",
+      "suggestions": [],
+      "message": "identity matches"
+    },
+    {
+      "id": "buchanan2000",
+      "doi": "10.1017/CBO9780511806940",
+      "outcome": "verified",
+      "compared_fields": {
+        "title": {
+          "reference": "From Chance to Choice: Genetics and Justice",
+          "registry": [
+            "From Chance to Choice"
+          ],
+          "registry_subtitle": [
+            "Genetics and Justice"
+          ],
+          "similarity": 1.0,
+          "match": true
+        },
+        "author": {
+          "reference": "buchanan",
+          "registry": "buchanan",
+          "match": true
+        },
+        "year": {
+          "reference": [
+            2000
+          ],
+          "registry": [
+            2000,
+            2000,
+            2000,
+            2012
+          ],
+          "match": true
+        },
+        "container-title": {
+          "reference": null,
+          "registry": [],
+          "match": true
+        },
+        "volume": {
+          "reference": null,
+          "registry": null,
+          "match": true
+        },
+        "issue": {
+          "reference": null,
+          "registry": null,
+          "match": true
+        },
+        "page": {
+          "reference": null,
+          "registry": null,
+          "match": true
+        }
+      },
+      "registry": "Crossref",
+      "fetched_at": "2026-11-25T23:16:42.779219+00:00",
+      "record_sha256": "e65d1c4aaa19e5ef00ea268ee863ad9d60f4567c5557d3107467225bac6a72bf",
+      "suggestions": [],
+      "message": "identity matches"
+    },
+    {
+      "id": "daniels2007",
+      "doi": "10.1017/CBO9780511809514",
+      "outcome": "verified",
+      "compared_fields": {
+        "title": {
+          "reference": "Just Health: Meeting Health Needs Fairly",
+          "registry": [
+            "Just Health"
+          ],
+          "registry_subtitle": [
+            "Meeting Health Needs Fairly"
+          ],
+          "similarity": 1.0,
+          "match": true
+        },
+        "author": {
+          "reference": "daniels",
+          "registry": "daniels",
+          "match": true
+        },
+        "year": {
+          "reference": [
+            2007
+          ],
+          "registry": [
+            2007,
+            2007,
+            2007,
+            2012
+          ],
+          "match": true
+        },
+        "container-title": {
+          "reference": null,
+          "registry": [],
+          "match": true
+        },
+        "volume": {
+          "reference": null,
+          "registry": null,
+          "match": true
+        },
+        "issue": {
+          "reference": null,
+          "registry": null,
+          "match": true
+        },
+        "page": {
+          "reference": null,
+          "registry": null,
+          "match": true
+        }
+      },
+      "registry": "Crossref",
+      "fetched_at": "2026-11-25T23:16:43.400721+00:00",
+      "record_sha256": "f11d2689b533856af26bb6bc40109d401ab1dce096add14d3a4595825dda8c88",
+      "suggestions": [],
+      "message": "identity matches"
+    },
+    {
+      "id": "aho2009",
+      "doi": "10.2307/jj.18253495",
+      "outcome": "verified",
+      "compared_fields": {
+        "title": {
+          "reference": "Heidegger's Neglect of the Body",
+          "registry": [
+            "Heidegger's Neglect of the Body"
+          ],
+          "registry_subtitle": [],
+          "similarity": 1.0,
+          "match": true
+        },
+        "author": {
+          "reference": "aho",
+          "registry": "aho",
+          "match": true
+        },
+        "year": {
+          "reference": [
+            2009
+          ],
+          "registry": [
+            2010,
+            2010,
+            2010
+          ],
+          "match": true
+        },
+        "container-title": {
+          "reference": null,
+          "registry": [],
+          "match": true
+        },
+        "volume": {
+          "reference": null,
+          "registry": null,
+          "match": true
+        },
+        "issue": {
+          "reference": null,
+          "registry": null,
+          "match": true
+        },
+        "page": {
+          "reference": null,
+          "registry": null,
+          "match": true
+        }
+      },
+      "registry": "Crossref",
+      "fetched_at": "2026-11-25T23:16:44.020071+00:00",
+      "record_sha256": "12093162fecf13cee17d3baa18ab1cf8cce8cc0a1971b2c900ad12aa779f1fa1",
+      "suggestions": [],
+      "message": "identity matches"
     }
   ]
 }

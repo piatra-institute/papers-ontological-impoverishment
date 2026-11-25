@@ -1,0 +1,357 @@
+{
+ "claims_coverage": {
+  "complete": true,
+  "note": "All 34 non-year, non-label, non-math Arabic numeral tokens in paper/PAPER.md prose and tables (6, 8, 11, 5, 1, 2, 25, 26%, 23%, 34%, 102, 23, 16, 20, 48, 72, 4,726, 10,260, 95%, 6, 8, 11, 3.2, 72%, 61%, 93%, 26, 34, 3, 64%, 36%, 21, 30, 4.6) are bound in claims.yaml to passages containing each token, verified both via check_numerals.py (34 bound, 42 years skipped, 0 unbound) and an independent full-manuscript Python scan; all 18 computation claims match simulation/output/results.json (run pew-gaps). Spelled-out quantitative descriptors ('six', 'half', 'two') in lines 183, 187, and 191 also fall inside bound passages; structural/expository counts ('Three propositions', 'four bodies of work', 'Four kinds of constraint', 'two parts', 'six primary studies', 'two reports'), the illustrative metric horizon 'at one year' in Table 1 (line 94), and the integer-rounding constant 'up to one point' in line 183 (whose consequence rounding_floor_exceeds_moe is verified in results.json) are non-measurement terms/constants.",
+  "unbound_numbers": []
+ },
+ "contribution_after": {
+  "assessment": "After revision, the paper is a useful synthesis: it clarifies how physical possibility, known developmental or technical routes (including hidden regulatory state), lived integration, and non-price terms of access (including freedom to remain and intermediate transition states) structure embodiment claims across capability theory, morphological freedom, xenofeminism, disability justice, phenomenology, and experimental developmental biology. Its three propositions follow directly from the conjunctive path definition rather than establishing new mathematical or empirical discoveries, and under the round-3 owner decision the Pew section offers only an unadjusted bivariate party comparison rather than an adjusted model separating party, ideology, and religiosity.",
+  "verdict": "useful synthesis"
+ },
+ "new_problems": [],
+ "source_claims": [
+  {
+   "claim_id": "kieliba-training",
+   "depth": "fulltext",
+   "note": "Inspected Europe PMC/OpenAlex abstract and NCBI PMC fulltext XML (PMC7612043); confirms able-bodied participants trained with the Third Thumb over 5 days including lab-based and unstructured daily use.",
+   "verdict": "supported"
+  },
+  {
+   "claim_id": "kieliba-results",
+   "depth": "fulltext",
+   "note": "Inspected Europe PMC/OpenAlex abstract and NCBI PMC fulltext XML (PMC7612043); confirms improved motor control and hand-robot coordination, increased sense of embodiment, and biological hand representation changes (weakened kinematic synergies and mild fMRI motor-representation collapse).",
+   "verdict": "supported"
+  },
+  {
+   "claim_id": "more-definition",
+   "depth": "fulltext",
+   "note": "Inspected Wayback 2006-01-16 snapshot of maxmore.com/selftrns.htm; glossary defines morphological freedom verbatim and notes Extropy #10 (4:2), Winter/Spring 1993 publication. The hedged 'as far as the published record shows' priority qualifier was not independently exhausted against pre-1993 archives.",
+   "verdict": "supported"
+  },
+  {
+   "claim_id": "sandberg-right",
+   "depth": "fulltext",
+   "note": "Inspected Wayback 2013-03-09 snapshot of aleph.se/Nada/Texts/MorphologicalFreedom.htm; confirms the quoted definition verbatim under 'Morphological Freedom as a Right'. sandberg2013 was checked at identity depth via Crossref (10.1002/9781118555927.ch5).",
+   "verdict": "supported"
+  },
+  {
+   "claim_id": "sandberg-negative",
+   "depth": "fulltext",
+   "note": "Inspected Wayback 2013-03-09 snapshot of aleph.se/Nada/Texts/MorphologicalFreedom.htm; both quoted phrases appear verbatim.",
+   "verdict": "supported"
+  },
+  {
+   "claim_id": "bradshaw",
+   "depth": "abstract",
+   "note": "Inspected Crossref (10.1093/jmp/jhq048) and OpenAlex abstract; abstract explicitly contrasts Hughes and Sandberg on obligations of persons with disabilities to enhance and distinguishes society's responsibility regarding the presence of impairments from its responsibility not to abandon disadvantaged members. Note Crossref gives 'H. G. Bradshaw' while PubMed/OUP give 'Heather G. Bradshaw'.",
+   "verdict": "supported"
+  },
+  {
+   "claim_id": "dolezal",
+   "depth": "abstract",
+   "note": "Inspected Crossref (10.1515/9781474400053-020) and the OpenAlex EUP chapter abstract (W2883316104 / 10.3366/edinburgh/9781474400046.003.0017); abstract explicitly describes the consumer-society idea of a malleable body changed at its owner's will as underpinning cosmetic surgery and biomedical self-care practices. 'Criticises' interprets the critical medical-humanities framing; full chapter is paywalled.",
+   "verdict": "supported"
+  },
+  {
+   "claim_id": "earle",
+   "depth": "abstract",
+   "note": "Inspected Springer chapter abstracts for earle2022 (10.1007/978-3-031-14328-1_9) and earle2021 (10.1007/978-3-030-70099-7_13), plus Earle's VTechWorks 2021 dissertation abstract; earle2022 abstract explicitly describes queering/cripping morphological freedom, while earle2021's multiplicity claim rests on its subtitle ('Myth of Multiplicity') and VTechWorks dissertation abstract rather than the Springer abstract body.",
+   "verdict": "supported"
+  },
+  {
+   "claim_id": "mitra",
+   "depth": "abstract",
+   "note": "Inspected Crossref (10.1177/10442073060160040501) and full OpenAlex abstract for mitra2006, which explicitly verify capability/functioning levels and personal characteristics, resources, and environment. venkatapuram2011 was checked at identity depth via OpenLibrary (Health Justice, Polity 2011) and Crossref review titles (full book unread; corroborated in SEP Capability Approach).",
+   "verdict": "supported"
+  },
+  {
+   "claim_id": "pattanaik",
+   "depth": "abstract",
+   "note": "Inspected Crossref (10.1017/S0770451800043955) and OpenAlex summary abstract; explicitly confirms that under three axioms freedom-of-choice rankings reduce to simply counting available options.",
+   "verdict": "supported"
+  },
+  {
+   "claim_id": "biddiss",
+   "depth": "abstract",
+   "note": "Inspected Crossref (10.1080/03093640600994581) and full OpenAlex abstract; confirms 25-year survey and adult mean rejection rates of 26% (body-powered) and 23% (electric).",
+   "verdict": "supported"
+  },
+  {
+   "claim_id": "engelland-leib",
+   "depth": "fulltext",
+   "note": "Inspected open-access Cambridge PDF of engelland2015 (10.1017/apa.2014.25), PDF pp. 14-15 (journal pp. 188-189); confirms the quoted Leib passage (GA 34: 236-37/169) and statement that the abstracted human body is not identical with animal bodies.",
+   "verdict": "supported"
+  },
+  {
+   "claim_id": "engelland-poor",
+   "depth": "fulltext",
+   "note": "Inspected open-access Cambridge PDF of engelland2015 (10.1017/apa.2014.25), PDF p. 10 (journal p. 184); confirms the 'animals are poor in world' thesis (citing GA 29/30: 263/177) and the exact quoted exclusion of quantitative distinctions (GA 29/30: 383-84/264). Primary heidegger1995 text was not inspected.",
+   "verdict": "supported"
+  },
+  {
+   "claim_id": "durant-abstract",
+   "depth": "fulltext",
+   "note": "Inspected Europe PMC fulltext XML (PMC5443973); Abstract states the constant ratio and the quoted sentence verbatim.",
+   "verdict": "supported"
+  },
+  {
+   "claim_id": "durant-reset",
+   "depth": "fulltext",
+   "note": "Inspected Europe PMC fulltext XML (PMC5443973); Results and Fig. 4F legend report 34% of DH planaria (N = 102) treated with SCH-28080 exhibited normal SH regeneration persistent across multiple generations.",
+   "verdict": "supported"
+  },
+  {
+   "claim_id": "durant-cryptic",
+   "depth": "fulltext",
+   "note": "Inspected Europe PMC fulltext XML (PMC5443973); Abstract and Results confirm normal-looking cryptic worms regenerating double-headed when recut in water and plain-water DH recurrence long after drug removal.",
+   "verdict": "supported"
+  },
+  {
+   "claim_id": "pai-abstract",
+   "depth": "abstract",
+   "note": "Inspected Europe PMC/OpenAlex abstract (10.1242/dev.073759); confirms Ca(2+)-channel-dependent induction of ectopic eyes far outside the anterior neural field verbatim. NCBI PMC3243095 fulltext XML is publisher-restricted.",
+   "verdict": "supported"
+  },
+  {
+   "claim_id": "blackiston",
+   "depth": "abstract",
+   "note": "Inspected Crossref summary/abstract (10.1242/jeb.074963); confirms tail eye primordia grafts sending projections to stomach and trunk and conferring vision in light-mediated learning assays. NCBI PMC3587383 fulltext XML is publisher-restricted.",
+   "verdict": "supported"
+  },
+  {
+   "claim_id": "kriegman-build",
+   "depth": "fulltext",
+   "note": "Inspected Europe PMC fulltext XML (PMC6994979); Abstract and Results confirm evolutionary design in simulation, Xenopus epidermal/cardiac progenitors, and verbatim 'manually shaped by subtraction' with microsurgery forceps and a cautery electrode.",
+   "verdict": "supported"
+  },
+  {
+   "claim_id": "gumuskaya2024",
+   "depth": "fulltext",
+   "note": "Inspected Europe PMC fulltext XML (PMC10811512); confirms motile constructs from adult human airway epithelial cells and verbatim 'without genomic editing' in the article summary.",
+   "verdict": "supported"
+  },
+  {
+   "claim_id": "gumuskaya2024-scratch",
+   "depth": "fulltext",
+   "note": "Inspected Europe PMC fulltext XML (PMC10811512), Results Section 2.7 and Fig. 6; confirms aggregated anthrobots placed across scratched live human neural monolayers promoted gap closure.",
+   "verdict": "supported"
+  },
+  {
+   "claim_id": "gumuskaya2025-damage",
+   "depth": "fulltext",
+   "note": "Inspected NCBI PMC fulltext XML (PMC12376695), Results Section 2.6; confirms 16 of 23 time-lapsed damaged constructs recovered spheroid shape, recovery occurred in the first 20 min with no further healing over 48-72 h, and needle-separated halves remained distinct bodies.",
+   "verdict": "supported"
+  },
+  {
+   "claim_id": "tame",
+   "depth": "fulltext",
+   "note": "Inspected Europe PMC fulltext XML (PMC8988303); Abstract introduces TAME as a Perspective and framework for cognition in unconventional substrates and morphogenesis.",
+   "verdict": "supported"
+  },
+  {
+   "claim_id": "polycomputing",
+   "depth": "fulltext",
+   "note": "Inspected Europe PMC fulltext XML (PMC10046700); Abstract defines polycomputing verbatim.",
+   "verdict": "supported"
+  },
+  {
+   "claim_id": "more-fundamentalism",
+   "depth": "fulltext",
+   "note": "Inspected Wayback 2006-01-16 snapshot of maxmore.com/selftrns.htm; glossary definition of 'Biological fundamentalism' appears verbatim.",
+   "verdict": "supported"
+  },
+  {
+   "claim_id": "sandberg-inequality",
+   "depth": "fulltext",
+   "note": "Inspected Wayback 2013-03-09 snapshot of aleph.se/Nada/Texts/MorphologicalFreedom.htm; class-differences argument and quotation appear verbatim.",
+   "verdict": "supported"
+  },
+  {
+   "claim_id": "xf-0x01",
+   "depth": "fulltext",
+   "note": "Inspected laboriacuboniks.net/manifesto/xenofeminism-a-politics-for-alienation/ section 0x01; quotations and references to queer, trans, differently-abled, and pregnancy discrimination appear verbatim.",
+   "verdict": "supported"
+  },
+  {
+   "claim_id": "xf-0x11",
+   "depth": "fulltext",
+   "note": "Inspected laboriacuboniks.net section 0x11; quoted passage appears verbatim.",
+   "verdict": "supported"
+  },
+  {
+   "claim_id": "xf-0x12",
+   "depth": "fulltext",
+   "note": "Inspected laboriacuboniks.net sections 0x11 and 0x12; 'normative anti-naturalism' and 'ontological naturalism' appear in 0x11 and the 'infinite task' sentence appears verbatim in 0x12.",
+   "verdict": "supported"
+  },
+  {
+   "claim_id": "xf-0x16",
+   "depth": "fulltext",
+   "note": "Inspected laboriacuboniks.net section 0x16; hormone distribution, internet/gatekeeping context, and quoted sentence appear verbatim.",
+   "verdict": "supported"
+  },
+  {
+   "claim_id": "xf-0x1A",
+   "depth": "fulltext",
+   "note": "Inspected laboriacuboniks.net sections 0x16 and 0x1A; section 0x16 proposes 'free and open source medicine' and section 0x1A contains the quoted closing sentence verbatim.",
+   "verdict": "supported"
+  },
+  {
+   "claim_id": "sandberg-disability",
+   "depth": "fulltext",
+   "note": "Inspected Wayback 2013-03-09 snapshot of aleph.se/Nada/Texts/MorphologicalFreedom.htm; statement on the disability movement appears verbatim.",
+   "verdict": "supported"
+  },
+  {
+   "claim_id": "kallis",
+   "depth": "abstract",
+   "note": "Inspected OpenAlex full abstract for kallis2018 (10.1146/annurev-environ-102017-025941) and open full text of hickel2022 (Nature 10.1038/d41586-022-04412-x); both confirm reorganization toward reduced material/energy use and hickel2022 fulltext contains no mention of morphological freedom, though kallis2018 full text is paywalled so its negative claim is verified only at abstract depth.",
+   "verdict": "supported"
+  },
+  {
+   "claim_id": "pew2016-n",
+   "depth": "fulltext",
+   "note": "Inspected simulation/data/raw/pew2016.pdf pp. 3 and 104 (PDF pp. 4 and 105) via pdftotext; confirms 4,726 respondents, March 2016, and the three technologies.",
+   "verdict": "supported"
+  },
+  {
+   "claim_id": "pew2022-n",
+   "depth": "fulltext",
+   "note": "Inspected simulation/data/raw/pew2022.pdf pp. 2, 119, 138, and 152-163 via pdftotext; confirms 10,260 U.S. adults in Nov 2021, POSNEGHE asked of all, and brain chip, gene editing, and exoskeleton modules asked of Form 2 half sample (N = 5,107).",
+   "verdict": "supported"
+  },
+  {
+   "claim_id": "pew-margins",
+   "depth": "fulltext",
+   "note": "Inspected simulation/data/raw/pew2022.pdf pp. 122-124 via pdftotext; confirms 95% group and half-sample margins incorporate weighting/design effects, while quadrature combination is the paper's stated approximation.",
+   "verdict": "supported"
+  },
+  {
+   "claim_id": "pew2022-regulation-view",
+   "depth": "fulltext",
+   "note": "Inspected simulation/data/raw/pew2022.pdf p. 103 (PDF p. 104) via pdftotext; quoted rationale matches verbatim.",
+   "verdict": "supported"
+  },
+  {
+   "claim_id": "pew-state-bans",
+   "depth": "fulltext",
+   "note": "Inspected simulation/data/raw/pew2022.pdf p. 92 (PDF p. 93) via pdftotext; confirms some states preemptively banned employers from requiring employees to have microchips or other implanted devices.",
+   "verdict": "supported"
+  },
+  {
+   "claim_id": "pew2016-noparty",
+   "depth": "fulltext",
+   "note": "Inspected simulation/data/raw/pew2016.pdf (132 printed pages, 133 PDF pages; SHA-256 142c1c0b...) via pdftotext across the table of contents, sections 1-6 (pp. 10-103), methodology (pp. 104-108), and topline (pp. 109-132). Breakdowns appear by religious commitment/affiliation, gender, age, education, income, race/ethnicity, and parental status, with no party breakdown anywhere; party affiliation is mentioned only as a weighting variable on printed p. 106 (PDF p. 107).",
+   "verdict": "supported"
+  },
+  {
+   "claim_id": "pew2022-appendix",
+   "depth": "fulltext",
+   "note": "Inspected simulation/data/raw/pew2022.pdf printed p. 128 (PDF p. 129; SHA-256 8bc691f0...) at 300 dpi via rendered bar-value extraction and p. 138 (PDF p. 139) topline POSNEGHE via pdftotext. Appendix p. 128 reports % very or somewhat excited by party (Dem/lean Dem and Rep/lean Rep) for all six items (preventing serious diseases 72%/61%, processing information faster 52%/43%, hearing far beyond typical 51%/43%, greatly increased strength 49%/40%, seeing patterns far beyond typical 46%/36%, slowing aging 45%/37%); the chart title's phrase 'more religious Americans' contradicts its High vs. Low rows, and the paper accurately summarizes the six items and uses the bar values.",
+   "verdict": "supported"
+  }
+ ],
+ "summary": "Eleven of the twelve findings in REVIEW/findings-hydrogen.json are closed and hydrogen:F4 is resolved by owner decision (REVIEW/rebuttals.json), removing all party-versus-religiosity comparisons while keeping unadjusted Democrat-Republican survey tables explicitly scoped as bivariate and noting Pew's account requirement for respondent-level Wave 99 microdata. No new problems were introduced by the revision: all new/changed numbers match recomputed simulation/output/results.json and Pew 2022 PDF tables, all 8 new references pass registry identity and prose-support checks, the abstract is 241 words, all 34 non-year Arabic numeral quantities are bound in claims.yaml, all 40 source claims are supported (38 preserved from round 2 and 2 newly judged from Pew PDFs), and all 21 rendered pages are visually clean (pre-existing omission of explicit dataset/code licences in Code and data availability noted). After revision, the paper stands as a useful synthesis.",
+ "verdicts": [
+  {
+   "evidence": "REVIEW/diff.patch lines 694-700 and paper/PAPER.md lines 46-49 split R_i(t; S, I) = R_i^stay union R_i^move so e_i(t) is checked against P intersect L_i(S) intersect A_i(I) only in R_i^stay while transitions k >= 1 require constraints only for 1 <= j <= k. Proposition 2's proof (line 78) and Proposition 3 (lines 80, 84) were updated consistently.",
+   "finding_id": "hydrogen:F1",
+   "severity": "major",
+   "verdict": "closed"
+  },
+  {
+   "evidence": "REVIEW/diff.patch lines 658, 667, 705-718 and paper/PAPER.md lines 9, 17, 53-62 define F using both comparable total cost and justifiability to everyone affected (explicitly filtering out third-party protections and defensible scarcity priorities). Line 60 aligns the static frontier-limit exclusion with fixed T(t), and line 62 moves the horizon t + Delta into dynamic T(t + Delta; I).",
+   "finding_id": "hydrogen:F2",
+   "severity": "major",
+   "verdict": "closed"
+  },
+  {
+   "evidence": "REVIEW/diff.patch lines 658, 667, 729-734 and paper/PAPER.md lines 9, 17, 70-74 state the exogenous-institution and exogenous-route premise in Proposition 1, separate within-regime weak monotonicity (a) from cross-regime independence (b), construct a strict reversal counterexample (y_1 < y_2 with R_1 = {e_0, e} strictly containing R_2 = {e_0}) on line 72, and add the regime-change qualification on line 74.",
+   "finding_id": "hydrogen:F3",
+   "severity": "major",
+   "verdict": "closed"
+  },
+  {
+   "evidence": "Per REVIEW/rebuttals.json owner_decisions, REVIEW/diff.patch lines 658, 820-837 and paper/PAPER.md lines 9, 185, 187, 189, 196, plus paper/figures/fig_gaps.png (simulation/run_all.py lines 30-49) and claims.yaml, remove all party-versus-religiosity comparisons, the 'twice as much' / ratio 2.0 claim, and the 2016 religiosity findings, leaving one descriptive sentence on line 187 noting religiosity correlates with party and cannot be separated in published tables. The multivariable Wave 99 regression was not run; verified directly at https://www.pewresearch.org/dataset/american-trends-panel-wave-99/ that downloading respondent-level data requires a Pew Research Center account (noted in lines 183 and 204).",
+   "finding_id": "hydrogen:F4",
+   "severity": "major",
+   "verdict": "owner decision"
+  },
+  {
+   "evidence": "REVIEW/diff.patch lines 658, 672, 685, 818-837 and paper/PAPER.md lines 9, 21, 31, 183, 187, 191, 196 reframe the Pew analysis strictly around unadjusted U.S. Dem/lean Dem vs Rep/lean Rep excitement items (noting disease prevention leads, 72% vs 61%) and regulation gaps, add non-bodily regulation party gaps (21-30 pp across police facial recognition 22 pp, social media algorithms 21 pp, and driverless cars 30 pp on Pew 2022 pp. 40, 54, 67 with half-sample MOE 4.6 pp, verified against pew2022.pdf and recomputed in simulation/analysis.py), and explicitly state on lines 9 and 196 that the items do not measure morphological freedom, personal desire, or Table 3's ideological left.",
+   "finding_id": "hydrogen:F5",
+   "severity": "major",
+   "verdict": "closed"
+  },
+  {
+   "evidence": "REVIEW/diff.patch lines 682, 685 and paper/PAPER.md lines 29, 31 remove the 'body is a parameter' claim, acknowledge that capability theory (Sen 1985; Nussbaum 2006, 2011; Mitra 2006; Venkatapuram 2011; Robeyns 2017) already evaluates bodily states and health as socially shaped functionings/capabilities, cite Pattanaik and Xu (1990) on option counting, and narrow the contribution to explicit transition routes T(t), intermediate-state conditions, research-dependent route sets, and inclusion ranking.",
+   "finding_id": "hydrogen:F6",
+   "severity": "major",
+   "verdict": "closed"
+  },
+  {
+   "evidence": "REVIEW/diff.patch lines 679-682, 757, 885-944 (paper/PAPER.md lines 27, 29, 109; references.yaml lines 400-459) add and engage buchanan2000, daniels2007, mitra2006, nussbaum2006, venkatapuram2011, pattanaik1990, and aho2009 (all registry-verified via Crossref/OpenAlex/OpenLibrary). scheufele2009 was added in round 1 and removed in round 3 (sources.md line 26, audit.md line 7) when the religiosity empirical comparison was dropped under F4.",
+   "finding_id": "hydrogen:F7",
+   "severity": "major",
+   "verdict": "closed"
+  },
+  {
+   "evidence": "REVIEW/diff.patch lines 685, 780-798, 875-884 (paper/PAPER.md lines 31, 125, 134, 142; references.yaml lines 390-399) add Blackiston and Levin (2013) (verified against Crossref 10.1242/jeb.074963 and Europe PMC abstract), include it in Table 2 ('integration, in an animal'), and state that tail-grafted eyes conferred vision in light-mediated learning assays in tadpoles while remaining grafted animal evidence rather than bioelectric induction or human lived integration.",
+   "finding_id": "hydrogen:F8",
+   "severity": "major",
+   "verdict": "closed"
+  },
+  {
+   "evidence": "REVIEW/diff.patch lines 679, 755-777, 809 and paper/PAPER.md lines 27, 105-115, 152 drop all section/page/part locators from unread primary works (heidegger1962, merleauponty2012), mark heidegger1995 explicitly as 'cited in @engelland2015, p. 184' and 'quoted in @engelland2015, p. 184', distinguish earle2022 (queer/crip theory) from earle2021 (myth of multiplicity), and remove uncheckable book claims from claims.yaml while recording unread works in sources.md. Full scan of paper/PAPER.md confirms no unread work retains a section or page locator.",
+   "finding_id": "hydrogen:F9",
+   "severity": "major",
+   "verdict": "closed"
+  },
+  {
+   "evidence": "REVIEW/diff.patch lines 859, 867 (references.yaml lines 45, 220; sources.md lines 24, 41) replace 'Hiliary G.' with 'H. G.' on bradshaw2010 (matching Crossref 10.1093/jmp/jhq048 'given: H. G.' and Europe PMC 'Bradshaw HG'), add page: '2409330' to gumuskaya2025 (rendered on PDF p. 19; verification/references.json lists advisory because Crossref stores it in article-number), and note the 2012 print vs 2013 Taylor & Francis ebook DOI date for merleauponty2012 in sources.md line 41 (verified in verification/references.json).",
+   "finding_id": "hydrogen:F10",
+   "severity": "minor",
+   "verdict": "closed"
+  },
+  {
+   "evidence": "REVIEW/diff.patch lines 1020-1058, 1140-1141, 1515-1520 (simulation/data/pew_margins_of_error.csv lines 5-6; simulation/analysis.py lines 104-135; simulation/test_analysis.py lines 28-32; paper/PAPER.md line 191) add Pew 2022 half-sample party MOEs (3.2 Dem/lean Dem, 3.3 Rep/lean Rep from p. 124), use them in regulation_gaps() (recomputed moe95 = 4.596737973824482, matching results.json and '4.6 points' on line 191), re-record verification/pew-gaps.json, and pass all 7 tests in simulation/test_analysis.py.",
+   "finding_id": "hydrogen:F11",
+   "severity": "minor",
+   "verdict": "closed"
+  },
+  {
+   "evidence": "REVIEW/diff.patch lines 667, 721, 760, 777, 832, 846 and paper/PAPER.md lines 17, 64, 109, 115, 204 remove meta-commentary ('that does work', 'needs a caution', 'honest appropriation', 'it is not a metaphor') and appended disclaimers ('These data have clear limits...', '...accepts that description'), narrowing claims directly in the abstract (241 words), introduction, Section 3, and Section 7. Full scan confirms 0 em-dashes and 0 instances of 'rather than' in paper/PAPER.md.",
+   "finding_id": "hydrogen:F12",
+   "severity": "minor",
+   "verdict": "closed"
+  }
+ ],
+ "visual": {
+  "all_pages_inspected": true,
+  "page_count": 21,
+  "pages_inspected": [
+   1,
+   2,
+   3,
+   4,
+   5,
+   6,
+   7,
+   8,
+   9,
+   10,
+   11,
+   12,
+   13,
+   14,
+   15,
+   16,
+   17,
+   18,
+   19,
+   20,
+   21
+  ],
+  "problems": []
+ }
+}

@@ -1,0 +1,51 @@
+{
+  "manuscript_sha256": "b471b373d77ba6b077ce8fce317805fced6b22bf6787a4c228d3ecb2e11f213a",
+  "reviewed": "2026-11-26",
+  "reviewer": {
+    "tool": "agy",
+    "model": "gemini-4-hydrogen-xhigh",
+    "family": "google"
+  },
+  "authors": [
+    {
+      "tool": "claude-code",
+      "model": "claude-opus-5-5",
+      "family": "anthropic"
+    }
+  ],
+  "full_read": true,
+  "argument_review": true,
+  "structure_review": true,
+  "voice_review": true,
+  "source_review": true,
+  "final_read": true,
+  "open_findings": {
+    "blocker": 0,
+    "major": 0,
+    "minor": 0
+  },
+  "notes": "Eleven of the twelve findings in REVIEW/findings-hydrogen.json are closed and hydrogen:F4 is resolved by owner decision (REVIEW/rebuttals.json), removing all party-versus-religiosity comparisons while keeping unadjusted Democrat-Republican survey tables explicitly scoped as bivariate and noting Pew's account requirement for respondent-level Wave 99 microdata. No new problems were introduced by the revision: all new/changed numbers match recomputed simulation/output/results.json and Pew 2022 PDF tables, all 8 new references pass registry identity and prose-support checks, the abstract is 241 words, all 34 non-year Arabic numeral quantities are bound in claims.yaml, all 40 source claims are supported (38 preserved from round 2 and 2 newly judged from Pew PDFs), and all 21 rendered pages are visually clean (pre-existing omission of explicit dataset/code licences in Code and data availability noted). After revision, the paper stands as a useful synthesis.",
+  "contribution": {
+    "assessment": "After revision, the paper is a useful synthesis: it clarifies how physical possibility, known developmental or technical routes (including hidden regulatory state), lived integration, and non-price terms of access (including freedom to remain and intermediate transition states) structure embodiment claims across capability theory, morphological freedom, xenofeminism, disability justice, phenomenology, and experimental developmental biology. Its three propositions follow directly from the conjunctive path definition rather than establishing new mathematical or empirical discoveries, and under the round-3 owner decision the Pew section offers only an unadjusted bivariate party comparison rather than an adjusted model separating party, ideology, and religiosity.",
+    "verdict": "useful synthesis"
+  },
+  "reports": [
+    {
+      "path": "reviews/2026-11-referee-hydrogen.json",
+      "sha256": "a93f9472dfb988add510f49e09d37bdcdf41b58e6f92e12a2182f6347679361d"
+    },
+    {
+      "path": "reviews/2026-11-closure-round1.json",
+      "sha256": "5ce63674c21d2b669ea3293ba5003c7cc5036c8a4753842c3cc2650c99063187"
+    },
+    {
+      "path": "reviews/2026-11-closure-round2.json",
+      "sha256": "eaafb2544f31a52bd2df090759ea0491e747dacaadee3895cac405240171681f"
+    },
+    {
+      "path": "reviews/2026-11-closure-round3.json",
+      "sha256": "61148b53341ad8fe579d352344c144a61ccfa7bc32926e228dcfdac6e26f097d"
+    }
+  ],
+  "remaining": "No open findings recorded."
+}

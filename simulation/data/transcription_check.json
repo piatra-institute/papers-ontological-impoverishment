@@ -4,6 +4,7 @@
       "table": "regulation",
       "row": {
         "technology": "brain chip implants",
+        "domain": "enhancement",
         "group": "U.S. adults",
         "pct_not_far_enough": "50",
         "pct_too_far": "47",
@@ -16,6 +17,7 @@
       "table": "regulation",
       "row": {
         "technology": "brain chip implants",
+        "domain": "enhancement",
         "group": "Rep/lean Rep",
         "pct_not_far_enough": "36",
         "pct_too_far": "62",
@@ -28,6 +30,7 @@
       "table": "regulation",
       "row": {
         "technology": "brain chip implants",
+        "domain": "enhancement",
         "group": "Dem/lean Dem",
         "pct_not_far_enough": "64",
         "pct_too_far": "34",
@@ -40,6 +43,7 @@
       "table": "regulation",
       "row": {
         "technology": "gene editing to reduce a baby's disease risk",
+        "domain": "enhancement",
         "group": "U.S. adults",
         "pct_not_far_enough": "51",
         "pct_too_far": "47",
@@ -52,6 +56,7 @@
       "table": "regulation",
       "row": {
         "technology": "gene editing to reduce a baby's disease risk",
+        "domain": "enhancement",
         "group": "Rep/lean Rep",
         "pct_not_far_enough": "37",
         "pct_too_far": "62",
@@ -64,6 +69,7 @@
       "table": "regulation",
       "row": {
         "technology": "gene editing to reduce a baby's disease risk",
+        "domain": "enhancement",
         "group": "Dem/lean Dem",
         "pct_not_far_enough": "63",
         "pct_too_far": "35",
@@ -76,6 +82,7 @@
       "table": "regulation",
       "row": {
         "technology": "robotic exoskeletons for manual labor",
+        "domain": "enhancement",
         "group": "U.S. adults",
         "pct_not_far_enough": "48",
         "pct_too_far": "49",
@@ -88,6 +95,7 @@
       "table": "regulation",
       "row": {
         "technology": "robotic exoskeletons for manual labor",
+        "domain": "enhancement",
         "group": "Rep/lean Rep",
         "pct_not_far_enough": "31",
         "pct_too_far": "67",
@@ -100,6 +108,7 @@
       "table": "regulation",
       "row": {
         "technology": "robotic exoskeletons for manual labor",
+        "domain": "enhancement",
         "group": "Dem/lean Dem",
         "pct_not_far_enough": "65",
         "pct_too_far": "33",
@@ -109,11 +118,129 @@
       "found": true
     },
     {
+      "table": "regulation",
+      "row": {
+        "technology": "facial recognition by police",
+        "domain": "non-bodily",
+        "group": "U.S. adults",
+        "pct_not_far_enough": "51",
+        "pct_too_far": "47",
+        "report_page": "40",
+        "pdf_page": "41"
+      },
+      "found": true
+    },
+    {
+      "table": "regulation",
+      "row": {
+        "technology": "facial recognition by police",
+        "domain": "non-bodily",
+        "group": "Rep/lean Rep",
+        "pct_not_far_enough": "40",
+        "pct_too_far": "59",
+        "report_page": "40",
+        "pdf_page": "41"
+      },
+      "found": true
+    },
+    {
+      "table": "regulation",
+      "row": {
+        "technology": "facial recognition by police",
+        "domain": "non-bodily",
+        "group": "Dem/lean Dem",
+        "pct_not_far_enough": "62",
+        "pct_too_far": "36",
+        "report_page": "40",
+        "pdf_page": "41"
+      },
+      "found": true
+    },
+    {
+      "table": "regulation",
+      "row": {
+        "technology": "social media algorithms to find false information",
+        "domain": "non-bodily",
+        "group": "U.S. adults",
+        "pct_not_far_enough": "53",
+        "pct_too_far": "44",
+        "report_page": "54",
+        "pdf_page": "55"
+      },
+      "found": true
+    },
+    {
+      "table": "regulation",
+      "row": {
+        "technology": "social media algorithms to find false information",
+        "domain": "non-bodily",
+        "group": "Rep/lean Rep",
+        "pct_not_far_enough": "42",
+        "pct_too_far": "56",
+        "report_page": "54",
+        "pdf_page": "55"
+      },
+      "found": true
+    },
+    {
+      "table": "regulation",
+      "row": {
+        "technology": "social media algorithms to find false information",
+        "domain": "non-bodily",
+        "group": "Dem/lean Dem",
+        "pct_not_far_enough": "63",
+        "pct_too_far": "34",
+        "report_page": "54",
+        "pdf_page": "55"
+      },
+      "found": true
+    },
+    {
+      "table": "regulation",
+      "row": {
+        "technology": "driverless passenger vehicles",
+        "domain": "non-bodily",
+        "group": "U.S. adults",
+        "pct_not_far_enough": "55",
+        "pct_too_far": "43",
+        "report_page": "67",
+        "pdf_page": "68"
+      },
+      "found": true
+    },
+    {
+      "table": "regulation",
+      "row": {
+        "technology": "driverless passenger vehicles",
+        "domain": "non-bodily",
+        "group": "Rep/lean Rep",
+        "pct_not_far_enough": "39",
+        "pct_too_far": "59",
+        "report_page": "67",
+        "pdf_page": "68"
+      },
+      "found": true
+    },
+    {
+      "table": "regulation",
+      "row": {
+        "technology": "driverless passenger vehicles",
+        "domain": "non-bodily",
+        "group": "Dem/lean Dem",
+        "pct_not_far_enough": "69",
+        "pct_too_far": "29",
+        "report_page": "67",
+        "pdf_page": "68"
+      },
+      "found": true
+    },
+    {
       "table": "margins",
       "row": {
         "survey": "2022",
         "group": "Total sample",
         "unweighted_n": "10260",
+        "weighted_pct": "",
         "moe_pct_points": "1.6",
         "report_page": "123",
         "pdf_page": "124"
@@ -126,6 +253,7 @@
         "survey": "2022",
         "group": "Rep/lean Rep",
         "unweighted_n": "4869",
+        "weighted_pct": "42",
         "moe_pct_points": "2.3",
         "report_page": "124",
         "pdf_page": "125"
@@ -138,7 +266,34 @@
         "survey": "2022",
         "group": "Dem/lean Dem",
         "unweighted_n": "5142",
+        "weighted_pct": "51",
         "moe_pct_points": "2.2",
+        "report_page": "124",
+        "pdf_page": "125"
+      },
+      "found": true
+    },
+    {
+      "table": "margins",
+      "row": {
+        "survey": "2022",
+        "group": "Rep/lean Rep (half sample)",
+        "unweighted_n": "2424",
+        "weighted_pct": "",
+        "moe_pct_points": "3.3",
+        "report_page": "124",
+        "pdf_page": "125"
+      },
+      "found": true
+    },
+    {
+      "table": "margins",
+      "row": {
+        "survey": "2022",
+        "group": "Dem/lean Dem (half sample)",
+        "unweighted_n": "2553",
+        "weighted_pct": "",
+        "moe_pct_points": "3.2",
         "report_page": "124",
         "pdf_page": "125"
       },
@@ -150,6 +305,7 @@
         "survey": "2022",
         "group": "High religious commitment",
         "unweighted_n": "2158",
+        "weighted_pct": "",
         "moe_pct_points": "3.2",
         "report_page": "124",
         "pdf_page": "125"
@@ -162,6 +318,7 @@
         "survey": "2022",
         "group": "Medium religious commitment",
         "unweighted_n": "5554",
+        "weighted_pct": "",
         "moe_pct_points": "2.2",
         "report_page": "124",
         "pdf_page": "125"
@@ -174,6 +331,7 @@
         "survey": "2022",
         "group": "Low religious commitment",
         "unweighted_n": "2472",
+        "weighted_pct": "",
         "moe_pct_points": "3.3",
         "report_page": "124",
         "pdf_page": "125"
@@ -186,6 +344,7 @@
         "survey": "2016",
         "group": "All U.S. adults",
         "unweighted_n": "4726",
+        "weighted_pct": "",
         "moe_pct_points": "2.2",
         "report_page": "104",
         "pdf_page": "105"
@@ -198,6 +357,7 @@
         "survey": "2016",
         "group": "High religious commitment",
         "unweighted_n": "1205",
+        "weighted_pct": "",
         "moe_pct_points": "4.4",
         "report_page": "104",
         "pdf_page": "105"
@@ -210,6 +370,7 @@
         "survey": "2016",
         "group": "Medium religious commitment",
         "unweighted_n": "2390",
+        "weighted_pct": "",
         "moe_pct_points": "3.1",
         "report_page": "104",
         "pdf_page": "105"
@@ -222,6 +383,7 @@
         "survey": "2016",
         "group": "Low religious commitment",
         "unweighted_n": "1024",
+        "weighted_pct": "",
         "moe_pct_points": "4.7",
         "report_page": "104",
         "pdf_page": "105"

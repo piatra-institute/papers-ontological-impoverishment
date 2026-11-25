@@ -1,0 +1,47 @@
+{
+  "schema": 1,
+  "id": "pew-gaps",
+  "started": "2026-11-25T22:27:41.607254+00:00",
+  "finished": "2026-11-25T22:27:41.993936+00:00",
+  "command": [
+    "uv",
+    "run",
+    "python",
+    "run_all.py"
+  ],
+  "cwd": "simulation",
+  "runtime": {
+    "scope": "recorder",
+    "python": "3.14.3 (main, Mar 25 2026, 03:28:18) [Clang 22.1.1 ]",
+    "platform": "macOS-15.1-arm64-arm-64bit-Mach-O"
+  },
+  "execution_result": null,
+  "execution": {
+    "status": "PASS",
+    "exit_code": 0,
+    "detail": "command completed"
+  },
+  "input_scope": "execution-v1",
+  "additional_inputs": [
+    "simulation/data/pew2022_excitement_by_group.csv",
+    "simulation/data/pew2022_regulation_by_party.csv",
+    "simulation/data/pew_margins_of_error.csv",
+    "simulation/data/pew2016_meddling_by_religiosity.csv"
+  ],
+  "inputs": {
+    "simulation/analysis.py": "0ce0f6c1ab039e01a549aa44a0662a0d775972a4a069f6a66d295c833405bf2f",
+    "simulation/data/pew2016_meddling_by_religiosity.csv": "cf29870fbb1cc616cd4b971f8b8a7da13cf61ef4d8417031e4a9a83193a717a4",
+    "simulation/data/pew2022_excitement_by_group.csv": "2e0b93075f00788dd2605a93d21322dd964b63a90e521cdbb2facdaefea07d27",
+    "simulation/data/pew2022_regulation_by_party.csv": "052aeae5545c084d20e6442f2b14f9e7036e5789f31244f11f7a01b032617859",
+    "simulation/data/pew_margins_of_error.csv": "5ec49f400adb15725d1d7313ed8f4b1f7dd93972fb431eb5112b68f3917d14b8",
+    "simulation/fetch_pew.py": "abed9596507dce9b1e78962bd1abaed47355dce0b53d803b9244c6e787b50fe7",
+    "simulation/pyproject.toml": "733ac2ab0c6a2c5a4bec473a332629deab6e1e2ae5711d9ccdfa860c1d8b6946",
+    "simulation/run_all.py": "df63ae68642b315c0728720bef27d70bdc82f8fea15f9483245a4cb414c0bce5",
+    "simulation/test_analysis.py": "3a90f8dfc139ae6e5df05ae94202b485eb91c2b015af2972af88f916d7be1b33",
+    "simulation/uv.lock": "2ce5a186f41d47313f60e2e9319fa96db8631d4df0bf8bd0961522761da72bc0"
+  },
+  "artifacts": {
+    "simulation/output/results.json": "48d81ef20f3ff64af4feae9fec6c25a6f52efa2076efafa380e0a93caa206dca",
+    "simulation/output/fig_gaps.png": "9f5315ae7489f24aa87bde79331b59f82f9c4baba30b8c43845ad7e58a85e1d7"
+  }
+}

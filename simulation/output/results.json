@@ -27,6 +27,8 @@
           "rounding_floor_exceeds_moe": true
         },
         "religiosity_minus_party": 8.0,
+        "step_high_to_medium": 11.0,
+        "step_medium_to_low": 5.0,
         "us_adults": 41.0
       },
       "b": {
@@ -50,6 +52,8 @@
           "rounding_floor_exceeds_moe": true
         },
         "religiosity_minus_party": 10.0,
+        "step_high_to_medium": 10.0,
+        "step_medium_to_low": 9.0,
         "us_adults": 47.0
       },
       "c": {
@@ -73,6 +77,8 @@
           "rounding_floor_exceeds_moe": true
         },
         "religiosity_minus_party": 8.0,
+        "step_high_to_medium": 8.0,
+        "step_medium_to_low": 11.0,
         "us_adults": 66.0
       },
       "d": {
@@ -96,6 +102,8 @@
           "rounding_floor_exceeds_moe": true
         },
         "religiosity_minus_party": 10.0,
+        "step_high_to_medium": 9.0,
+        "step_medium_to_low": 10.0,
         "us_adults": 44.0
       },
       "e": {
@@ -119,6 +127,8 @@
           "rounding_floor_exceeds_moe": true
         },
         "religiosity_minus_party": 7.0,
+        "step_high_to_medium": 8.0,
+        "step_medium_to_low": 9.0,
         "us_adults": 41.0
       },
       "f": {
@@ -142,10 +152,21 @@
           "rounding_floor_exceeds_moe": true
         },
         "religiosity_minus_party": 12.0,
+        "step_high_to_medium": 9.0,
+        "step_medium_to_low": 11.0,
         "us_adults": 47.0
       }
     },
     "summary": {
+      "coverage": {
+        "party_weighted_pct_both": 93.0,
+        "party_weighted_pct_dem": 51.0,
+        "party_weighted_pct_rep": 42.0,
+        "religiosity_unweighted_share_high": 21.033138401559455,
+        "religiosity_unweighted_share_low": 24.093567251461987,
+        "religiosity_unweighted_share_medium": 54.13255360623781,
+        "religiosity_unweighted_share_tails": 45.12670565302144
+      },
       "n_dem_higher": 6,
       "n_items": 6,
       "n_party_floor_exceeds_moe": 6,
@@ -161,14 +182,16 @@
       "religiosity_gap_max": 20.0,
       "religiosity_gap_mean": 18.333333333333332,
       "religiosity_gap_min": 16.0,
-      "religiosity_moe95": 4.596737973824482
+      "religiosity_moe95": 4.596737973824482,
+      "religiosity_step_max": 11.0,
+      "religiosity_step_min": 5.0
     }
   },
   "inputs": {
     "pew2016_meddling_by_religiosity.csv": "cf29870fbb1cc616cd4b971f8b8a7da13cf61ef4d8417031e4a9a83193a717a4",
     "pew2022_excitement_by_group.csv": "2e0b93075f00788dd2605a93d21322dd964b63a90e521cdbb2facdaefea07d27",
-    "pew2022_regulation_by_party.csv": "9d897b8cba3bf67c237546211311fe3940c4d57787005b239e1b85957fdd0a03",
-    "pew_margins_of_error.csv": "1bbe3df5a2da23cfd40eb2dd2cdbd751fe40f454601a2e10bf5ef717db34ae5e"
+    "pew2022_regulation_by_party.csv": "052aeae5545c084d20e6442f2b14f9e7036e5789f31244f11f7a01b032617859",
+    "pew_margins_of_error.csv": "5ec49f400adb15725d1d7313ed8f4b1f7dd93972fb431eb5112b68f3917d14b8"
   },
   "meddling_2016": {
     "items": {
@@ -223,8 +246,6 @@
     "P1_left_less_excited_items_consistent": 0,
     "P1_left_less_excited_items_contrary": 6,
     "P1_supported": false,
-    "P2_party_larger_than_religiosity_items": 0,
-    "P2_supported": false,
     "P3_dem_more_under_regulation_concern_items": 3,
     "P3_supported": true
   },
@@ -233,12 +254,13 @@
       "brain chip implants": {
         "dem_not_far_enough": 64.0,
         "dem_too_far": 34.0,
+        "domain": "enhancement",
         "not_far_enough_gap": {
           "a": 64.0,
           "b": 36.0,
           "difference": 28.0,
           "exceeds_moe": true,
-          "moe95": 3.1827660925679098,
+          "moe95": 4.596737973824482,
           "rounding_floor": 27.0,
           "rounding_floor_exceeds_moe": true
         },
@@ -247,15 +269,52 @@
         "us_not_far_enough": 50.0,
         "us_too_far": 47.0
       },
+      "driverless passenger vehicles": {
+        "dem_not_far_enough": 69.0,
+        "dem_too_far": 29.0,
+        "domain": "non-bodily",
+        "not_far_enough_gap": {
+          "a": 69.0,
+          "b": 39.0,
+          "difference": 30.0,
+          "exceeds_moe": true,
+          "moe95": 4.596737973824482,
+          "rounding_floor": 29.0,
+          "rounding_floor_exceeds_moe": true
+        },
+        "rep_not_far_enough": 39.0,
+        "rep_too_far": 59.0,
+        "us_not_far_enough": 55.0,
+        "us_too_far": 43.0
+      },
+      "facial recognition by police": {
+        "dem_not_far_enough": 62.0,
+        "dem_too_far": 36.0,
+        "domain": "non-bodily",
+        "not_far_enough_gap": {
+          "a": 62.0,
+          "b": 40.0,
+          "difference": 22.0,
+          "exceeds_moe": true,
+          "moe95": 4.596737973824482,
+          "rounding_floor": 21.0,
+          "rounding_floor_exceeds_moe": true
+        },
+        "rep_not_far_enough": 40.0,
+        "rep_too_far": 59.0,
+        "us_not_far_enough": 51.0,
+        "us_too_far": 47.0
+      },
       "gene editing to reduce a baby's disease risk": {
         "dem_not_far_enough": 63.0,
         "dem_too_far": 35.0,
+        "domain": "enhancement",
         "not_far_enough_gap": {
           "a": 63.0,
           "b": 37.0,
           "difference": 26.0,
           "exceeds_moe": true,
-          "moe95": 3.1827660925679098,
+          "moe95": 4.596737973824482,
           "rounding_floor": 25.0,
           "rounding_floor_exceeds_moe": true
         },
@@ -267,12 +326,13 @@
       "robotic exoskeletons for manual labor": {
         "dem_not_far_enough": 65.0,
         "dem_too_far": 33.0,
+        "domain": "enhancement",
         "not_far_enough_gap": {
           "a": 65.0,
           "b": 31.0,
           "difference": 34.0,
           "exceeds_moe": true,
-          "moe95": 3.1827660925679098,
+          "moe95": 4.596737973824482,
           "rounding_floor": 33.0,
           "rounding_floor_exceeds_moe": true
         },
@@ -280,13 +340,40 @@
         "rep_too_far": 67.0,
         "us_not_far_enough": 48.0,
         "us_too_far": 49.0
+      },
+      "social media algorithms to find false information": {
+        "dem_not_far_enough": 63.0,
+        "dem_too_far": 34.0,
+        "domain": "non-bodily",
+        "not_far_enough_gap": {
+          "a": 63.0,
+          "b": 42.0,
+          "difference": 21.0,
+          "exceeds_moe": true,
+          "moe95": 4.596737973824482,
+          "rounding_floor": 20.0,
+          "rounding_floor_exceeds_moe": true
+        },
+        "rep_not_far_enough": 42.0,
+        "rep_too_far": 56.0,
+        "us_not_far_enough": 53.0,
+        "us_too_far": 44.0
       }
     },
     "summary": {
-      "gap_max": 34.0,
-      "gap_min": 26.0,
-      "n_dem_more_under_regulation_concern": 3,
-      "n_items": 3
+      "enhancement": {
+        "gap_max": 34.0,
+        "gap_min": 26.0,
+        "n_dem_more_under_regulation_concern": 3,
+        "n_items": 3
+      },
+      "moe95": 4.596737973824482,
+      "non-bodily": {
+        "gap_max": 30.0,
+        "gap_min": 21.0,
+        "n_dem_more_under_regulation_concern": 3,
+        "n_items": 3
+      }
     }
   }
 }

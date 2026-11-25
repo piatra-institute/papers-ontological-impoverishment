@@ -1,8 +1,8 @@
 {
   "schema": 1,
   "id": "pew-gaps",
-  "started": "2026-11-25T21:55:53.095590+00:00",
-  "finished": "2026-11-25T21:55:53.475677+00:00",
+  "started": "2026-11-25T23:05:34.102494+00:00",
+  "finished": "2026-11-25T23:05:34.465544+00:00",
   "command": [
     "uv",
     "run",
@@ -29,19 +29,19 @@
     "simulation/data/pew2016_meddling_by_religiosity.csv"
   ],
   "inputs": {
-    "simulation/analysis.py": "67e8cff4632ea1e24ea9c7e87033bc6d8fb77b7dd1b33083efa8eeade55122c4",
+    "simulation/analysis.py": "c62a0d92a443633f891d0c1ccdd1f7ad0a3a2b5d0f2b1a4abc1fcc0c6d870950",
     "simulation/data/pew2016_meddling_by_religiosity.csv": "cf29870fbb1cc616cd4b971f8b8a7da13cf61ef4d8417031e4a9a83193a717a4",
     "simulation/data/pew2022_excitement_by_group.csv": "2e0b93075f00788dd2605a93d21322dd964b63a90e521cdbb2facdaefea07d27",
-    "simulation/data/pew2022_regulation_by_party.csv": "9d897b8cba3bf67c237546211311fe3940c4d57787005b239e1b85957fdd0a03",
-    "simulation/data/pew_margins_of_error.csv": "1bbe3df5a2da23cfd40eb2dd2cdbd751fe40f454601a2e10bf5ef717db34ae5e",
+    "simulation/data/pew2022_regulation_by_party.csv": "052aeae5545c084d20e6442f2b14f9e7036e5789f31244f11f7a01b032617859",
+    "simulation/data/pew_margins_of_error.csv": "5ec49f400adb15725d1d7313ed8f4b1f7dd93972fb431eb5112b68f3917d14b8",
     "simulation/fetch_pew.py": "abed9596507dce9b1e78962bd1abaed47355dce0b53d803b9244c6e787b50fe7",
     "simulation/pyproject.toml": "733ac2ab0c6a2c5a4bec473a332629deab6e1e2ae5711d9ccdfa860c1d8b6946",
-    "simulation/run_all.py": "df63ae68642b315c0728720bef27d70bdc82f8fea15f9483245a4cb414c0bce5",
-    "simulation/test_analysis.py": "760a9d46da33dbbbeb2147901e983e4d16539d9640df0b9ea99ffd2cc293305c",
+    "simulation/run_all.py": "530fea14bd4ffa78733dc59cc7d9af42fc268dc6d85f61dd887c470e03b8f678",
+    "simulation/test_analysis.py": "3a90f8dfc139ae6e5df05ae94202b485eb91c2b015af2972af88f916d7be1b33",
     "simulation/uv.lock": "2ce5a186f41d47313f60e2e9319fa96db8631d4df0bf8bd0961522761da72bc0"
   },
   "artifacts": {
-    "simulation/output/results.json": "c7f7ff74c71515bba2cd61104002caa1dfefb4ad76383b42c77746f33fb7a61e",
-    "simulation/output/fig_gaps.png": "9f5315ae7489f24aa87bde79331b59f82f9c4baba30b8c43845ad7e58a85e1d7"
+    "simulation/output/results.json": "2ff7449840d1227be7b7bb1622985f9db20b20aa6a65ec7f187159b1e441b6e2",
+    "simulation/output/fig_gaps.png": "6d02fe5cb073fac216fc000816af29c0d3a461f854fb6ae52ce17361ce944381"
   }
 }

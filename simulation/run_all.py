@@ -28,25 +28,22 @@ SHORT = {
 
 
 def figure(exc: dict, path: Path) -> None:
+    """Unadjusted party shares only; religious-commitment rows are not plotted."""
     plt.rcParams.update({"font.size": 13, "font.family": "DejaVu Sans"})
-    fig, ax = plt.subplots(figsize=(9.0, 5.6))
+    fig, ax = plt.subplots(figsize=(9.0, 5.2))
     codes = list(analysis.ITEM_ORDER)
     for i, code in enumerate(codes):
         y = len(codes) - 1 - i
         p = exc["items"][code]["party"]
-        r = exc["items"][code]["religiosity"]
-        ax.plot([p["b"], p["a"]], [y + 0.15, y + 0.15], color="#8a8a8a", lw=2, zorder=1)
-        ax.scatter([p["b"]], [y + 0.15], color="#c0392b", s=70, zorder=2, label="Rep/lean Rep" if i == 0 else None)
-        ax.scatter([p["a"]], [y + 0.15], color="#2c5aa0", s=70, zorder=2, label="Dem/lean Dem" if i == 0 else None)
-        ax.plot([r["b"], r["a"]], [y - 0.15, y - 0.15], color="#8a8a8a", lw=2, ls=":", zorder=1)
-        ax.scatter([r["b"]], [y - 0.15], color="#6b4f2a", marker="s", s=60, zorder=2, label="High religious commitment" if i == 0 else None)
-        ax.scatter([r["a"]], [y - 0.15], color="#d9a441", marker="s", s=60, zorder=2, label="Low religious commitment" if i == 0 else None)
+        ax.plot([p["b"], p["a"]], [y, y], color="#8a8a8a", lw=2, zorder=1)
+        ax.scatter([p["b"]], [y], color="#c0392b", s=80, zorder=2, label="Rep/lean Rep" if i == 0 else None)
+        ax.scatter([p["a"]], [y], color="#2c5aa0", s=80, zorder=2, label="Dem/lean Dem" if i == 0 else None)
     ax.set_yticks(range(len(codes)))
     ax.set_yticklabels([SHORT[c] for c in reversed(codes)])
     ax.set_xlabel("% very or somewhat excited (Pew, Nov. 2021)")
-    ax.set_xlim(25, 80)
+    ax.set_xlim(30, 80)
     ax.grid(axis="x", color="#dddddd")
-    ax.legend(loc="lower right", fontsize=11, frameon=True)
+    ax.legend(loc="lower right", fontsize=12, frameon=True)
     fig.tight_layout()
     fig.savefig(path, dpi=200)
     plt.close(fig)
